@@ -1,0 +1,22 @@
+{{ $video := .Resources.GetMatch .Params.Video }}
+
+
+<div class="preview">
+  {{ with $video }}
+  <div class="preview-video">
+    <video controls autoplay loop muted height="100%" width="100%" class="preview-video">
+      <source src="{{ $video.Permalink }}" type ="{{ .MediaType.Type }}" >
+    </video>
+  </div>
+  {{ end }}
+
+  <div class="preview-text">
+    <h5 class="card-title">{{ .Title }}</h5>
+    {{ with .Params.lead }}
+      <p>{{ .lead }}</p>
+    {{end}}
+    {{ with .RelPermalink }}
+      <a href="{{ . }}" class="btn btn-primary">View Page</a>
+    {{ end }}
+  </div>
+</div>

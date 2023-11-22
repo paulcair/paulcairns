@@ -1,0 +1,12 @@
+baseURL = "http://paulcair.github.io/paulcairns"
+languageCode = "en-us"
+title = "Paul Cairns"
+copyright = "Paul Cairns"
+
+[params]
+[params.website]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/paul-ec-cairns/"
+[params.author]
+  name = "Author: Paul Cairns, Layout based on Aalto Fab Lab website as designed by Kris Rijnieks"
+  url = "https://rijnieks.com"

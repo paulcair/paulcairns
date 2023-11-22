@@ -1,0 +1,15 @@
+{{ $image := .Resources.GetMatch .Params.Image }}
+
+<div class="preview">
+  {{ with $image }}
+  <div class="preview-image" style="background-image: url('{{ $image.RelPermalink }}')">
+  {{ end }}
+  </div>
+
+  <div class="preview-text">
+    <h5 class="card-title">{{ .Title }}</h5>
+    {{ with .RelPermalink }}
+      <a href="{{ . }}" class="btn btn-primary">View Page</a>
+    {{ end }}
+  </div>
+</div>

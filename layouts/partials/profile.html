@@ -1,0 +1,17 @@
+{{ $image := .Resources.GetMatch .Params.Image }}
+
+<div class="preview">
+  {{ with $image }}
+  <div class="preview-image" style="background-image: url('{{ $image.RelPermalink }}')">
+  {{ end }}
+  </div>
+
+  <div class="card-body">
+    <h5 class="card-title">{{ .Title }}</h5>
+    <p>Mechanical Engineer (10+ years' experience) passionate about digital fabrication and product development</p>
+
+    {{ with .Params.documentation }}
+      <a href="{{ .url }}" class="btn btn-primary">About Me</a>
+    {{ end }}
+  </div>
+</div>

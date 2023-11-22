@@ -1,0 +1,14 @@
+li {
+  color:black;
+  text-align: left;
+  line-height: 1.6;
+}
+
+typewrite {
+  background-color:#ce3635;
+  text-align: center;
+  color:#fff;
+  padding-top:10em;
+}
+
+* { color:#fff; text-decoration: none;}

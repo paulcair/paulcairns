@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+
+  <title>{{ .Site.Title }} - {{ .Page.Title }}</title>
+  {{ partial "meta.html" . }}
+  {{ partial "style.html" . }}
+</head>
+<body>
+ {{ partial "navigation.html" . }}
+
+<!-- Hero Area-->
+<section class="hero-area bg-dark" id="parallax">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-11 bg-green p-3 rounded-lg mx-auto">
+        <h1 class="text-white text-center text-decoration-none font-tertiary">
+          <a href="" class="typewrite" data-period="2000" data-type='[ "Welcome to my Fab Academy Page", "See my work from Fab Academy 2021", "Please browse my site at your convenience."," Enjoy!" ]'>
+            <span class="wrap"></span>
+          </a>
+        </h1>
+        <h5 class="text-white bg-green text-decoration-none text-center py-2">
+          Mechanical Engineer with over 13 years of experience. Specializing in digital fabrication and product development.
+        </h5>
+      </div>
+    </div>
+  </div>
+ 
+  <!-- Button to my linkedIn (will be my github site) -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <a href="{{ .Site.Params.Website.Url }}"
+          class="btn btn-primary mt-3">{{ .Site.Params.Website.Name }}</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About section of page-->
+{{ with .Site.GetPage "/about" }}
+<section id="{{ .Title | urlize }}" class="container my-5">
+  <h2>About</h2>
+  <div class="row">
+    {{ range .Pages }}
+      <div class="col-sm-6 col-lg-3">
+        {{ partial "profile.html" . }}
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+<!-- Projects Section of page-->
+{{ with .Site.GetPage "/projects" }}
+<section id="{{ .Title | urlize }}" class="container">
+  <h2>{{ .Title }}</h2>
+  <div class="row">
+    {{ range .Pages }}
+      <div class="mb-3 col-sm-6 col-lg-4">
+        {{ partial "project.html" . }}
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+<!-- Assignments Section of page-->
+{{ with .Site.GetPage "/assignments" }}
+<section id="{{ .Title | urlize }}" class="container mb-5">
+  <h2>{{ .Title }}</h2>
+  <div class="row">
+    {{ range .Pages }}
+      <div class="mb-3 col-sm-6 col-lg-4">
+        {{ partial "assignment.html" . }}
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+
+<!-- Footer -->
+<footer class="py-3 bg-primary">
+  <div class="container py-3">
+    &copy; <a href="{{ .Site.Params.Author.Url }}" class="text-white">{{ .Site.Params.Author.Name }}</a> ({{ .Site.Copyright }}) {{ now.Format "2006" }}
+  </div>
+</footer>
+
+{{ partial "scripts.html" . }}
+
+
+</body>
+</html>
