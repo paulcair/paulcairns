@@ -1,4 +1,4 @@
-# EnergyLab - Lome Fab Academy Page
+# Paul Cairns - Portfolio Page
 
 This is the repository that contains all of the information about Paul Cairns. It is a portfolio of his work.
 
