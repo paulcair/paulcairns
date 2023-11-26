@@ -8,4 +8,4 @@ Clone the repository and edit it according to your needs.
 
 ## Webpage
 
-You can navigate through to see the students for the year as well as an overview of our lab and its machines by navigating to the following URL: www.paul-cairns.com
+You can navigate through to see his projects and porfolio,as well as an overview of his career and blog posts following URL: www.paul-cairns.com
