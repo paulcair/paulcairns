@@ -1,6 +1,6 @@
 html, body {
   font-family: serif;
-  color: #095c58;
+  color: #B5CC82;
   background: #ffffff;
 }
 
@@ -21,12 +21,12 @@ h2 {
 }
 
 header {
-  background: #095c58;
+  background: #F1F5E5;
   color: #ffffff;
 }
 
 footer {
-  background: #095c58;
+  background: #6C973A;
 }
 
 @media (min-width: 576px){

@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #095c58;
+  color: #264F0B;
   font-family: "Playfair Display", serif;
   line-height: 1.2;
 }
@@ -136,7 +136,7 @@ h6,
 }
 
 .btn-primary {
-  background: #095c58;
+  background: #6C973A;
   color: #fff;
 }
 
@@ -145,7 +145,7 @@ h6,
 }
 
 .btn-primary:hover {
-  background: #043a37;
+  background: #264F0B ;
 }
 
 .btn-primary.focus,
@@ -277,7 +277,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #095c58 !important;
+  background: #6C973A !important;
 }
 
 .bg-gray {
@@ -369,7 +369,7 @@ a:hover {
 }
 
 .bg-green {
-  background-color: #095c58 !important;
+  background-color: #6C973A !important;
 }
 
 /* icon */
@@ -503,7 +503,7 @@ textarea.form-control {
 }
 
 .navigation.nav-bg {
-  background-color: #095c58;
+  background-color: #B5CC82;
   padding: 15px 100px;
 }
 
@@ -516,7 +516,7 @@ textarea.form-control {
 @media (max-width: 991px) {
   .navigation {
     padding: 20px;
-    background: #095c58;
+    background: #6C973A;
   }
 }
 
