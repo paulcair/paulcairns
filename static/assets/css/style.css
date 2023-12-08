@@ -136,7 +136,7 @@ h6,
 }
 
 .btn-primary {
-  background: #6C973A;
+  background: #264F0B;
   color: #fff;
 }
 
@@ -145,7 +145,7 @@ h6,
 }
 
 .btn-primary:hover {
-  background: #264F0B ;
+  background: #6C973A  ;
 }
 
 .btn-primary.focus,
@@ -277,7 +277,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #6C973A !important;
+  background: #264F0B !important;
 }
 
 .bg-gray {
@@ -369,7 +369,7 @@ a:hover {
 }
 
 .bg-green {
-  background-color: #6C973A !important;
+  background-color: #264F0B !important;
 }
 
 /* icon */
