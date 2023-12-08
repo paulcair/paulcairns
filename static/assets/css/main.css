@@ -21,12 +21,12 @@ h2 {
 }
 
 header {
-  background: #F1F5E5;
+  background: #ffffff;
   color: #ffffff;
 }
 
 footer {
-  background: #6C973A;
+  background: #21768A;
 }
 
 @media (min-width: 576px){

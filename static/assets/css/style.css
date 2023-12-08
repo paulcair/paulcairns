@@ -51,7 +51,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #264F0B;
+  color: #24545D;
   font-family: "Playfair Display", serif;
   line-height: 1.2;
 }
@@ -136,21 +136,21 @@ h6,
 }
 
 .btn-primary {
-  background: #264F0B;
+  background: #21768A;
   color: #fff;
 }
 
 .btn-primary:active {
-  background: #2f8d56 !important;
+  background: #21768A !important;
 }
 
 .btn-primary:hover {
-  background: #6C973A  ;
+  background: #24545D;
 }
 
 .btn-primary.focus,
 .btn-primary.active {
-  background: #2f8d56 !important;
+  background: #21768A !important;
   box-shadow: none !important;
 }
 
@@ -171,12 +171,12 @@ body {
 }
 
 ::-moz-selection {
-  background: #542cb7;
+  background: #21768A ;
   color: #fff;
 }
 
 ::selection {
-  background: #542cb7;
+  background: #21768A ;
   color: #fff;
 }
 
@@ -277,7 +277,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #264F0B !important;
+  background: #21768A !important;
 }
 
 .bg-gray {
@@ -369,7 +369,7 @@ a:hover {
 }
 
 .bg-green {
-  background-color: #264F0B !important;
+  background-color: #21768A !important;
 }
 
 /* icon */
