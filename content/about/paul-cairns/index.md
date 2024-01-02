@@ -10,7 +10,7 @@ typeScript2 = "Walk with me through 10+ years of engineering experience"
 headline = "Each weekly assignment was a small digital fabrication project that covered various topics including: 3D modelling, 3D printing, Laser-cutting, PCB design and fabrication, moulding and casting, machine building, and CNC machining."
 
 [documentation]
-url = "https://fabacademy.org/2021/labs/vancouver/students/paul-cairns/about/paul-cairns/"
+url = "about/paul-cairns/"
 
 +++
 
