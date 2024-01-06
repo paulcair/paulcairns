@@ -528,9 +528,10 @@ textarea.form-control {
 
 .navbar .nav-item.active {
   font-weight: bold;
+  color: #21768A;
 }
 
-.navbar-primary .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link {
   color: #21768A;
 }
 

@@ -2,7 +2,7 @@
   padding: 40px 130px;
   transition: .3s ease;
   &.nav-bg {
-    background-color: $primary-color;
+    background-color: #21768A;
     padding: 15px 100px;
     @include desktop {
       padding: 15px 20px;
@@ -10,7 +10,7 @@
   }
   @include desktop {
     padding: 20px;
-    background: $primary-color;
+    background: #21768A;
   }
 }
 
@@ -20,6 +20,7 @@
       font-family: $secondary-font;
       text-transform: uppercase;
       padding: 15px;
+      color: #21768A;
     }
     &.active{
       font-weight: bold;
