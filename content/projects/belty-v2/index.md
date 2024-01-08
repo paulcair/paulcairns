@@ -60,6 +60,38 @@ Belty V2.0 is a belt driven 3D printer designed and built in EnergyLab-Lome. Thi
 
 {{</table>}} -->
 
+## Design
+
+In this section we will briefly share the design process and techniques used to model, analyze and design Belty V2.
+
+### CAD Modeling
+
+The CAD modeling was peformed using many different CAD tools including OnShape, FreeCAD, Fusion360, and SolidWorks. The final assembly was completed in solidworks.
+
+***Below is a video of the modelling process for the final Assembly***
+
+{{<video beltyV2modelling.mp4>}}
+
+***Below is an animation of the belt drives and simulation of the system operation***
+
+{{<video beltyV2animation.mp4>}}
+
+### FEA analysis of y-carriage
+
+FEA analysis was performed using the FreeCAD FEM workbench. If interested, it is possible to use the following [youtube tutorial](https://www.youtube.com/watch?v=Pt870A2nFDo) to learn how to perform FEA analysis using FreeCAD. 
+
+It was important to model the y-carriage as it was a point of failure in V1. The main issue encountered was heat from the motor reducing the mechanical strength of the PLA combined with a thin motor mount wall. With V2 the motor mount wall was thickened and FEA was performed to confirm that the new design will be sufficient. The results of the FEA simulatino are below.
+
+***Below is an animation of the belt drives and simulation of the system operation***
+
+{{<video beltyV2FEA.mp4>}}
+
+It is also possible to find photos of results below:
+
+{{<image FEAresults.jpg>}}
+
+{{<image FEAresults2.jpg>}}
+
 ## How It's Made
 The following section will walk through how builty was designed and built. The first step was putting together the frame.
 
