@@ -92,6 +92,12 @@ It is also possible to find photos of results below:
 
 {{<image FEAresults2.jpg>}}
 
+### Engineering Drawings and GD&T
+
+GD&T drawings were created for the y-carriage according to ASMEY14.5 standard. This is to ensure accurate dimensioning and tolerances should the design be 3D milled by CNC out of aluminum in the future. Results are shown below.
+
+{{<image yCarriageDWG.png>}}
+
 ## How It's Made
 The following section will walk through how builty was designed and built. The first step was putting together the frame.
 
