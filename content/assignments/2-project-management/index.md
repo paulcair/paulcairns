@@ -109,13 +109,13 @@ convert -resize 1280x "*.jpg" -quality 50 %03d.jpg
 
 this will resize all of your jpeg files to 1280 pixels wide and maintain its aspect ratio as well as reduce the qualityty to 50%. This will output the new jpg files with the following names: 
 
-| resized001.jpg|
-| resized002.jpg|
-| resized003.jpg|
-|  ... |
-| ... |
+| resized001.jpg|  
+| resized002.jpg|  
+| resized003.jpg|  
+|  ... |  
+| ... |  
 
-lastly, you can also batch convert png files by replacing the "*.jpg" with "*.png"
+lastly, you can also batch convert png files by replacing the ".jpg" with ".png"
 
 ### Compressing videos to a suitable size for upload
 
