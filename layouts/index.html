@@ -55,6 +55,7 @@
 {{ with .Site.GetPage "/projects" }}
 <section id="{{ .Title | urlize }}" class="container">
   <h2>{{ .Title }}</h2>
+  <a id="projects"></a>
   <div class="row">
     {{ range .Pages }}
       <div class="mb-3 col-sm-6 col-lg-4">
@@ -65,14 +66,15 @@
 </section>
 {{ end }}
 
-<!-- Assignments Section of page-->
-{{ with .Site.GetPage "/assignments" }}
+<!-- Skills Section of page-->
+{{ with .Site.GetPage "/skillsportfolio" }}
 <section id="{{ .Title | urlize }}" class="container mb-5">
   <h2>{{ .Title }}</h2>
+  <a id="skillsportfolio"></a>
   <div class="row">
     {{ range .Pages }}
       <div class="mb-3 col-sm-6 col-lg-4">
-        {{ partial "assignment.html" . }}
+        {{ partial "skillsportfolio.html" . }}
       </div>
     {{ end }}
   </div>
