@@ -1,0 +1,36 @@
+html, body {
+  font-family: serif;
+  color: #21768A;
+  background: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+h1, h2, h3 {
+  text-decoration: underline;
+}
+
+h1.display-1 {
+  font-weight: 700;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+header {
+  background: #ffffff;
+  color: #21768A;
+}
+
+footer {
+  background: #21768A;
+}
+
+@media (min-width: 576px){
+  .assignment, .student, .instructor {
+    margin-bottom: 24px;
+  }
+}

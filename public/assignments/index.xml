@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Assignments on Paul Cairns</title>
+    <link>http://paulcair.github.io/paulcairns/assignments/</link>
+    <description>Recent content in Assignments on Paul Cairns</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cairns</copyright>
+    <atom:link href="http://paulcair.github.io/paulcairns/assignments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>01 - Principles and Practices</title>
+      <link>http://paulcair.github.io/paulcairns/assignments/1-practice-and-principles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://paulcair.github.io/paulcairns/assignments/1-practice-and-principles/</guid>
+      <description>The assignment for the first week of the FabAcademy is based on the assessments for (Principles and Practices). The tasks for this assignment include:&#xA;Plan and sketch a potential final project Build a personal site describing you and your final project. We will be evaluated on whether we:&#xA;Read the Fab Charter Sketched your final project idea/s Described what it will do and who will use it Signed and uploaded the Student Agreement Final Project Assessment Criteria Before beginning, it is important to understand what is expected of a final project.</description>
+    </item>
+    <item>
+      <title>02 - Project Management</title>
+      <link>http://paulcair.github.io/paulcairns/assignments/2-project-management/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://paulcair.github.io/paulcairns/assignments/2-project-management/</guid>
+      <description>The assignment for the first week of the FabAcademy is based on the assessments for (Project Management). The tasks for this assignment include:&#xA;Build a personal site describing you and your final project. Upload it to the class archive. Work through a git tutorial. We will be evaluated on whether we:&#xA;Made a website and described how we did it Introduced ourself Documented the steps for uploading files to archive Pushed to the class archive The project management aspect of the assignment revolved around 3 key aspects and skills:</description>
+    </item>
+  </channel>
+</rss>
