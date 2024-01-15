@@ -1,5 +1,5 @@
 +++
-title = "Computer Aided Design"
+title = "FreeCAD"
 image = "thumbnail.jpg"
 weight = 30
 

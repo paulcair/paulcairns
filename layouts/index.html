@@ -72,9 +72,9 @@
   <h2>{{ .Title }}</h2>
   <a id="skillsportfolio"></a>
   <div class="row">
-    {{ range .Pages }}
+    {{ range .Sections }}
       <div class="mb-3 col-sm-6 col-lg-4">
-        {{ partial "skillsportfolio.html" . }}
+        {{ partial "page.html" . }}
       </div>
     {{ end }}
   </div>

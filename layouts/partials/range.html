@@ -1,0 +1,15 @@
+{{- $sectionPath := . -}}
+
+{{ with .Site.GetPage $sectionPath }}
+  <section id="{{ .Title | urlize }}" class="container">
+    <h2>{{ .Title }}</h2>
+    <a id="{{ $sectionPath | urlize }}"></a>
+    <div class="row">
+      {{ range .Pages }}
+        <div class="mb-3 col-sm-6 col-lg-4">
+          {{ partial "page.html" . }}
+        </div>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}
