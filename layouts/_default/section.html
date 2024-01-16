@@ -39,6 +39,22 @@
   
   <div class = "container">
     {{ .Content }}  
+
+    {{ with .Params.section}}
+      {{ with $.Site.GetPage .path }}
+        <section id="{{ .Title | urlize }}" class="container">
+          <h2>{{ .Params.section.subTitle }}</h2>
+          <a id="{{ .Params.section.path | urlize }}"></a>
+          <div class="row">
+            {{ range .Pages }}
+              <div class="mb-3 col-sm-6 col-lg-4">
+                {{ partial "page.html" . }}
+              </div>
+            {{ end }}
+          </div>
+        </section>
+      {{ end }}
+    {{ end }}
   </div> 
    
 </main>

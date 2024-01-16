@@ -3,23 +3,20 @@ title = "Computer Aided Design"
 image = "thumbnail.jpg"
 weight = 30
 
+sectionPath = "/computer-aided-design"
+
+[section]
+path = "/computer-aided-design"
+subTitle = "Modelling Softwares"
+
 [typeScript] 
 typeScript1 = "Computer Aided Design: showcasing my CAD skills" 
-typeScript2 = "See the work I did using FreeCAD"
+typeScript2 = "See the work I've done using FreeCAD, SolidWorks, OnShape, and Fusion360"
 
 [headline]
-headline = "Objective: to evaluate 2D and 3D software, demonstrate and describe processes used in modelling, and model a possible project"
+headline = "Objective: to showcase my 2D and 3D modelling skills. To demonstrate and describe processes used in modelling, and model numerous projects"
 +++
 
-# Skills
-
-{{ partial "range.html" "/computer-aided-design" }}
-
-Hello world 
-
-
-this is a test. Not sure why its not working. This is another test
-
-For some reason the second test didn't work
+Checkout my CAD skills including projects using various modelling softwares below.
 
 
