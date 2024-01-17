@@ -3,8 +3,6 @@ title = "Computer Aided Design"
 image = "thumbnail.jpg"
 weight = 30
 
-sectionPath = "/computer-aided-design"
-
 [section]
 path = "/computer-aided-design"
 subTitle = "Modelling Softwares"

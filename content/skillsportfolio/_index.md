@@ -1,6 +1,10 @@
 +++
 title = "Skills Portfolio"
 
+[section]
+path = "/skillsportfolio"
+subTitle = "My skills"
+
 [typeScript] 
 typeScript1 = "Welcome to the Skills Portfolio Page" 
 typeScript2 = "See examples of skill I have mastered below"
