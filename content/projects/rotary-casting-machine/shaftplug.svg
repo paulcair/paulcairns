@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="21.111999807729283mm"
+   height="21.396334242137563mm"
+   viewBox="0 0 21.111999807729283 21.396334242137563"
+   version="1.1"
+   id="svg9199"
+   sodipodi:docname="shaftplug.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata9205">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs9203" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1866"
+     inkscape:window-height="1016"
+     id="namedview9201"
+     showgrid="false"
+     inkscape:zoom="5.8366697"
+     inkscape:cx="-21.653062"
+     inkscape:cy="45.434167"
+     inkscape:window-x="54"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg9199" />
+  <path
+     inkscape:connector-curvature="0"
+     style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#191919;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
+     d="m 0.20698,13.198167 c 1.2647237,5.159255 6.1836102,8.561292 11.456029,7.924206 5.272297,-0.637071 9.23611,-5.112351 9.236151,-10.424045 C 20.899202,5.3866351 16.935459,0.9112934 11.663172,0.27414001 6.3907628,-0.36302809 1.4718232,3.0389319 0.2069995,8.198167 Z"
+     id="Shape2DView_nwe0001"
+     sodipodi:nodetypes="cssscc" />
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="shaft"
+     style="display:inline">
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#191919;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 7.405019,11.948167 c 1.3663397,3.279215 6.25,2.302483 6.25,-1.25 0,-3.5524832 -4.8836603,-4.5292153 -6.25,-1.25 -0.3333333,0.8 -0.3333333,1.7 0,2.5 z"
+       id="Shape2DView_nwe0002"
+       sodipodi:nodetypes="cccc" />
+    <path
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#191919;stroke-width:0.05;stroke-miterlimit:4;stroke-dasharray:none"
+       d="m 7.405019,11.948167 c 1.3663397,3.279215 6.25,2.302483 6.25,-1.25 0,-3.5524828 -4.8836603,-4.5292149 -6.25,-1.25 z"
+       id="Shape2DView_nwe0005"
+       sodipodi:nodetypes="cccc" />
+  </g>
+</svg>
