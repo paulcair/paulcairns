@@ -3,6 +3,10 @@ title = "Web Development"
 image = "ProjectManagement.JPG"
 weight = 30
 
+[section]
+path = "/web-development"
+subTitle = "My web-development skills"
+
 [typeScript] 
 typeScript1 = "Computer Aided Design: showcasing my CAD skills" 
 typeScript2 = "See the work I did using FreeCAD"
