@@ -1,7 +1,7 @@
 +++
-title = "Finite Element Analysis
+title = "Finite Element Analysis"
 image = "FEAresults.jpg"
-weight = 30
+weight = "30"
 
 [typeScript] 
 typeScript1 = "Finite Element Analysis: showcasing my FEA skills" 
