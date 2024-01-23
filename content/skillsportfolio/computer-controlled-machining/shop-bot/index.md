@@ -3,6 +3,10 @@ title = "Computer Controlled (CNC) Machining"
 image = "thumbnail.jpg"
 weight = 30
 
+[section]
+path = "/computer-controlled-machining"
+subTitle = "Computer Controlled (CNC) Machining"
+
 [typeScript] 
 typeScript1 = "Computer Controlled Machining: Showcasing my CNC skills" 
 typeScript2 = "See the work I did for the CNC weeks' Fab Academy assignment"

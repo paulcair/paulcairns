@@ -3,6 +3,10 @@ title = "Sheet Metal Forming"
 image = "thumbnail.jpg"
 weight = 30
 
+[section]
+path = "/sheet-metal-forming"
+subTitle = "Sheet Metal Forming"
+
 [typeScript] 
 typeScript1 = "Sheet Metal Forming" 
 typeScript2 = "See the work I did to develop a sheet metal forming technique"

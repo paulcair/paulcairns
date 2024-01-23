@@ -3,6 +3,10 @@ title = "Finite Element Analysis"
 image = "FEAresults.jpg"
 weight = "30"
 
+[section]
+path = "/FEA"
+subTitle = "Finite Elementa Analysis (FEA)"
+
 [typeScript] 
 typeScript1 = "Finite Element Analysis: showcasing my FEA skills" 
 typeScript2 = "See the work I did using the FEM workbench on FreeCAD"
