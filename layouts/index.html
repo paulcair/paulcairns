@@ -102,9 +102,9 @@
   <h2>{{ .Title }}</h2>
   <a id="videos"></a>
   <div class="row">
-    {{ range .Sections }}
+    {{ range .Pages }}
       <div class="mb-3 col-sm-6 col-lg-4">
-        {{ partial "page.html" . }}
+        {{ partial "video.html" . }}
       </div>
     {{ end }}
   </div>
