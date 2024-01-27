@@ -7,4 +7,7 @@ weight = 30
 [lead]
 lead = "A local morning news cable program in Ottawa, where I appeared to discuss an event we coordinated called Green Energy Doors Open"
 
+
 +++
+
+Gedo video of when I presented for Green Energy Doors Open
