@@ -10,4 +10,3 @@ lead = "A local morning news cable program in Ottawa, where I appeared to discus
 
 +++
 
-Gedo video of when I presented for Green Energy Doors Open
