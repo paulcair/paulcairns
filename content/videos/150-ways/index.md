@@ -1,5 +1,5 @@
 +++
-title = "Documentary - Canada 150 Aboriginal Insights"
+title = "Documentary - Canada 150: Aboriginal Insights"
 video = "https://www.youtube.com/watch?v=AMNtkVE0s1Y"
 embed = "AMNtkVE0s1Y"
 weight = 30
