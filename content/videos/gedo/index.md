@@ -1,6 +1,6 @@
 +++
 title = "Daytime Ottawa - Green Energy Doors Open"
-video = "https://youtu.be/9_o2avXeF7Y?si=8FrXax4ezRPElUYp"
+video = "https://www.youtube.com/watch?v=9_o2avXeF7Y"
 embed = "9_o2avXeF7Y"
 weight = 30
 
