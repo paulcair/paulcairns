@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphic User Interface (GUI) on Paul Cairns</title>
+    <link>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/</link>
+    <description>Recent content in Graphic User Interface (GUI) on Paul Cairns</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cairns</copyright>
+    <atom:link href="http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GUI Programming with Processing</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/processing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/processing/</guid>
+      <description>Group Assignment:&#xA;Compare as many tool options as possible. Individual Assignment:&#xA;Write an application that interfaces a user with an input and/or output device that you made Learning Outcomes:&#xA;Interpret and implement design and programming protocols to create a Graphic User Interface (GUI). Document your process Explain the UI that you made and how you did it Outline problems and how you fixed them Include original code (or a screenshot of the app code if that&amp;rsquo;s not possible) Included a ‘hero shot/video’ of your application running with your board Group Assignment For the group assingment we looked at various interfaces such as:</description>
+    </item>
+    <item>
+      <title>MIT AppInventor</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/mit-app-inventor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/mit-app-inventor/</guid>
+      <description>Overview The objective of this exercise was to control a drone that we programmed on an ESP32 using a cell phone app connected over bluetooth. You can see a demonstration in the video below:&#xA;How it worked As you can see in the video, we were controlling the four motors of a drone. We wrote an auto levelling program that would read the roll, pitch, and yaw from a gyroscope and determine the drone&amp;rsquo;s orientation.</description>
+    </item>
+  </channel>
+</rss>

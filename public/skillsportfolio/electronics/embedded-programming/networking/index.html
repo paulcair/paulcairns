@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/paulcairns/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=paulcairns/livereload" data-no-instant defer></script>
+  <title>Paul Cairns - Networking</title>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Creative Portfolio Template">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="author" content="Themefisher">
+<meta name="generator" content="Themefisher Kross Template v1.0">
+
+  <link rel="stylesheet" href="/paulcairns/assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/paulcairns/assets/css/main.css?v=1708523176">
+
+
+
+
+
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/css/css.css">
+
+  
+  <link href="/paulcairns/assets/css/style.css" rel="stylesheet">
+  <script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+  <script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="/paulcairns/assets/plugins/shuffle/shuffle.min.js"></script> 
+  <script src="/paulcairns/assets/js/typewrite.js"></script> 
+  
+
+</head>
+<body>
+
+  
+<header class="navigation">
+    <nav class="navbar navbar-dark">
+      <a class="navbar-brand" href="http://localhost:1313/paulcairns//index.html"><img src="http://localhost:1313/paulcairns//paul-logo.png" alt="FabAcadeLogo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//about/paul-cairns">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//skillsportfolio">Skills Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//videos">Videos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero-area bg-dark" id="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-11 bg-green p-3 rounded-lg mx-auto">
+          
+          <h1 class="text-white text-center text-decoration-none font-tertiary">
+            <a href="" class="typewrite" data-period="2000" data-type='["Networking: showcasing my skills related to communication between two micropressors", "See the work I did for my networking Fab Academy assignment", "Please browse at your convenience."," Enjoy!" ]'>
+              <span class="wrap"></span>
+            </a>
+          </h1>
+          
+          
+          <h5 class="text-white bg-green text-decoration-none text-center py-2">
+            Objective: to build a second PCB and communcate between two boards using some type of network protocol.
+          </h5>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h1 class="text-center text-decoration-none pt-5">Networking</h1>
+  </div>
+
+
+<main class="py-5">
+  <div class="row justify-content-center px-4">
+    <img class="img-fluid position: center mb-4" src="/paulcairns/skillsportfolio/electronics/embedded-programming/networking/i2c-connect.jpg" alt="i2c-connect.jpg">
+  </div>  
+  <div class = "container mt-5">
+    <hr>
+<p>The assignment for this week was to build a second board and communicate between two boards using some sort of networking protocol. For this assignment I chose to use the I2C networking protocol. Details regarding the requierements for this weeks assignment are below.</p>
+<p><strong>Group assignment:</strong></p>
+<ul>
+<li>Send a message between two projects</li>
+</ul>
+<p><strong>Individual assignment:</strong></p>
+<ul>
+<li>Design, build, and connect wired or wireless node(s) with network or bus addresses</li>
+</ul>
+<p><strong>Learning outcomes:</strong></p>
+<ul>
+<li>Demonstrate workflows used in network design</li>
+<li>Implement and interpret networking protocols and/or communication protocols</li>
+<li>Document your project</li>
+<li>Document what you have learned from implementing networking and/or communication protocols.</li>
+<li>Explain the programming process/es you used.</li>
+<li>Outline problems and how you fixed them.</li>
+<li>Include design files (or linked to where they are located if you are using a board you have designed and fabricated earlier) and original code.</li>
+</ul>
+<h1 id="group-assignment">Group Assignment</h1>
+<p>As I am the only student at my lab for the group assignment I simply sent a message between the two boards that will be used for my project.</p>
+<h1 id="individual-assignment">Individual Assignment</h1>
+<p>For the individual assignment we were tasked with designing, building, and connecting wired or wireless node(s) with network or bus addresses. For this week I chose to take the opportunity to deign the board I will need for my final project. I spent most of the week doind this but was not able to finish completely so I opted to make a second copy of my version of the Adrianino and write the code for the I2C protocol for that and then use that code to program my final project. The design for my final project board is detailed on my final project page.</p>
+<p>To continue, I developed the following workflow used for the network design.</p>
+<h2 id="workflow">Workflow</h2>
+<ol>
+<li>Choose the networking protocol you plan to use and learn about it</li>
+<li>Connect your boards together</li>
+<li>Program your Master board</li>
+<li>Program your Secondary board</li>
+<li>Run your programs and observe the communication between microcontrollers</li>
+<li>Debug as necessary</li>
+</ol>
+<h3 id="1-choose-the-networking-protocol-you-plan-to-use-and-learn-about-it">1. Choose the networking protocol you plan to use and learn about it</h3>
+<p>A good reference to overview all of the networking protocols that exist check out the fab academy networking week page. You can find the page <a href="http://academy.cba.mit.edu/classes/networking_communications/index.html">using the following link</a>.</p>
+<p>For this assignment I chose to use the I2C protocol. To begin I started with learning about the I2C protocol, how to conect it between two microcontrollers, and how to program them you can see the following tutorials:</p>
+<p><strong>Connecting two microcontrollers using the I2C protocol</strong></p>
+<p>To connect I2C protocol you must connect between the SDA and SCL pins between the two chips with a 4.99 kOhm pull up resistor between those and the VCC line as shown in the following diagram.</p>
+<img class="img-fluid pt-4 pb-5"
+     src="i2c-connect.jpg"
+     alt="i2c-connect.jpg">
+<p>For this assignment I was using two copies of the Adrianino based boards I developed in <a href="../7-electronics-design">Assignment 7 - Electronics design</a> which is based on the AT-tiny-1614 chip. With this chip the SCL and SDA lines are at pins 7 and 8 based on the pinout.</p>
+<img class="img-fluid pt-4 pb-5"
+     src="pinout.jpg"
+     alt="pinout.jpg">
+<p>The Chip I designed has pull-up resistors integrated into it as shown in the trace diagram below.</p>
+<img class="img-fluid pt-4 pb-5"
+     src="PCB.jpg"
+     alt="PCB.jpg">
+<p>The two boards were connected using jumper cables connected to the 12C pinouts on the boards.</p>
+<img class="img-fluid pt-4 pb-5"
+     src="board-final.jpg"
+     alt="board-final.jpg">
+<p>Now that we have discussed how to connect two boards for the I2C protocol lets discuss how to program.</p>
+<p><strong>Programming two microcontrollers using the I2C protocol</strong></p>
+<p>To learn how to program the two controllers using I2C protocol it is important to understand the concept of a Master and Secondary board the &ldquo;&lt; Wire.h &gt;&rdquo; library, and how to open a communication between the two. The following video demonstrates how to program I2C communications between two Arduinos. I used this as the basis for the programs I wrote for this assignment.</p>
+<div style="position: relative; padding-bottom: 56.25%; overflow: hidden;">
+    <iframe style="position: absolute; width: 100%; height: 100%;"
+        src="http://www.youtube.com/embed/PnG4fO5_vU4" 
+        allowfullscreen 
+        frameborder="0"
+        class = "pt-3 pb-5">
+    </iframe>
+</div>
+<p>There is another good tutorial on the I2C protocol, specifically for the ESP32 board which I plan to use for my final projet at this link here:</p>
+<ul>
+<li><a href="https://randomnerdtutorials.com/esp32-i2c-communication-arduino-ide/">ESP32 I2C tutorial</a></li>
+</ul>
+<h3 id="2-connect-your-boards-together">2. Connect your boards together</h3>
+<p>As discussed in the previous section I connected my two boards together using jumper cables between the two. The connection is shown in the video below.</p>
+<div class = "row row-cols-1 row-cols-md-1 pb-4">
+    <div class = "col md-12 pt-4 pb-5">
+        <div class = "card">
+            <video controls autoplay loop muted class ="embed-responsive-item"> 
+             <source
+                src="jumpers.mp4" 
+                type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<h3 id="3-program-your-master-board">3. Program your master board</h3>
+<p>To use the I2C protocol you need to call the Wire.h library and define the address of the secondary board (SECOND_ADDR 9).</p>
+<p>You next need to initialize the Wire library using the Wire.begin() command in the void setup().</p>
+<p>You then need to initialize a transmission to the secondary using the commands:</p>
+<pre tabindex="0"><code>Wire.beginTransmission(SECCOND_ADDR);
+Wire.Write(Variable);
+Wire.endTransmission;
+</code></pre><p>Inside the void loop. Also note that the value that is passed during the transmission is a value between 1 and 255 so you need to map your variales to that. The code for the master board is shown below.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#75715e">#include &lt;Wire.h&gt; // Includes the I2C library</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#define SECOND_ADDR 9 //defines the address of the secondary board</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">//</span><span style="color:#66d9ef">DECLARING</span> <span style="color:#66d9ef">CONSTANT</span> <span style="color:#66d9ef">VARIABLES</span> <span style="color:#66d9ef">AND</span> <span style="color:#66d9ef">PINS</span>
+</span></span><span style="display:flex;"><span>const float <span style="color:#66d9ef">Vratio</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">.</span><span style="color:#ae81ff">128</span>;   <span style="color:#e6db74">//</span>ratio of voltage reduction based on experiment
+</span></span><span style="display:flex;"><span>const float <span style="color:#66d9ef">VCC</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">.</span><span style="color:#ae81ff">04</span>;       <span style="color:#e6db74">//</span> value of <span style="color:#66d9ef">VCC</span> of the board based on measurements
+</span></span><span style="display:flex;"><span>const int <span style="color:#66d9ef">VoltPin</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;        <span style="color:#e6db74">//</span> pin where voltage sensor is connected
+</span></span><span style="display:flex;"><span>int <span style="color:#66d9ef">Voltbits</span>;                  <span style="color:#e6db74">//</span> <span style="color:#66d9ef">Name</span> of variable that will be passed to secondary board
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>void setup() {
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span> put your setup code here, to run <span style="color:#e6db74">once</span>:
+</span></span><span style="display:flex;"><span> <span style="color:#e6db74">//</span><span style="color:#66d9ef">Start</span> serial monitor
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>begin(<span style="color:#ae81ff">9600</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span><span style="color:#66d9ef">Initialize</span> <span style="color:#66d9ef">I2C</span> communications on <span style="color:#66d9ef">Master</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Wire</span><span style="color:#f92672">.</span>begin();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span><span style="color:#66d9ef">DefinePins</span>
+</span></span><span style="display:flex;"><span>  pinMode(<span style="color:#66d9ef">VoltPin</span>, <span style="color:#66d9ef">INPUT</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>void <span style="color:#66d9ef">loop</span>() {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span><span style="color:#66d9ef">Read</span> the voltage from the volt sensor
+</span></span><span style="display:flex;"><span>  int <span style="color:#66d9ef">Volts</span> <span style="color:#f92672">=</span> analogRead(<span style="color:#66d9ef">VoltPin</span>);
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span><span style="color:#66d9ef">Map</span> the voltage to a value that can be sent via <span style="color:#66d9ef">I2C</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Voltbits</span> <span style="color:#f92672">=</span> map(<span style="color:#66d9ef">Volts</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">1023</span>,<span style="color:#ae81ff">1</span>,<span style="color:#ae81ff">255</span>); 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span><span style="color:#66d9ef">Write</span> <span style="color:#f92672">and</span> charter to the secondary
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Wire</span><span style="color:#f92672">.</span>beginTransmission(<span style="color:#66d9ef">SECOND_ADDR</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Wire</span><span style="color:#f92672">.</span>write(<span style="color:#66d9ef">Voltbits</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Wire</span><span style="color:#f92672">.</span>endTransmission();
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span><span style="color:#66d9ef">GET</span> <span style="color:#66d9ef">AND</span> <span style="color:#66d9ef">PRINT</span> <span style="color:#66d9ef">VOLTAGE</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span>calculate voltage <span style="color:#f92672">and</span> convert from bit reading to voltage value <span style="color:#66d9ef">in</span> volts
+</span></span><span style="display:flex;"><span>  float <span style="color:#66d9ef">Voltage</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">VCC</span><span style="color:#f92672">*</span><span style="color:#66d9ef">Volts</span><span style="color:#f92672">*</span><span style="color:#66d9ef">Vratio</span><span style="color:#f92672">/</span><span style="color:#ae81ff">1023</span>; 
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>print(<span style="color:#e6db74">&#34;Voltage = &#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>println(<span style="color:#66d9ef">Voltage</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>print(<span style="color:#e6db74">&#34; V    &#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  delay(<span style="color:#ae81ff">500</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="4-program-your-secondary-board">4. Program your secondary board</h3>
+<p>On the secondary board you need to again include the Wire.h library and define the board&rsquo;s address (SECOND_ADDR 9). Again you want to initialize the communication but tell the microcontroller that you it will be a secondary by adding the name of its address Wire.begin(SECOND_ADDR).</p>
+<p>The thing that is different for programming a secondary board is you have to define a &ldquo;receiveEvent&rdquo; function and call it using the command Wire.onReceive(receiveEvent).</p>
+<p>In the receiveEvent funciton you need to read the value from the command using the wire.read() command.</p>
+<p>The code for the secondary board is shown below.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#75715e">#include &lt;TM1637Display.h&gt; //Includes the LED display library</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#include &lt;Wire.h&gt; //Includes the I2C library</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#define SECOND_ADDR 9 //Defines secondary board Address as 9</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>const int <span style="color:#66d9ef">CLKV</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;          <span style="color:#e6db74">//</span> clock <span style="color:#66d9ef">for</span> voltage (V) readout <span style="color:#66d9ef">LED</span> display
+</span></span><span style="display:flex;"><span>const int <span style="color:#66d9ef">DIOV</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;          <span style="color:#e6db74">//</span> <span style="color:#66d9ef">DIO</span> <span style="color:#66d9ef">for</span> voltage (V) readout <span style="color:#66d9ef">LED</span> display
+</span></span><span style="display:flex;"><span>const float <span style="color:#66d9ef">Vratio</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">.</span><span style="color:#ae81ff">128</span>;   <span style="color:#e6db74">//</span>ratio of voltage reduction based on experiment
+</span></span><span style="display:flex;"><span>const float <span style="color:#66d9ef">VCC</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">.</span><span style="color:#ae81ff">04</span>;       <span style="color:#e6db74">//</span> value of <span style="color:#66d9ef">VCC</span> of the board based on measurements
+</span></span><span style="display:flex;"><span>int <span style="color:#66d9ef">Voltbits</span>;                <span style="color:#e6db74">//</span> <span style="color:#66d9ef">Variable</span> to hold bits received from <span style="color:#66d9ef">I2C</span>
+</span></span><span style="display:flex;"><span>int <span style="color:#66d9ef">LED</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">8</span>;                 <span style="color:#e6db74">//</span><span style="color:#66d9ef">Set</span> <span style="color:#66d9ef">LED</span> pin to <span style="color:#ae81ff">8</span>
+</span></span><span style="display:flex;"><span>int <span style="color:#66d9ef">BR</span>;                      <span style="color:#e6db74">//</span><span style="color:#66d9ef">Declare</span> <span style="color:#66d9ef">Blink</span> <span style="color:#66d9ef">Rate</span> variable
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">//</span><span style="color:#66d9ef">SET</span> <span style="color:#66d9ef">UP</span> <span style="color:#66d9ef">LED</span> <span style="color:#66d9ef">DISPLAYS</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">TM1637Display</span> display <span style="color:#f92672">=</span> <span style="color:#66d9ef">TM1637Display</span>(<span style="color:#66d9ef">CLKV</span>,<span style="color:#66d9ef">DIOV</span>);
+</span></span><span style="display:flex;"><span>    
+</span></span><span style="display:flex;"><span>void setup() {
+</span></span><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span><span style="color:#66d9ef">Start</span> serial monitor
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>begin(<span style="color:#ae81ff">9600</span>);
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span><span style="color:#66d9ef">Initialize</span> <span style="color:#66d9ef">I2C</span> communications as secondary
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Wire</span><span style="color:#f92672">.</span>begin(<span style="color:#66d9ef">SECOND_ADDR</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span><span style="color:#66d9ef">Initialize</span> name of function that will receive from master
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Wire</span><span style="color:#f92672">.</span>onReceive(receiveEvent);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span> pinMode(<span style="color:#66d9ef">LED</span>, <span style="color:#66d9ef">OUTPUT</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>void receiveEvent(){ <span style="color:#e6db74">//</span><span style="color:#66d9ef">Defining</span> the function that receives the date from the master
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Voltbits</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">Wire</span><span style="color:#f92672">.</span>read();
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span><span style="color:#66d9ef">GET</span> <span style="color:#66d9ef">AND</span> <span style="color:#66d9ef">PRINT</span> <span style="color:#66d9ef">VOLTAGE</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span>calculate voltage <span style="color:#f92672">and</span> convert from bit reading to voltage value <span style="color:#66d9ef">in</span> volts
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>void <span style="color:#66d9ef">loop</span>() {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  float <span style="color:#66d9ef">Voltage</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">VCC</span><span style="color:#f92672">*</span><span style="color:#66d9ef">Voltbits</span><span style="color:#f92672">*</span><span style="color:#66d9ef">Vratio</span><span style="color:#f92672">/</span><span style="color:#ae81ff">255</span>; 
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>println(<span style="color:#66d9ef">Voltage</span>);
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  int <span style="color:#66d9ef">BR</span> <span style="color:#f92672">=</span> map(<span style="color:#66d9ef">Voltbits</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">255</span>, <span style="color:#ae81ff">1000</span>, <span style="color:#ae81ff">10</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>   digitalWrite(<span style="color:#66d9ef">LED</span>,<span style="color:#66d9ef">HIGH</span>);
+</span></span><span style="display:flex;"><span>   delay(<span style="color:#66d9ef">BR</span>);
+</span></span><span style="display:flex;"><span>   digitalWrite(<span style="color:#66d9ef">LED</span>,<span style="color:#66d9ef">LOW</span>);
+</span></span><span style="display:flex;"><span>   delay(<span style="color:#66d9ef">BR</span>);
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><h3 id="5-run-your-programs-and-observe-the-communication-between-microcontrollers">5. Run your programs and observe the communication between microcontrollers</h3>
+<p>The programs that I wrote were designed such that the voltage would be read on the master and sent to the secondary. The secondary would then blink its LED at a rate proportional to the voltage. In other words, the larger the voltage reading on the master board, the blink rate would be faster.</p>
+<p>Below is a video showing the voltage being passed from one board to the other.</p>
+<div class = "row row-cols-1 row-cols-md-1 pb-4">
+    <div class = "col md-12 pt-4 pb-5">
+        <div class = "card">
+            <video controls autoplay loop muted class ="embed-responsive-item"> 
+             <source
+                src="results.mp4" 
+                type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<p>The next video shows the secondary board blink rate increasing as a function of the voltage</p>
+<div class = "row row-cols-1 row-cols-md-1 pb-4">
+    <div class = "col md-12 pt-4 pb-5">
+        <div class = "card">
+            <video controls autoplay loop muted class ="embed-responsive-item"> 
+             <source
+                src="blink.mp4" 
+                type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<h3 id="6-debug-as-necessary">6. Debug as necessary</h3>
+<p>Luckily with this week there was little to no debugging necessary.</p>
+<h1 id="files">Files</h1>
+<p>Below are the arduino files:</p>
+<ol>
+<li><a href="i2c-master.ino">master.ino</a></li>
+<li><a href="i2c-secondary.ino">secondary.ino</a></li>
+</ol>
+<h1 id="reference-links">Reference links</h1>
+<p><a href="http://fabacademy.org/archives/2015/doc/projects/satshakit/satshakit.html">http://fabacademy.org/archives/2015/doc/projects/satshakit/satshakit.html</a></p>
+<p><strong>wifi module documentation</strong></p>
+<p><a href="https://www.lab4iot.com/2019/07/14/tutorial-on-how-to-program-the-esp32-wroom-32-or-esp32f/">https://www.lab4iot.com/2019/07/14/tutorial-on-how-to-program-the-esp32-wroom-32-or-esp32f/</a></p>
+<p><a href="https://www.dropbox.com/sh/p2g8i04gzawxuft/AABiHuok2cweNkGpxqihc_uwa?dl=0">https://www.dropbox.com/sh/p2g8i04gzawxuft/AABiHuok2cweNkGpxqihc_uwa?dl=0</a></p>
+<p><a href="https://wiki.keyestudio.com/KS0413_keyestudio_ESP32_Core_Board">https://wiki.keyestudio.com/KS0413_keyestudio_ESP32_Core_Board</a></p>
+<p><a href="http://academy.cba.mit.edu/classes/networking_communications/ESP32/esp32_datasheet_en.pdf">http://academy.cba.mit.edu/classes/networking_communications/ESP32/esp32_datasheet_en.pdf</a></p>
+<p><a href="http://academy.cba.mit.edu/classes/networking_communications/ESP32/esp32-wroom-32_datasheet_en.pdf">http://academy.cba.mit.edu/classes/networking_communications/ESP32/esp32-wroom-32_datasheet_en.pdf</a></p>
+<p><strong>Amazing tutorials on how to use the ESP32 board</strong></p>
+<p><a href="https://randomnerdtutorials.com/esp32-ds18b20-temperature-arduino-ide/">https://randomnerdtutorials.com/esp32-ds18b20-temperature-arduino-ide/</a></p>
+<p><a href="https://randomnerdtutorials.com/esp32-hall-effect-sensor/">https://randomnerdtutorials.com/esp32-hall-effect-sensor/</a></p>
+<p>THE GOLD MINE</p>
+<p><a href="https://randomnerdtutorials.com/esp32-ssd1306-oled-display-arduino-ide/">https://randomnerdtutorials.com/esp32-ssd1306-oled-display-arduino-ide/</a></p>
+<p><strong>Installing ESP32 board manager</strong></p>
+<ol>
+<li>Installing the ESP32 Board
+To install the ESP32 board in your Arduino IDE, follow these next instructions:</li>
+</ol>
+<ol>
+<li>
+<p>Open the preferences window from the Arduino IDE. Go to Arduino &gt; Preferences</p>
+</li>
+<li>
+<p>Enter <a href="https://dl.espressif.com/dl/package_esp32_index.json">https://dl.espressif.com/dl/package_esp32_index.json</a> into the “Additional Board Manager URLs” field as shown in the figure below. Then, click the “OK” button:</p>
+</li>
+</ol>
+<p>Note: if you already have the ESP8266 boards URL, you can separate the URLs with a comma as follows:</p>
+<p><a href="https://dl.espressif.com/dl/package_esp32_index.json">https://dl.espressif.com/dl/package_esp32_index.json</a>, <a href="http://arduino.esp8266.com/stable/package_esp8266com_index.json">http://arduino.esp8266.com/stable/package_esp8266com_index.json</a></p>
+<img class="img-fluid pt-4 pb-5"
+     src="esp32-1.png"
+     alt="esp32-1.png">
+<ol start="3">
+<li>Open boards manager. Go to Tools &gt; Board &gt; Boards Manager…</li>
+</ol>
+<img class="img-fluid pt-4 pb-5"
+     src="esp32-2.png"
+     alt="esp32-2.png">
+<ol start="4">
+<li>Search for ESP32 and press install button for the “ESP32 by Espressif Systems“:</li>
+</ol>
+<img class="img-fluid pt-4 pb-5"
+     src="esp32-3.png"
+     alt="esp32-3.png">
+<p><strong>Tutorial on how to create bar graph webpage with ESP32</strong></p>
+<p><a href="https://randomnerdtutorials.com/esp32-esp8266-plot-chart-web-server/">https://randomnerdtutorials.com/esp32-esp8266-plot-chart-web-server/</a></p>
+<p><strong>Tutorial on how to install the SPIFF addon to Arduino IDE</strong></p>
+<p><a href="https://randomnerdtutorials.com/esp32-esp8266-plot-chart-web-server/">https://randomnerdtutorials.com/esp32-esp8266-plot-chart-web-server/</a></p>
+<p><strong>kiCad tutorial</strong></p>
+<p>Digikey Kicad Tutorial playlist: <a href="https://www.youtube.com/watch?v=ZHH4G_EWhm0&amp;list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O">https://www.youtube.com/watch?v=ZHH4G_EWhm0&amp;list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O</a></p>
+<p>Make a symbol: <a href="https://www.youtube.com/watch?v=c2niS9ZRBHo">https://www.youtube.com/watch?v=c2niS9ZRBHo</a></p>
+<p>Schematic Capture: <a href="https://www.youtube.com/watch?v=4Gtd7xY6zS4&amp;list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O&amp;index=3">https://www.youtube.com/watch?v=4Gtd7xY6zS4&amp;list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O&amp;index=3</a></p>
+<p>Make a footprint: <a href="https://www.youtube.com/watch?v=ZHH4G_EWhm0&amp;list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O&amp;index=4">https://www.youtube.com/watch?v=ZHH4G_EWhm0&amp;list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O&amp;index=4</a></p>
+<p><strong>Charge Controller</strong></p>
+<p>Tutorial video: <a href="https://www.youtube.com/watch?v=fUYt0dQnkZc">https://www.youtube.com/watch?v=fUYt0dQnkZc</a></p>
+<p><a href="https://www.youtube.com/watch?v=Qw4psECqpwI">https://www.youtube.com/watch?v=Qw4psECqpwI</a></p>
+<p><strong>THE ONE</strong>Adding the mosfet and shroder diode <a href="https://www.youtube.com/watch?v=T70mBHeIOZA">https://www.youtube.com/watch?v=T70mBHeIOZA</a></p>
+  
+  </div> 
+   
+    
+  </div>
+</main>
+
+<footer class="py-3 bg-primary text-white">
+  <div class="container bg-primary py-3">
+    &copy; <a href="https://rijnieks.com" class="text-white">Author: Paul Cairns, Layout based on Aalto Fab Lab website as designed by Kris Rijnieks</a> (Paul Cairns) 2024
+  </div>
+</footer>
+
+<script type="text/javascript" src="/paulcairns/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+<script src="/paulcairns/assets/js/typewrite.js"></script>
+
+
+<script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/slick/slick.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/shuffle/shuffle.min.js"></script>
+
+
+<script src="/paulcairns/assets/js/script.js"></script>
+<script src="/paulcairns/assets/js/typewrite.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Embedded Programming on Paul Cairns</title>
+    <link>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/</link>
+    <description>Recent content in Embedded Programming on Paul Cairns</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cairns</copyright>
+    <atom:link href="http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Input devices</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/input-devices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/input-devices/</guid>
+      <description>The objective for this week was to learn about input devices. For my final project, I will need to measure and output the current, voltage, and temperature. Therefore, I elected to learn to use and program these input devices for this week. The assignment overview and learning outcomes are shared below.&#xA;Group assignment:&#xA;Probe an input device(s)&amp;rsquo;s analog and digital signals Document your work (in a group or individually) Individual assignment:</description>
+    </item>
+    <item>
+      <title>Networking</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/networking/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/networking/</guid>
+      <description>The assignment for this week was to build a second board and communicate between two boards using some sort of networking protocol. For this assignment I chose to use the I2C networking protocol. Details regarding the requierements for this weeks assignment are below.&#xA;Group assignment:&#xA;Send a message between two projects Individual assignment:&#xA;Design, build, and connect wired or wireless node(s) with network or bus addresses Learning outcomes:&#xA;Demonstrate workflows used in network design Implement and interpret networking protocols and/or communication protocols Document your project Document what you have learned from implementing networking and/or communication protocols.</description>
+    </item>
+    <item>
+      <title>Output Devices</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/output-devices/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/output-devices/</guid>
+      <description>The assignment for this week was to learn about output devices. For my final project, I will need to measure and output the current, voltage, and temperature onto LED displays and an LED bargraph. Therefore, I elected to learn how to use and program these output devices this week. The assignment overview and learning outcomes are shared below.&#xA;Group assignment:&#xA;The tasks for the group assignment are as follows.</description>
+    </item>
+  </channel>
+</rss>

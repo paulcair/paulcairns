@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Videos and Public Appearances on Paul Cairns</title>
+    <link>http://localhost:1313/paulcairns/videos/</link>
+    <description>Recent content in Videos and Public Appearances on Paul Cairns</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cairns</copyright>
+    <atom:link href="http://localhost:1313/paulcairns/videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daytime Ottawa - Green Energy Doors Open</title>
+      <link>http://localhost:1313/paulcairns/videos/gedo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/videos/gedo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Daytime Ottawa - Old Home Earth Day Event</title>
+      <link>http://localhost:1313/paulcairns/videos/ohede/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/videos/ohede/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Documentary - Canada 150: Aboriginal Insights</title>
+      <link>http://localhost:1313/paulcairns/videos/150-ways/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/videos/150-ways/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Podcast - The Conscious Builder Podcast</title>
+      <link>http://localhost:1313/paulcairns/videos/conscious-builder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/videos/conscious-builder/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Turnbull Private School - 150 Ways to Reduce your Carbon Footprint</title>
+      <link>http://localhost:1313/paulcairns/videos/turnbull/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/videos/turnbull/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video - Green Energy Doors Open 2017</title>
+      <link>http://localhost:1313/paulcairns/videos/gedo-2017/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/videos/gedo-2017/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Video - Green Energy Doors Open 2018</title>
+      <link>http://localhost:1313/paulcairns/videos/gedo-2018/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/videos/gedo-2018/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

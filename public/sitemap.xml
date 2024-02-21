@@ -2,26 +2,104 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://paulcair.github.io/paulcairns/projects/electric-stove/</loc>
+    <loc>http://localhost:1313/paulcairns/projects/electric-stove/</loc>
   </url><url>
-    <loc>http://paulcair.github.io/paulcairns/assignments/1-practice-and-principles/</loc>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/</loc>
   </url><url>
-    <loc>http://paulcair.github.io/paulcairns/assignments/2-project-management/</loc>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/programming/arduino-ide/</loc>
   </url><url>
-    <loc>http://paulcair.github.io/paulcairns/projects/belty-v2/</loc>
+    <loc>http://localhost:1313/paulcairns/projects/belty-v2/</loc>
   </url><url>
-    <loc>http://paulcair.github.io/paulcairns/about/</loc>
+    <loc>http://localhost:1313/paulcairns/publications/blog/</loc>
   </url><url>
-    <loc>http://paulcair.github.io/paulcairns/assignments/</loc>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/</loc>
   </url><url>
-    <loc>http://paulcair.github.io/paulcairns/categories/</loc>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/computer-controlled-machining/</loc>
   </url><url>
-    <loc>http://paulcair.github.io/paulcairns/about/paul-cairns/</loc>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/computer-controlled-machining/shop-bot/</loc>
   </url><url>
-    <loc>http://paulcair.github.io/paulcairns/</loc>
+    <loc>http://localhost:1313/paulcairns/videos/gedo/</loc>
   </url><url>
-    <loc>http://paulcair.github.io/paulcairns/projects/</loc>
+    <loc>http://localhost:1313/paulcairns/videos/ohede/</loc>
   </url><url>
-    <loc>http://paulcair.github.io/paulcairns/tags/</loc>
+    <loc>http://localhost:1313/paulcairns/videos/150-ways/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/electronics/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/electronics/electronics-design/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/electronics/electronics-production/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/fea/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/freecad/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/processing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/input-devices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/publications/scientific-papers/ipcc/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/laser-cutting/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/laser-cutting/trotec/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/publications/scientific-papers/masters/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/mit-app-inventor/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/molding-and-casting/rotary-casting/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/molding-and-casting/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/networking/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/output-devices/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/videos/conscious-builder/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/programming/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/publications/reports/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/projects/rotary-casting-machine/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/publications/scientific-papers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/sheet-metal-forming/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/videos/turnbull/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/videos/gedo-2017/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/videos/gedo-2018/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/web-development/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/web-development/project-documentation/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/publications/white-papers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/about/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/about/paul-cairns/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/publications/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/videos/</loc>
   </url>
 </urlset>

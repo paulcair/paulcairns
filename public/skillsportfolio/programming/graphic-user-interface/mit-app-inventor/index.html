@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/paulcairns/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=paulcairns/livereload" data-no-instant defer></script>
+  <title>Paul Cairns - MIT AppInventor</title>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Creative Portfolio Template">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="author" content="Themefisher">
+<meta name="generator" content="Themefisher Kross Template v1.0">
+
+  <link rel="stylesheet" href="/paulcairns/assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/paulcairns/assets/css/main.css?v=1708523177">
+
+
+
+
+
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/css/css.css">
+
+  
+  <link href="/paulcairns/assets/css/style.css" rel="stylesheet">
+  <script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+  <script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="/paulcairns/assets/plugins/shuffle/shuffle.min.js"></script> 
+  <script src="/paulcairns/assets/js/typewrite.js"></script> 
+  
+
+</head>
+<body>
+
+  
+<header class="navigation">
+    <nav class="navbar navbar-dark">
+      <a class="navbar-brand" href="http://localhost:1313/paulcairns//index.html"><img src="http://localhost:1313/paulcairns//paul-logo.png" alt="FabAcadeLogo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//about/paul-cairns">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//skillsportfolio">Skills Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//videos">Videos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero-area bg-dark" id="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-11 bg-green p-3 rounded-lg mx-auto">
+          
+          <h1 class="text-white text-center text-decoration-none font-tertiary">
+            <a href="" class="typewrite" data-period="2000" data-type='["Using MIT App inventor to program a drone controller", "Highlighting my skills related to controlling hardware over bluetooth", "Please browse at your convenience."," Enjoy!" ]'>
+              <span class="wrap"></span>
+            </a>
+          </h1>
+          
+          
+          <h5 class="text-white bg-green text-decoration-none text-center py-2">
+            Objective: to develop a cell phone app that could control a piece of hardware over bluetooth.
+          </h5>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h1 class="text-center text-decoration-none pt-5">MIT AppInventor</h1>
+  </div>
+
+
+<main class="py-5">
+  <div class="row justify-content-center px-4">
+    <img class="img-fluid position: center mb-4" src="/paulcairns/skillsportfolio/programming/graphic-user-interface/mit-app-inventor/appScreen.jpg" alt="appScreen.jpg">
+  </div>  
+  <div class = "container mt-5">
+    <h1 id="overview">Overview</h1>
+<p>The objective of this exercise was to control a drone that we programmed on an ESP32 using a cell phone app connected over bluetooth. You can see a demonstration in the video below:</p>
+<div class = "card py-4">
+    <video controls autoplay loop muted class ="embed-responsive-item"> 
+     <source
+        src="appDemo.mp4" 
+        type="video/mp4">
+    </video>
+</div>
+<h1 id="how-it-worked">How it worked</h1>
+<p>As you can see in the video, we were controlling the four motors of a drone. We wrote an auto levelling program that would read the roll, pitch, and yaw from a gyroscope and determine the drone&rsquo;s orientation. Depending on its orientation different motors would be sent power. There are more details specific to the auto-levelling program on the drone project page (LINK COMING).</p>
+<p>When the user of the app pushes on a button a command would be sent over bluetooth serial (U for up, D for down, L for Left, R for right, etc.) to the ESP32. When the ESP32 would receive the input it would increase the power to a certain combination of motors. In the video above, you can see an example of sending the UP command. We will dive further into the details of the app itself below.</p>
+<h1 id="app-details">App details</h1>
+<p>The app was programmed using <a href="https://ai2.appinventor.mit.edu/">MIT App inventor</a>. An open source program for building simple phone apps using code blocks.  There were two control pads. One for level flight control (left pad) and one for pitch and roll flight control (right pad). You can see the controller details in the image below.</p>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="appScreen.jpg"
+     alt="appScreen.jpg">
+</div>
+<h2 id="flight-commands">Flight commands</h2>
+<p>Below is a description of the commands</p>
+<p><strong>Left pad:</strong></p>
+<ul>
+<li>Up (UP): to go straight up in level flight</li>
+<li>Down (DOWN): to go straight down in level flight</li>
+<li>Yaw Left (YAW L): to turn (yaw) the drone leftwards in level flight</li>
+<li>Yaw Right (YAW R): to turn (yaw) the drone rightward in level flight</li>
+</ul>
+<p><strong>Right pad:</strong></p>
+<ul>
+<li>Forward (FWD): to tilt the drone forward and fly ahead</li>
+<li>Backward (BACK): to tilt the drone backward and fly in reverse</li>
+<li>Left (LEFT): to tilt the drone to the left and bank left in flight</li>
+<li>Right (RIGHT): to tilt the drone to the right and bank right in flight</li>
+</ul>
+<p>Those are the main flight controls. Now lets dive in to how the app itself was programmed.</p>
+<h2 id="code-blocks">Code blocks</h2>
+<p>There three main sections to the code blocks written in the app:</p>
+<ul>
+<li>Initialization: these blocks deal with initalizing the app and connecting the bluetooth.</li>
+<li>Controls: these blocks deal with a button press on the screen and send a letter of bluetooth serial to the drone</li>
+<li>ON/OFF: this block deals with turning the drone on and off and sending it the command to hover.</li>
+</ul>
+<p>We will discuss each block in detail below.</p>
+<h3 id="initialization-code-blocks">Initialization code blocks</h3>
+<p>Details for these code blocks are provided in the image below.</p>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="block1.jpg"
+     alt="block1.jpg">
+</div>
+<p>Description of the code blocks seen on the left:</p>
+<ul>
+<li>The top left code block is executed when the screen is initialized and asks permission to connect to bluetooth.</li>
+<li>The second left code block populates a list of the possible bluetooth signals to connect with that are in range</li>
+<li>The third left code block is initialized when the user picks a connection</li>
+<li>The fourth left (bottom left) code block changes the label of the bluetooth connection to connected or disconnected based on its status.</li>
+</ul>
+<p>Description of the code blocks seen on the right:</p>
+<ul>
+<li>The top right code block is an error handler that notifies the user if the bluetooth disconnects (on the phone side) or another error occurs.</li>
+<li>The middle right code block is used to disconnect from the bluetooth.</li>
+<li>The bottom right code block handles a bluetooth client error (if there is a disconnection from the drone side).</li>
+</ul>
+<p>Next we will discuss the control blocks.</p>
+<h3 id="control-code-blocks">Control code blocks</h3>
+<p>Details for the control blocks are shown in the image below.</p>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="block2.jpg"
+     alt="block2.jpg">
+</div>
+<p>As can be seen each block is the same and deals with two cases for each button:</p>
+<ul>
+<li>Touch Down (left column): is initialized when the user presses on the button, it will send a letter over bluetooth serial that corresponds to the button touched (U, D, F, B, L, R, l, r)</li>
+<li>Touch Up (right column): is initialized when the user lifts their finger off the button. In all cases, the app will send the number &ldquo;0&rdquo; over bluetooth serial. Which tells the drone to hover and auto-level.</li>
+</ul>
+<p>Next we will discuss the ON/OFF control blocks.</p>
+<h3 id="onoff-code-blocks">ON/OFF code blocks</h3>
+<p>The ON/OFF (I/O) code block is shown at the bottom of the following image.</p>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="block3.jpg"
+     alt="block3.jpg">
+</div>
+<p>As can be seen, this code block deals with the case when the ON/OFF button is clicked. When its clicked the bluetooth serial is initialized, the command &ldquo;I&rdquo; or &ldquo;O&rdquo; are sent (depending on the state of the image that is being displayed with record_off.jpg is default). Lastly, the image is updated to show the ON/OFF button as either red or the default off.</p>
+  
+  </div> 
+   
+    
+  </div>
+</main>
+
+<footer class="py-3 bg-primary text-white">
+  <div class="container bg-primary py-3">
+    &copy; <a href="https://rijnieks.com" class="text-white">Author: Paul Cairns, Layout based on Aalto Fab Lab website as designed by Kris Rijnieks</a> (Paul Cairns) 2024
+  </div>
+</footer>
+
+<script type="text/javascript" src="/paulcairns/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+<script src="/paulcairns/assets/js/typewrite.js"></script>
+
+
+<script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/slick/slick.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/shuffle/shuffle.min.js"></script>
+
+
+<script src="/paulcairns/assets/js/script.js"></script>
+<script src="/paulcairns/assets/js/typewrite.js"></script>
+
+</body>
+</html>

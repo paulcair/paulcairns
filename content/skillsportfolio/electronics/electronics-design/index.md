@@ -223,6 +223,7 @@ In this step, we used the techniques learned in [Assignment 5 - electronics prod
 
 The components were sourced via digikey and their product codes are as follows:
 
+{{<table "table table-striped table-bordered table-dark">}}
 ----------------------------------------------- ----------------------------------
 | Quantity |         Description              |	Part Number       |	Unit Price    |
 |:--------:| :------------------------------  | :--------------   | :-----------: |
@@ -242,6 +243,7 @@ The components were sourced via digikey and their product codes are as follows:
 |     1	   | CONN RCPT 8POS 0.1 GOLD SMD R/A  | 952-3200-1-ND	  |   1.517 $     |
 |     1	   | IC MCU 8BIT 16KB FLASH 14SOIC	  |ATTINY1614-SSN-ND  |   1.15  $     |  
 ----------------------------------------------------------------------------------
+{{</table>}}
 
 
 Below is an image of the final board after it was soldered:

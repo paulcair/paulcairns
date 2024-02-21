@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Skills Portfolio on Paul Cairns</title>
+    <link>http://localhost:1313/paulcairns/skillsportfolio/</link>
+    <description>Recent content in Skills Portfolio on Paul Cairns</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cairns</copyright>
+    <atom:link href="http://localhost:1313/paulcairns/skillsportfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3D Printing and Scanning</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/</guid>
+      <description>Assignment Overview The assignment for this week was to learn how to characterise and use 3D printers, learn how to 3D scan an object, and to design a part that can not be easily made subtractively and print it using a 3d printer. As with most weeks, there were group assignments and individual assignments. The details of which are listed below.&#xA;Group assignment:&#xA;Test the design rules for your printer(s) Document your work and explain what are the limits of your printer(s) (in a group or individually) Individual assignment:</description>
+    </item>
+  </channel>
+</rss>

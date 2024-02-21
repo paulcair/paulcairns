@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/paulcairns/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=paulcairns/livereload" data-no-instant defer></script>
+  <title>Paul Cairns - Input devices</title>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Creative Portfolio Template">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="author" content="Themefisher">
+<meta name="generator" content="Themefisher Kross Template v1.0">
+
+  <link rel="stylesheet" href="/paulcairns/assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/paulcairns/assets/css/main.css?v=1708523176">
+
+
+
+
+
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/css/css.css">
+
+  
+  <link href="/paulcairns/assets/css/style.css" rel="stylesheet">
+  <script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+  <script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="/paulcairns/assets/plugins/shuffle/shuffle.min.js"></script> 
+  <script src="/paulcairns/assets/js/typewrite.js"></script> 
+  
+
+</head>
+<body>
+
+  
+<header class="navigation">
+    <nav class="navbar navbar-dark">
+      <a class="navbar-brand" href="http://localhost:1313/paulcairns//index.html"><img src="http://localhost:1313/paulcairns//paul-logo.png" alt="FabAcadeLogo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//about/paul-cairns">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//skillsportfolio">Skills Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//videos">Videos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero-area bg-dark" id="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-11 bg-green p-3 rounded-lg mx-auto">
+          
+          <h1 class="text-white text-center text-decoration-none font-tertiary">
+            <a href="" class="typewrite" data-period="2000" data-type='["Input Devices", "See my skills around programming and selecting input devices", "Please browse at your convenience."," Enjoy!" ]'>
+              <span class="wrap"></span>
+            </a>
+          </h1>
+          
+          
+          <h5 class="text-white bg-green text-decoration-none text-center py-2">
+            Objective: to learn about input devices, including how they function and how to program them.
+          </h5>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h1 class="text-center text-decoration-none pt-5">Input devices</h1>
+  </div>
+
+
+<main class="py-5">
+  <div class="row justify-content-center px-4">
+    <img class="img-fluid position: center mb-4" src="/paulcairns/skillsportfolio/electronics/embedded-programming/input-devices/voltsensor.jpg" alt="voltsensor.jpg">
+  </div>  
+  <div class = "container mt-5">
+    <hr>
+<p>The objective for this week was to learn about input devices. For my final project, I will need to measure and output the current, voltage, and temperature. Therefore, I elected to learn to use and program these input devices for this week. The assignment overview and learning outcomes are shared below.</p>
+<p><strong>Group assignment:</strong></p>
+<ul>
+<li>Probe an input device(s)&rsquo;s analog and digital signals</li>
+<li>Document your work (in a group or individually)</li>
+</ul>
+<p><strong>Individual assignment:</strong></p>
+<ul>
+<li>Measure something: add a sensor to a microcontroller board that you have designed and read it.</li>
+</ul>
+<p><strong>Learning outcomes</strong></p>
+<ul>
+<li>Demonstrate workflows used in sensing something with input device(s) and MCU board</li>
+<li>Link to the group assignment page</li>
+<li>Document what you learned from interfacing an input device(s) to microcontroller and how the physical property relates to the measured results</li>
+<li>Document your design and fabrication process or linked to previous examples.</li>
+<li>Explain the programming process/es you used</li>
+<li>Explain problems and how you fixed them</li>
+<li>Include original design files and source code</li>
+<li>Include a ‘hero shot/video’ of your board</li>
+</ul>
+<h1 id="group-assignment">Group Assignment</h1>
+<p>For the group assignment it was necessary to code and probe the signal from given sensors. We elected to do this using a current generator and an multimeter to read the voltage and the Serial monitor of an Arduino program for the temperature probe.</p>
+<p>We connected and wired the current meter and the volt meter and tested the output voltage in order to measure the output voltage which corresponds to the analog value on a scale of 0-5V.</p>
+<img class="img-fluid pt-4 pb-5"
+     src="group1.jpg"
+     alt="group1.jpg">
+<p>as you can see the multimeter voltage was reading 2.3 V. I was measuring the difference between the output pin and the VCC pin so in reality the voltage value was 5-2.3 or 2.7 V. The current sensor measures between -5A and 5A making 2.5V equal to 0A. This means that 1A of current is represented by 2.5V/5A = 0.2 V/A. Therefore a reading of 2.7 V means a reading of 1 A above 0. This matches with the device that was plugged in which was a head set USB charger that charges at 5V and 1A.</p>
+<p>Having characterize the sensors we were able to move ahead with the individual assignment.</p>
+<h1 id="individual-assignment">Individual Assignment</h1>
+<p>For the individual assignment we were tasked with adding a sensor to a microcontroller board that we have designed and reading it. To do this I intend to use the Adrianino that I created in assignment <a href="7-elesctronics-design">7. Electronics design</a> and use jumpers to the pinouts of the analog signals. For the final project I will properly design and integrate these sensors into my PCB. The workflow used to perform the tasks in this assignment are discussed in the following section.</p>
+<h2 id="workflow">Workflow</h2>
+<ol>
+<li>Determine the technical specifications of sensors</li>
+<li>Connect your sensors to your microcontroller board</li>
+<li>Program your microcontroller to read your sensor</li>
+<li>Test your program</li>
+<li>Debug and adjust as necessary</li>
+</ol>
+<h3 id="1-determine-specifications-of-sensors">1. Determine specifications of sensors</h3>
+<p>The first step is to look at the documentation of the sensors and determine their specifications and how to connect them to your microchip. Below is an overview of the specifications and</p>
+<p><strong>Temperature sensor</strong></p>
+<img class="img-fluid pt-4 pb-5"
+     src="tempsensor.jpg"
+     alt="tempsensor.jpg">
+<p>The temperature sensore we used is called a OneWire digital temperature sensor by Dallas Instruments. Details abou tthe prodoct can be found at the <a href="https://www.adafruit.com/product/381">following link</a></p>
+<p>This is a pre-wired and waterproofed (with heat shrink) version of a 1 Wire DS18B20-compatible sensor. Handy for when you need to measure something far away, or in wet conditions. While the sensor is good up to 125°C the cable is jacketed in PVC so we suggest keeping it under 100°C. Because they are digital, you don&rsquo;t get any signal degradation even over long distances! These 1-wire digital temperature sensors are fairly precise (±0.5°C over much of the range) and can give up to 12 bits of precision from the onboard digital-to-analog converter. They work great with any microcontroller using a single digital pin, and you can even connect multiple ones to the same pin, each one has a unique 64-bit ID burned in at the factory to differentiate them. Usable with 3.0-5.0V systems.</p>
+<p>In order to use this board using Arduino IDE you will need to download the following library <a href="https://github.com/milesburton/Arduino-Temperature-Control-Library">using the following link</a>. A tutorial on how to use the Temperature sensor can be found in the youtube video below.</p>
+<div style="position: relative; padding-bottom: 56.25%; overflow: hidden;">
+    <iframe style="position: absolute; width: 100%; height: 100%;"
+        src="http://www.youtube.com/embed/OXieoH5IsAI" 
+        allowfullscreen 
+        frameborder="0"
+        class = "pt-3 pb-5">
+    </iframe>
+</div>
+<p>Next is to determine the specifications of the current sensor.</p>
+<p><strong>Current sensor</strong></p>
+<img class="img-fluid pt-4 pb-5"
+     src="currsensor.jpg"
+     alt="currsensor.jpg">
+<p>The current sensor that we selected is a current sensor that outputs and analog signal that can read a current from between -5A and +5A. The specifications are below.</p>
+<ul>
+<li>The current sensor chips: ACS712ELC-05A</li>
+<li>Works with 5V from Arduino.</li>
+<li>On board LED power indicator</li>
+<li>Can measure the ±5A corresponding to the analog output 185mV/A</li>
+<li>Module board size: 31 (mm) x13 (mm)</li>
+</ul>
+<p>Note that to use this sensor you will need to download the library that is included in it. You can find the <a href="https://robojax.com/learn/arduino/?vid=robojax_Alegro_ACS712_curren_sensor">library to add to your Arduino IDE here</a></p>
+<p><strong>25V max Voltage sensor</strong></p>
+<img class="img-fluid pt-4 pb-5"
+     src="voltsensor.jpg"
+     alt="voltsensor.jpg">
+<p>One of the limitations of the AT-tiny chip is that it can only read a maximum analog value of 5V, but the voltage for my system may reach above that and even get up to 12V. It will be important to measure the current and voltage so that we can monitize the power produced and sold. The specifications for this sensor are listed below:</p>
+<ul>
+<li>This module is based on principle of resistive voltage divider design, can make the red terminal connector input.</li>
+<li>Voltage reduced by 5 times.</li>
+<li>Analog input voltages up to 5V, the voltage detection module input voltage not greater than 5Vx5=25V.</li>
+<li>Small in size, light weight, convenient to use.</li>
+<li>There are total four pieces of modules in one set that you may use for many projects.</li>
+</ul>
+<h3 id="2-connect-your-sensors-to-your-microcontroller-board">2. Connect your sensors to your microcontroller board</h3>
+<p>The next step in the workflow is to connect your sensors to your microcontroller board. The micro controller board is an AT-tiny-1614. The board has analog/digital pins at pins PA4, PA5, PA6, and PA7. These correspond to Arduino Adresses of 0, 1, 2, and 3 respectively. The image below illustrates the pinout.</p>
+<img class="img-fluid pt-4 pb-5"
+     src="pinout.jpg"
+     alt="pinout.jpg">
+<p>Once the pins had been assigned I wired each of the sensors to the respective pins as shown in the short gif below.</p>
+<div class = "row row-cols-1 row-cols-md-1 pb-4">
+    <div class = "col md-12 pt-4 pb-5">
+        <div class = "card">
+            <video controls autoplay loop muted class ="embed-responsive-item"> 
+             <source
+                src="wiring.mp4" 
+                type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<p>***IMPORTANT NOTE: For the temperature sensor to work, a 4.99k resistor must be wired between the VCC and Readout wires of the temperature sensor.</p>
+<h3 id="3-program-your-microcontroller">3. Program your microcontroller</h3>
+<p>To program my microcontroller I elected to use Arduino IDE. Two of my sensors required libraries to be added to my Arduino IDE in order to function, I will therefore discuss briefly how to add the libraries below. You can find a tutorial on the <a href="http://www.arduino.cc/en/Guide/Libraries">Arduino website here</a>.</p>
+<p><strong>A) Install any necessary ZIP libraries using library manager</strong></p>
+<p>The first step is to download and extract the zip folders. You can download the zip folders that contain the libraries for each device using the following links:</p>
+<ul>
+<li><a href="https://robojax.com/learn/arduino/robojax_Alegro_ACS_Current_library.zip">Current sensor</a></li>
+<li><a href="https://github.com/milesburton/Arduino-Temperature-Control-Library/archive/refs/heads/master.zip">Temperature sensor</a></li>
+<li>Temperature sensor 2](<a href="https://github.com/PaulStoffregen/OneWire/archive/refs/heads/master.zip">https://github.com/PaulStoffregen/OneWire/archive/refs/heads/master.zip</a>)</li>
+</ul>
+<p>Once downloaded find your Arduino folder that contains your libraries and paste the zip files there.  You can then use the Library manager under <em><strong>Sketch -&gt; Include Library -&gt; Add .Zip library</strong></em> in Arduino to upload them. You can find a tutorial on the <a href="http://www.arduino.cc/en/Guide/Libraries">Arduino website here</a>.</p>
+<div class = "row row-cols-1 row-cols-md-2 pt-4 pb-4">
+
+    <div class = "col">
+       <div class = "card">
+           <img class="card-img-top"
+           src="libadd.jpg" 
+           alt="libadd.jpg">
+        </div>
+    </div>
+
+    <div class = "col">
+        <div class = "card">
+            <img class="card-img-top"
+            src="zipadd.jpg" 
+            alt="zipadd.jpg">
+         </div>
+     </div>
+
+</div>
+<p>once completed you can include them in your code by using the following headers</p>
+<pre tabindex="0"><code>#include &lt;library_name.h&gt;
+</code></pre><img class="img-fluid pt-4 pb-5"
+     src="includelibs.jpg"
+     alt="includelibs.jpg">
+<p>Note that all three of the zip folder libraries need to be installed but only the Robojax and Dallas temperature need to be included. Once completed you can write your code.</p>
+<p><strong>B) Write your code</strong></p>
+<p>The next step is to write your code, be sure to use any commands that have been added by including any libraries.</p>
+<p>For the current sensor I looked at the code example code that was included <a href="https://robojax.com/learn/arduino/?vid=robojax_Alegro_ACS712_curren_sensor">at this link</a>.</p>
+<p>For the voltage sensor we only need to read the voltage and apply a multiplier of 5.128 based on the experimental test run with current generator and volt meter.</p>
+<p>For the temperature sensor I used some sample code from the example folder included in the zip folder.</p>
+<img class="img-fluid pt-4 pb-5"
+     src="code.jpg"
+     alt="code.jpg">
+<p>The above image shows the completed code that was written and uploaded to the microchip.</p>
+<h3 id="4-test-your-program">4. Test your program</h3>
+<p>Run your program and test your results. The video below shows the results from the first time running the program. As you can see on the screen it was outputing various values but further indication found that it was not correct and there was an issue.</p>
+<div class = "row row-cols-1 row-cols-md-1 pb-4">
+    <div class = "col md-12 pt-4 pb-5">
+        <div class = "card">
+            <video controls autoplay loop muted class ="embed-responsive-item"> 
+             <source
+                src="firsttry.mp4" 
+                type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<p>Therefore, the next step in the workflow is to debug the board and sensors.</p>
+<h3 id="5-debug-and-adjust-as-necessary">5. Debug and adjust as necessary</h3>
+<p>The first time I tested my program I noticed that none of the sensors were outputing the proper results into the serial monitor. It was therefore necessary to debug. There did not seem to be any issues with the code as it was compiling so I first checked voltages at different parts on the chip using a multimeter.</p>
+<img class="img-fluid pt-4 pb-5"
+     src="debug.jpg"
+     alt="debug.jpg">
+<p>Upon investigation with the multimeter, it was found that there was an issue with the pinning and some wiring adjustments had to be made. Doing this made the voltage input device begin to read and output correctly. The results are shown in the image and video below.</p>
+<div class = "row row-cols-1 row-cols-md-2 pt-4 pb-4">
+
+    <div class = "col">
+       <div class = "card">
+           <img class="card-img-top"
+           src="volts1.jpg" 
+           alt="volts1.jpg">
+        </div>
+    </div>
+
+    <div class = "col">
+        <div class = "card">
+            <img class="card-img-top"
+            src="volts2.jpg" 
+            alt="volts2.jpg">
+         </div>
+     </div>
+
+</div>
+<div class = "row row-cols-1 row-cols-md-1 pb-4">
+    <div class = "col md-12 pt-4 pb-5">
+        <div class = "card">
+            <video controls autoplay loop muted class ="embed-responsive-item"> 
+             <source
+                src="results.mp4" 
+                type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<p>Unfortunately, I was unable to debug the current and temperature sensors in time. The next step will be to wire the sensors to an Arduino board to see if it is a hardware issue, but I feel it is more likely a problem in the code in which the libraries aren&rsquo;t being called properly.</p>
+<p>Investigation of the voltage at the current pin seemed correct, therefore it is most likely a programming issue.</p>
+<p>Below is a copy of the program as designed for the AT-Tiny 1614 board.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#75715e">#include &lt;Robojax_AllegroACS_Current_Sensor.h&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#include &lt;DallasTemperature.h&gt;</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#include &lt;OneWire.h&gt;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">//</span><span style="color:#66d9ef">DECLARING</span> <span style="color:#66d9ef">CONSTANT</span> <span style="color:#66d9ef">VARIABLES</span> <span style="color:#66d9ef">AND</span> <span style="color:#66d9ef">PINS</span>
+</span></span><span style="display:flex;"><span>const float <span style="color:#66d9ef">Vratio</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">.</span><span style="color:#ae81ff">128</span>;   <span style="color:#e6db74">//</span>ratio of voltage reduction based on experiment
+</span></span><span style="display:flex;"><span>const float <span style="color:#66d9ef">VCC</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span><span style="color:#f92672">.</span><span style="color:#ae81ff">04</span>;       <span style="color:#e6db74">//</span> value of <span style="color:#66d9ef">VCC</span> of the board based on measurements
+</span></span><span style="display:flex;"><span>const int <span style="color:#66d9ef">CurrentPin</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;    <span style="color:#e6db74">//</span> pin where current sensor is conncected
+</span></span><span style="display:flex;"><span>const int <span style="color:#66d9ef">VoltPin</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;        <span style="color:#e6db74">//</span> pin where voltage sensor is connected
+</span></span><span style="display:flex;"><span>const int <span style="color:#66d9ef">TempPin</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>;       <span style="color:#e6db74">//</span> pin where temperature sensor is connected
+</span></span><span style="display:flex;"><span>const int <span style="color:#66d9ef">MODEL</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>;          <span style="color:#e6db74">//</span> value of the current sensor model, see below
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">//</span> <span style="color:#66d9ef">SET</span> <span style="color:#66d9ef">UP</span> <span style="color:#66d9ef">THE</span> <span style="color:#66d9ef">CURRENT</span> <span style="color:#66d9ef">SENSOR</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span><span style="color:#e6db74">&#39;robojax&#39;</span> function uses format robojax(<span style="color:#66d9ef">MODEL</span>, <span style="color:#66d9ef">INPUT</span><span style="color:#f92672">-</span><span style="color:#66d9ef">VARIABLE</span>) where the model I am using is model <span style="color:#66d9ef">ACS712ELECT</span><span style="color:#f92672">-</span><span style="color:#ae81ff">5</span>B 
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span>which corresponds to a value of <span style="color:#ae81ff">0</span> according to <span style="color:#e6db74">https</span>:<span style="color:#e6db74">//</span>robojax<span style="color:#f92672">.</span>com<span style="color:#f92672">/</span>learn<span style="color:#f92672">/</span>arduino<span style="color:#f92672">/</span>?vid<span style="color:#f92672">=</span>robojax_Alegro_ACS712_curren_sensor
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Robojax_AllegroACS_Current_Sensor</span> robojax(<span style="color:#66d9ef">MODEL</span>,<span style="color:#66d9ef">CurrentPin</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">//</span><span style="color:#66d9ef">SET</span> <span style="color:#66d9ef">UP</span> <span style="color:#66d9ef">THE</span> <span style="color:#66d9ef">TEMPERATURE</span> <span style="color:#66d9ef">SENSOR</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//se</span>t the pin (<span style="color:#66d9ef">TempPin</span>) that the <span style="color:#66d9ef">OneWire</span> will communicate through
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">OneWire</span> oneWire(<span style="color:#66d9ef">TempPin</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span>pass oneWire reference to <span style="color:#66d9ef">Dallas</span> <span style="color:#66d9ef">Temperature</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">DallasTemperature</span> sensors(<span style="color:#f92672">&amp;</span>oneWire);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>void setup() {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span><span style="color:#66d9ef">Start</span> serial monitor
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>begin(<span style="color:#ae81ff">9600</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span><span style="color:#66d9ef">Start</span> sensors library <span style="color:#66d9ef">for</span> temperature sensor
+</span></span><span style="display:flex;"><span>  sensors<span style="color:#f92672">.</span>begin(); 
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span><span style="color:#66d9ef">Set</span> pin modes
+</span></span><span style="display:flex;"><span>  pinMode(<span style="color:#66d9ef">CurrentPin</span>,<span style="color:#66d9ef">INPUT</span>);
+</span></span><span style="display:flex;"><span>  pinMode(<span style="color:#66d9ef">VoltPin</span>, <span style="color:#66d9ef">INPUT</span>);
+</span></span><span style="display:flex;"><span>  pinMode(<span style="color:#66d9ef">TempPin</span>, <span style="color:#66d9ef">INPUT</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>}<span style="color:#f92672">//</span><span style="color:#66d9ef">end</span> of void setup()
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>void <span style="color:#66d9ef">loop</span>() {
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">//</span><span style="color:#66d9ef">GET</span> <span style="color:#66d9ef">AND</span> <span style="color:#66d9ef">PRINT</span> <span style="color:#66d9ef">CURRENT</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>print(<span style="color:#e6db74">&#34;Current = &#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>print(robojax<span style="color:#f92672">.</span>getCurrent(),<span style="color:#ae81ff">3</span>); <span style="color:#e6db74">//</span>print the current to <span style="color:#ae81ff">3</span> decimal places
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>print(<span style="color:#e6db74">&#34; A    &#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">//</span><span style="color:#66d9ef">GET</span> <span style="color:#66d9ef">AND</span> <span style="color:#66d9ef">PRINT</span> <span style="color:#66d9ef">VOLTAGE</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#e6db74">//</span>calculate voltage <span style="color:#f92672">and</span> convert from bit reading to voltage value <span style="color:#66d9ef">in</span> volts
+</span></span><span style="display:flex;"><span>  float <span style="color:#66d9ef">Voltage</span> <span style="color:#f92672">=</span> <span style="color:#66d9ef">VCC</span><span style="color:#f92672">*</span>analogRead(<span style="color:#66d9ef">VoltPin</span>)<span style="color:#f92672">*</span><span style="color:#66d9ef">Vratio</span><span style="color:#f92672">/</span><span style="color:#ae81ff">1023</span>; 
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>print(<span style="color:#e6db74">&#34;Voltage = &#34;</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>print(<span style="color:#66d9ef">Voltage</span>);
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>print(<span style="color:#e6db74">&#34; V    &#34;</span>);
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#e6db74">//</span><span style="color:#66d9ef">GET</span> <span style="color:#66d9ef">AND</span> <span style="color:#66d9ef">PRINT</span> <span style="color:#66d9ef">TEMPERATURE</span>
+</span></span><span style="display:flex;"><span>  float tempC <span style="color:#f92672">=</span> sensors<span style="color:#f92672">.</span>getTempCByIndex(<span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">if</span>(tempC <span style="color:#f92672">!=</span> <span style="color:#66d9ef">DEVICE_DISCONNECTED_C</span>)
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>print(<span style="color:#e6db74">&#34;Temperature = &#34;</span>);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>print(tempC);
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>println(<span style="color:#e6db74">&#34; degC   &#34;</span>);
+</span></span><span style="display:flex;"><span>  }
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">else</span>
+</span></span><span style="display:flex;"><span>  {
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">Serial</span><span style="color:#f92672">.</span>println(<span style="color:#e6db74">&#34;Temperature = Could not read data&#34;</span>);
+</span></span><span style="display:flex;"><span>  }<span style="color:#f92672">//</span><span style="color:#66d9ef">end</span> of <span style="color:#66d9ef">if</span><span style="color:#f92672">/</span><span style="color:#66d9ef">else</span> statement
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span> delay(<span style="color:#ae81ff">1500</span>);
+</span></span><span style="display:flex;"><span> 
+</span></span><span style="display:flex;"><span>}<span style="color:#f92672">//</span><span style="color:#66d9ef">end</span> of void <span style="color:#66d9ef">loop</span>()
+</span></span></code></pre></div><h1 id="files">Files</h1>
+<ol>
+<li><a href="inputdevices.ino">Inputdevices.ino</a></li>
+</ol>
+  
+  </div> 
+   
+    
+  </div>
+</main>
+
+<footer class="py-3 bg-primary text-white">
+  <div class="container bg-primary py-3">
+    &copy; <a href="https://rijnieks.com" class="text-white">Author: Paul Cairns, Layout based on Aalto Fab Lab website as designed by Kris Rijnieks</a> (Paul Cairns) 2024
+  </div>
+</footer>
+
+<script type="text/javascript" src="/paulcairns/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+<script src="/paulcairns/assets/js/typewrite.js"></script>
+
+
+<script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/slick/slick.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/shuffle/shuffle.min.js"></script>
+
+
+<script src="/paulcairns/assets/js/script.js"></script>
+<script src="/paulcairns/assets/js/typewrite.js"></script>
+
+</body>
+</html>

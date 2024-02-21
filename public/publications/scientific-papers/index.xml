@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scientific Papers on Paul Cairns</title>
+    <link>http://localhost:1313/paulcairns/publications/scientific-papers/</link>
+    <description>Recent content in Scientific Papers on Paul Cairns</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cairns</copyright>
+    <atom:link href="http://localhost:1313/paulcairns/publications/scientific-papers/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IPCC - Char Reactivity in Different Environments</title>
+      <link>http://localhost:1313/paulcairns/publications/scientific-papers/ipcc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/publications/scientific-papers/ipcc/</guid>
+      <description>Citation: Cairns, Paul &amp;amp; Clements, Bruce &amp;amp; Anthony, Edward &amp;amp; Macchi, A.. (2011). Combustion of solid fuels in high pressure oxygen environments under different firing scenarios. 28th Annual International Pittsburgh Coal Conference 2011, PCC 2011. 2. 963-977.&#xA;Abstract Oxy-fired combustion has been identified as one of the promising technologies for CO2 capture because it is capable of producing a concentrated CO2 stream suitable for sequestration. The use of pressurized oxy-fired combustion leads to certain advantages including thermal efficiency gains and physical size reduction of the combustor and flue gas treatment equipment.</description>
+    </item>
+    <item>
+      <title>Master&#39;s Thesis - Chemical Engineering</title>
+      <link>http://localhost:1313/paulcairns/publications/scientific-papers/masters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/publications/scientific-papers/masters/</guid>
+      <description>Presentation of my final thesis for completion of my Master&amp;rsquo;s Degree in chemical engineering. The work comprised of 5 papers that were submitted for publication discussing the topic of High Pressure Oxy-fired Direct Contact Steam Generation for Steam Assisted Gravity Application.&#xA;Abstract Production in Canada’s oil sands has been increasing, with a projected rate of 4.5 million barrels per day by 2025. Two production techniques are currently used, mining and in-situ, with the latter projected to constitute ~57% of all production by that time.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computer Aided Design on Paul Cairns</title>
+    <link>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/</link>
+    <description>Recent content in Computer Aided Design on Paul Cairns</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cairns</copyright>
+    <atom:link href="http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FreeCAD</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/freecad/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/freecad/</guid>
+      <description>This week I worked on defining my final project idea and started to get used to the documentation process. The learning objectives for the assignment this week are:&#xA;a. Evaluate and select 2D and 3D software&#xA;b. Demonstrate and describe processes used in modelling with 2D and 3D software&#xA;c. Model experimental objects/part of a possible project in 2D and 3D software&#xA;d. Show how I did it with words/images/screenshots</description>
+    </item>
+  </channel>
+</rss>

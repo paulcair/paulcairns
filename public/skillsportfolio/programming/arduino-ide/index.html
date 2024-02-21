@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/paulcairns/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=paulcairns/livereload" data-no-instant defer></script>
+  <title>Paul Cairns - Arduino IDE</title>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Creative Portfolio Template">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="author" content="Themefisher">
+<meta name="generator" content="Themefisher Kross Template v1.0">
+
+  <link rel="stylesheet" href="/paulcairns/assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/paulcairns/assets/css/main.css?v=1708523177">
+
+
+
+
+
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/css/css.css">
+
+  
+  <link href="/paulcairns/assets/css/style.css" rel="stylesheet">
+  <script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+  <script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="/paulcairns/assets/plugins/shuffle/shuffle.min.js"></script> 
+  <script src="/paulcairns/assets/js/typewrite.js"></script> 
+  
+
+</head>
+<body>
+
+  
+<header class="navigation">
+    <nav class="navbar navbar-dark">
+      <a class="navbar-brand" href="http://localhost:1313/paulcairns//index.html"><img src="http://localhost:1313/paulcairns//paul-logo.png" alt="FabAcadeLogo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//about/paul-cairns">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//skillsportfolio">Skills Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//videos">Videos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero-area bg-dark" id="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-11 bg-green p-3 rounded-lg mx-auto">
+          
+          <h1 class="text-white text-center text-decoration-none font-tertiary">
+            <a href="" class="typewrite" data-period="2000" data-type='["Embedded Programming using Arduino IDE", "See the work embedded programming I have done using Arduino IDE", "Please browse at your convenience."," Enjoy!" ]'>
+              <span class="wrap"></span>
+            </a>
+          </h1>
+          
+          
+          <h5 class="text-white bg-green text-decoration-none text-center py-2">
+            Objective: to learn how to program the microcontroller chip on the circuit board we designed in Week 7.
+          </h5>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h1 class="text-center text-decoration-none pt-5">Arduino IDE</h1>
+  </div>
+
+
+<main class="py-5">
+  <div class="row justify-content-center px-4">
+    <img class="img-fluid position: center mb-4" src="/paulcairns/skillsportfolio/programming/arduino-ide/thumbnail.jpg" alt="thumbnail.jpg">
+  </div>  
+  <div class = "container mt-5">
+    <hr>
+<p>On this page, the objective was to showcase how to program a microcontroller chip on a circuit board that was designed during my <a href="https://fabacademy.org/2021/labs/vancouver/students/paul-cairns/assignments/9-embedded-programming/">Fab Academy week 7 &ldquo;electronics design&rdquo; assignment</a>. As usual, the assignment had a group and individual element. Below are the details.</p>
+<p><strong>Group assignment:</strong></p>
+<ul>
+<li>Compare the performance and development workflows for different microcontroller families</li>
+<li>Document your work (in a group or individually)</li>
+</ul>
+<p><strong>Individual assignment:</strong></p>
+<ul>
+<li>Read the datasheet for the microcontroller you are programming</li>
+<li>Program the board you have made to do something, with as many different programming languages and programming environments as possible.</li>
+</ul>
+<p><strong>Learning outcomes:</strong></p>
+<ul>
+<li>Identify relevant information in a microcontroller datasheet.</li>
+<li>Implement programming protocols.</li>
+<li>Document what you learned from reading a microcontroller datasheet.</li>
+<li>Program your board</li>
+<li>Described the programming process/es you used</li>
+<li>Include your source code</li>
+<li>Include a short ‘hero video’ of your board</li>
+</ul>
+<p>As usual, we will start with the group assignment documentation and then present the individual assignment documentation.</p>
+<h1 id="individual-assignment">Individual Assignment</h1>
+<p>The individual assignment consisted of two tasks. The first was to read and understand that data shee for the microcontroller you are programming, and the second is to program the board. We will begin by discussing that datasheet.</p>
+<h2 id="at-tiny-1614-data-sheet">AT-Tiny 1614 data sheet</h2>
+<p>For my electronics design project, I designed a version of the <a href="http://fabacademy.org/2020/labs/leon/students/adrian-torres/adrianino.html">Adrianino</a>. The Afrianino uses the AT-Tiny 1614 microcontroller. The datasheet for which <a href="../7-electronics-design/ATtiny.pdf">can be found here</a>.</p>
+<h3 id="introduction">Introduction</h3>
+<p>The ATtiny1614 is a memberare members of the tinyAVR®
+1-series of microcontrollers, using the AVR®
+8-bit processor with hardware multiplier, running at up to 20 MHz and with 16 KB Flash, 2 KB of SRAM, and
+256 bytes of EEPROM in a 14-pin package. Below are some of the specifications:</p>
+<ul>
+<li>
+<p><strong>CPU:</strong> AVR 8-bit CPU running at up to 20 MHz</p>
+</li>
+<li>
+<p><strong>Memories:</strong> 16 KB in systemp self-programmable flash memory</p>
+<ul>
+<li>256 bytes EEPROM</li>
+<li>2 KB SRAM</li>
+<li>Write/erase flash 10,000 cycles, EEPROM 100,000 cycles</li>
+</ul>
+</li>
+<li>
+<p><strong>System:</strong> Power-on reset</p>
+<ul>
+<li>Brown out detection</li>
+<li>Internal and external clock optionn</li>
+<li>16/20 MHz lower-power RC oscillater</li>
+<li>Single pin programming and debugging interface (UPDI)</li>
+</ul>
+<p>further details regarding the introduciton and system specificaitons can be found on page 1 and 2 of the document.</p>
+</li>
+</ul>
+<h3 id="block-diagram">Block diagram</h3>
+<p>One of the first and most critical diagrams in the spec sheet is the block diagram. This diagram gives an overiew of the chip internals, system details, peripherals, and provides an idea of the I/O of the chip. The image below is presents the block diagram for the AT-tiny 1614. (p. 13, Figure 3-1)</p>
+<img class="img-fluid pt-4 pb-5"
+     src="blockdiagram.jpg"
+     alt="blockdiagram.jpg">
+<h3 id="pinout">Pinout</h3>
+<p>The next diagram of importance in the spec sheet is the pinout. The pinout describes the which peripherals and I/O types are available at each pin. The image below presents the pinout. (p.14, Figure 4.1)</p>
+<img class="img-fluid pt-4 pb-5"
+     src="pinout.jpg"
+     alt="pinout.jpg">
+<p>The important pins to consider for the AT-tiny are the VDD (pin 1), the GND (pin 14), and the UPDI (pin 10). Other important pins to pay attention to are:</p>
+<ul>
+<li>Pins 2-5, 8,9 11, 12: Digital/analog functions to read or output to peripherals</li>
+<li>Pins 6 and 7: GPIO and clock</li>
+<li>Pin 13 GPIO/Clock/Analalog function</li>
+</ul>
+<h3 id="memory-map-and-flash">Memory map and flash</h3>
+<p>The ATtiny1614 conatains a 16 KB on-chip in-system reprogrammable flash memory for program storage.(p.17,18, Figures 6-1, 6-2, respectively)</p>
+<div class = "row row-cols-1 row-cols-md-2 pt-4 pb-4">
+
+    <div class = "col">
+       <div class = "card">
+           <img class="card-img-top"
+           src="memorymap.jpg" 
+           alt="memorymap.jpg">
+        </div>
+    </div>
+
+    <div class = "col">
+        <div class = "card">
+            <img class="card-img-top"
+            src="flash.jpg" 
+            alt="flash.jpg">
+         </div>
+     </div>
+
+</div>
+<p>Important things to note from the images that there is 256 bytes of EEPROM memory and 16 KB of flash memory.</p>
+<p>The ATtiny1614 has 256 bytes of EEPROM data memory, see Memory Map section. The EEPROM
+memory supports single byte read and write. The EEPROM is controlled by the Nonvolatile Memory
+Controller (NVMCTRL). (Page 18, Section 6.5)</p>
+<p>The ATtiny1614 contains 16 KB on-chip in-system reprogrammable Flash memory for program storage. (Page 17, Section 6.3)
+Since all AVR instructions are 16 or 32 bits wide, the Flash is organized as 4K x 16. For write protection,
+the Flash program memory space can be divided into three sections:</p>
+<ul>
+<li>Bootloader section,</li>
+<li>application code section,</li>
+<li>application data section,</li>
+</ul>
+<p>with restricted access rights
+among them.</p>
+<h3 id="peripherals-and-architecture">Peripherals and Architecture</h3>
+<p>The ATtiny 1614 has numerous peripherals with various addresses below is a list of the types of peripherals it contains:</p>
+<ul>
+<li>Virtual Ports (A/B)</li>
+<li>I/O registers</li>
+<li>CPU</li>
+<li>Reset controller</li>
+<li>Sleep controller</li>
+<li>Clock Controller</li>
+<li>Brown-out detector</li>
+<li>Voltage reference</li>
+<li>Port configuration</li>
+<li>Analog comparators</li>
+<li>Digital-to-Analog converters</li>
+<li>Universal Synchronous Asynchronous Receiver Transmitter</li>
+<li>Serial Peripheral interface</li>
+<li>Timer/counter</li>
+<li>System configuration</li>
+</ul>
+<p>This information can all be found in the peripherals section (p. 42, Section 7) and is all neatly summarized in Table 7-1 as illustrated below.</p>
+<img class="img-fluid pt-4 pb-5"
+     src="peripherals.jpg"
+     alt="peripherals.jpg">
+<p>Details of each peripheral are given in the chapters that follow. We will not discuss them in detail here. The last two things we will discuss before moving ahead to programming the board will be the CPU and the UPDI.</p>
+<h3 id="avr-cpu">AVR CPU</h3>
+<p>The AVR CPU uses 8-bit AVR CPU. The CPU is able to access memories, perform calculations, control peripherals, and execute instructions in the progrm memory. This CPU uses a <strong>HARVARD Architecture</strong> with seperate buses for program and data. Instruction in the program memory are executed with single-level pipelining. While one instruction is being ecuted, the net instruction is prefetched from the program memory, which enables instruction to be executed on every clock cycle. (p.48, Sections 8.1-8.3). The features of this AVR CPU are:</p>
+<ul>
+<li>8-Bit, High-Performance AVR RISC CPU</li>
+<li>135 instructions</li>
+<li>Hardware multiplier</li>
+<li>32 8-Bit Registers Directly Connected to the Arithmetic Logic Unit (ALU)</li>
+<li>Stack in RAM</li>
+<li>Stack Pointer Accessible in I/O Memory Space</li>
+<li>Direct Addressing of up to 64 KB of Unified Memory:</li>
+<li>Entire Flash accessible with all LD/ST instructions</li>
+<li>True 16/24-Bit Access to 16/24-Bit I/O Registers</li>
+<li>Efficient Support for 8-, 16-, and 32-Bit Arithmetic</li>
+<li>Configuration Change Protection for System Critical Features</li>
+</ul>
+<p>A block diamgram that illustrates the architecture is shown below:</p>
+<img class="img-fluid pt-4 pb-5"
+     src="cpuarchitecture.jpg"
+     alt="cpuarchitecture.jpg">
+<p>Last topic of discussion will be the Unified Program and Debug Interface (UPDI)</p>
+<h3 id="updi---unified-program-and-debug-interface">UPDI - Unified Program and Debug Interface</h3>
+<p>The UPDI is an interface for external programming and on-chip debugging of a device. The UPDI supports programming of nonvolatile memory (NVN) spalce; FLASH, EEPROM, ukbi and the user row. Furthermore, the UPDI can access the entire I/O and data space of the device. Programming and debugging are done the the UPDI Physical interface (UPDI PHY), which is a 1-wire interface that uses the RESET pin. The UPDI access layer grants access to the bus matrix, with memory mapped access to system blocks such as NVM, and peripherals. (p.516, Section 33.2). The fueature of the Unified Program and Debug Interface are as follows (p.516, Section 33.1):</p>
+<p><strong>Programming:</strong></p>
+<ul>
+<li>External programming through UPDI 1-wire (1W) interface</li>
+<li>Enable programming by 12V or fuse</li>
+<li>Uses the RESET pin of the device for programming</li>
+<li>No GPIO pins occupied during operation</li>
+<li>Asynchronous Half-Duplex UART protocol towards the programmer</li>
+</ul>
+<p><strong>Debugging:</strong></p>
+<ul>
+<li>Memory mapped access to device address space (NVM, RAM, I/O)</li>
+<li>No limitation on device clock frequency</li>
+<li>Unlimited number of user program breakpoints</li>
+<li>Two hardware breakpoints</li>
+<li>Run-time readout of CPU Program Counter (PC), Stack Pointer (SP), and Status register
+(SREG) for code profiling</li>
+<li>Program flow control -&gt; Go, Stop, Reset, Step Into</li>
+<li>Non-intrusive run-time chip monitoring without accessing system registers -&gt; Monitor CRC status and sleep status</li>
+</ul>
+<p>*<em>Unified Programming and Debug Interface (UPDI):</em></p>
+<ul>
+<li>Built-in error detection with error signature readout</li>
+<li>requency measurement of internal oscillators using the Event System</li>
+</ul>
+<p>A block diagram of the UPDI system is shown in the image below (p.517, Figure 33-1):</p>
+<img class="img-fluid pt-4 pb-5"
+     src="updi.jpg"
+     alt="updi.jpg">
+<h2 id="programming-blink-onto-the-attiny">Programming Blink onto the ATtiny</h2>
+<p>The circuit board that was constructed was designed to be compatible with Arduino IDE and thus reprogrammable based on the functions that you want it to perform. In this section we will discuss how to program the standard &ldquo;blink&rdquo; sketch onto our AT-Tiny board. The steps are as follows:</p>
+<p>i)      Install Arduino IDE
+ii)     Download and install the AT-Tiny board library
+iii)    Configure Ubuntu for pyudpi (linux only)
+iv)     Install dependecies (linux only)
+v)      Set the board configuration and port
+vi)     Upload the blink sketch using Arduino
+vii)    Program the board using python (linux only)</p>
+<p>As a note, the directions used for programming this board were based very closely on the guidance given by Adrian Torres on his <a href="http://fabacademy.org/2020/labs/leon/students/adrian-torres/adrianino.html#outputs">Adrianino Fab Academy Website</a>.</p>
+<p>There is also a good YouTube video that describes how to install the TinyMegaCore package onto Aurduino IDE below.</p>
+<div style="position: relative; padding-bottom: 56.25%; overflow: hidden;">
+    <iframe style="position: absolute; width: 100%; height: 100%;"
+        src="http://www.youtube.com/embed/AL9vK_xMt4E" 
+        allowfullscreen 
+        frameborder="0"
+        class = "pt-3 pb-5">
+    </iframe>
+</div>
+<p>Before we begin, we will want to connect our board to our computer. we do this by connecting our FTDI chip with our UPDI chip and slip that into the UPDI slot of our board. The image below illustrates how to connect the hardware:</p>
+<div class = "row row-cols-1 row-cols-md-2 pt-4 pb-4">
+
+    <div class = "col">
+       <div class = "card">
+           <img class="card-img-top"
+           src="PlugIn1.jpg" 
+           alt="PlugIn1.jpg">
+        </div>
+    </div>
+
+    <div class = "col">
+        <div class = "card">
+            <img class="card-img-top"
+            src="PlugIn2.jpg" 
+            alt="PlugIn2.jpg">
+         </div>
+     </div>
+
+</div>
+<p>**i) Install Arduino IDE:**The first step was to install the arduino IDE, on windows this can be done at the <a href="https://www.arduino.cc/en/software">arduino website</a>, for linux this can be done using the Ubuntu software manager.</p>
+<p><strong>ii) Download and install the AT-Tiny board library:</strong> The next step is to download the AT-Tiny board library by Spence Konde <a href="http://drazzy.com/package_drazzy.com_index.json">it can be found here</a>. If you need further assistance you can follow the <a href="https://github.com/SpenceKonde/megaTinyCore/blob/master/Installation.md">Spence Konde Tutorial here</a> as well. For simplicity you can just copy the Mega Tiny Core URL into the Arduino IDE boards library by clicking: <em><strong>File &gt; Preferences</strong></em></p>
+<p>URL: <a href="http://drazzy.com/package_drazzy.com_index.json">http://drazzy.com/package_drazzy.com_index.json</a></p>
+<p>the image below shows where to paste the link.</p>
+<img class="img-fluid pt-4 pb-5"
+     src="ArdURL.jpg"
+     alt="ArdURL.jpg">
+<p>The next step is to install it in the boards manager by clicking: <em><strong>Tools &gt; Board &gt; Board Manager</strong></em> scrolling down to the &ldquo;MegaTinycore&rdquo; library and clicking <em><strong>install</strong></em> there is a <strong>VERY IMPORTANT NOTE: YOU MUST INSTALL VERSION 2.2.1</strong> we were unable to get the sketh to upload successfully using any of the newer versions. Below is an image of the installation process</p>
+<img class="img-fluid pt-4 pb-5"
+     src="ArdInstMega221.jpg"
+     alt="ArdInstMega221.jpg">
+<p>If you are using Ubuntu or linux based software you will want to continue with the following steps. <strong>If you are using Windows, you can proceed to step v).</strong></p>
+<p><strong>iii) Configure Ubuntu for pyudpi (linux only):</strong> The next step is to configure python UPDI. You can do so by cloning the following git repository to your computer using the terminal.</p>
+<p>URL: <a href="https://github.com/mraardvark/pyupdi">https://github.com/mraardvark/pyupdi</a></p>
+<img class="img-fluid pt-4 pb-5"
+     src="GitClone.jpg"
+     alt="GitClone.jpg">
+<p><strong>iv) Install dependencies (linux only):</strong> In this step you will want to run the following command in your command line to install the python dependencies.</p>
+<pre tabindex="0"><code>    pip3 install intelhex pylint pyserial
+</code></pre><p><strong>v) Set the board configuration and port:</strong> In this step you will return to the Arduino IDE and load your sketch as you normally would. You will next want to set the board configuration as follows <em><strong>Tools &gt; Boards &gt; MegaTinyCore &gt; ATtiny 1614</strong></em>
+and you will want to set the programmer to Serial Port and 4.7k (pyupdi style) under <em><strong>Tools &gt; programmer &gt; Serial Port and 4.7k</strong></em>. Other settings to consider are the clock. To set it at 20 MHz. The image below demonstrates these steps.</p>
+<img class="img-fluid pt-4 pb-5"
+     src="ArdSetBoard.jpg"
+     alt="ArdSetBoard.jpg">
+<p><strong>vi) Upload the blink sketch:</strong> By navigating to <em><strong>File &gt; Examples &gt; 01 Basics &gt; blink</strong></em> you can open the blink sketch. For this board change the pin number to Pin 8, which is the pin that the LED is wired to. You can do this by replacing <em><strong>LED_BUILTIN</strong></em> in the code with <em><strong>8</strong></em>. Once finished click upload. The following video demonstrated that it worked.</p>
+<div class = "row row-cols-1 row-cols-md-1 pb-4">
+    <div class = "col md-12 pt-4 pb-5">
+        <div class = "card">
+            <video controls autoplay loop muted class ="embed-responsive-item"> 
+             <source
+                src="blink-13s.mp4" 
+                type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<p>The final step, if you are using linux, is to program the board using python. This will be necessary if the Arduino IDE does not upload properly to your board. Details about this will be discussed in the following step.</p>
+<p><strong>vii) Program the board using python (linux only):</strong> When the Arduino finishes compiling you will want to find the <em><strong>.hex</strong></em> file in the temporary folder. lastly open the command line and run the following code</p>
+<pre tabindex="0"><code>sudo python3 pyupdi.py -d tiny1614 -c /dev/ttyUSB0 -b 115200 -f Blink.ino.hex -v
+</code></pre><p>being sure to replace <em><strong>/dev/ttyUSB0</strong></em> with the directory that you put your <em><strong>.hex</strong></em> file.</p>
+<h2 id="programming-hellot1614echoino-onto-the-attiny-using-arduino-ide">Programming hello.t1614.echo.ino onto the ATtiny using Arduino IDE</h2>
+<p>Now that we have configured the Arduino IDE on both Windows and Linux, we are going to try uploadinging another program that uses the Serial Monitor. The program we will be uploading onto the chip is the hello.t1614.echo.ino by Neil Gershenfeld (link to file in the Files section below). For this we will be repeating step (vi) above but uploading a different file.</p>
+<p><em><strong>IMPORTANT STEP: once you have uploaded the files using the FTDI and the UPDI programmerr you must REMOVE THE PROGRAMMER in order to talk to the chip and have the serial monitor work</strong></em></p>
+<img class="img-fluid pt-4 pb-5"
+     src="programmerremoved.jpg"
+     alt="programmerremoved.jpg">
+<h3 id="hellot1614echoino-windows">hello.t1614.echo.ino Windows</h3>
+<p>Here is a video of the hello.echo program uploaded onto the chip. Note that the Serial Monitor was set to 9600 in the program and was also seleted in the &ldquo;baud&rdquo; at the bottom of the serial monitor.</p>
+<div class = "row row-cols-1 row-cols-md-1 pb-4">
+    <div class = "col md-12 pt-4 pb-5">
+        <div class = "card">
+            <video controls autoplay loop muted class ="embed-responsive-item"> 
+             <source
+                src="helloecho-ino.mp4" 
+                type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<p>Picture of final result:</p>
+<img class="img-fluid pt-4 pb-5"
+     src="helloechoresult.jpg"
+     alt="helloechoresult.jpg">
+<p>Next. I repeated the same process using linux. Below are the results from using Arduino IDE for linux.</p>
+<div class = "row row-cols-1 row-cols-md-1 pb-4">
+    <div class = "col md-12 pt-4 pb-5">
+        <div class = "card">
+            <video controls autoplay loop muted class ="embed-responsive-item"> 
+             <source
+                src="helloecho-inolinux.mp4" 
+                type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<p>Picture of final result:</p>
+<img class="img-fluid pt-4 pb-5"
+     src="helloechoinolinux.jpg"
+     alt="helloechoinolinux.jpg">
+<p>The results were good!</p>
+<h3 id="helloworldino-for-windows">hello.world.ino for Windows</h3>
+<p>Lastly, I wanted to test a program that I wrote myself. In this program I simply printed &ldquo;hello world&rdquo; to the serial monitor without any user input or prompt. I ran this program simply on windows. Here is the result.</p>
+<div class = "row row-cols-1 row-cols-md-1 pb-4">
+    <div class = "col md-12 pt-4 pb-5">
+        <div class = "card">
+            <video controls autoplay loop muted class ="embed-responsive-item"> 
+             <source
+                src="hello-world-ino.mp4" 
+                type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<h2 id="programming-hello1614echoino-using-vscode-and-python-on-linux">Programming hello.1614.echo.ino using VSCode and Python on Linux</h2>
+<p>After obtaining a solid confidence with the Arduino IDE on both Windows and Linux, I attempted to upload and program the ATtiny using VS Code and python. used the hello.1614.py code created by Neil Gershenfeld.</p>
+<p>I was succesful in using VS Code to run and compile the python code but was unsucessful in uploading the code to the chip as well as not sure how to monitor the results. I believe further learning and investigation and perhaps a different IDE will be necessary.</p>
+<h1 id="files">Files</h1>
+<ul>
+<li><a href="../7-electronics-design/ATtiny.pdf">ATtiny Spec Sheet</a></li>
+<li><a href="Helloecho-ino.ino">hello.1614.echo.ino</a></li>
+<li><a href="Helloechopc-ino.ino">hello.world.ino</a></li>
+<li><a href="helloecho.py">hello.1614.echo.py</a></li>
+</ul>
+  
+  </div> 
+   
+    
+  </div>
+</main>
+
+<footer class="py-3 bg-primary text-white">
+  <div class="container bg-primary py-3">
+    &copy; <a href="https://rijnieks.com" class="text-white">Author: Paul Cairns, Layout based on Aalto Fab Lab website as designed by Kris Rijnieks</a> (Paul Cairns) 2024
+  </div>
+</footer>
+
+<script type="text/javascript" src="/paulcairns/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+<script src="/paulcairns/assets/js/typewrite.js"></script>
+
+
+<script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/slick/slick.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/shuffle/shuffle.min.js"></script>
+
+
+<script src="/paulcairns/assets/js/script.js"></script>
+<script src="/paulcairns/assets/js/typewrite.js"></script>
+
+</body>
+</html>

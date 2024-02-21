@@ -1,5 +1,5 @@
 +++
-title = " Final Project"
+title = "The EnergyStove"
 video = "presentation.mp4"
 weight = 30
 
@@ -142,7 +142,7 @@ The combustion chamber is made of two concentric CNC milled sheets (more details
 The electronics is made of two systems, a) the power systems which includes the pelletier modules, heat sink, fan, baterries, and charge controllers and b) the electronics which inclues the microcontroller system and design based on the [Satscha kit](http://fabacademy.org/archives/2015/doc/projects/satshakit/satshakit.html), the input and output devices, the ESP 32 unit, and other electronic components.
 
 **a) Power Unit**
-{{<table table_class="table table-bordered border-dark table-striped table-hover" thead_class="table-dark">}}
+{{<table "table table-striped table-bordered table-dark">}}
 | Part | Quantity | Source | Cost | Link |
 | ---         | ---  | ---    | ---    | ---  |
 |   5V Fan    | 1    |  Amazon     |  $13.99   | [link](https://www.amazon.ca/gp/product/B07SWJPXNS/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) | 
@@ -156,7 +156,7 @@ The electronics is made of two systems, a) the power systems which includes the 
 
 **b) Electronics**
 
-{{<table table_class="table table-bordered border-dark table-striped table-hover" thead_class="table-dark">}}
+{{<table "table table-striped table-bordered table-dark">}}
 | Description | Part | Package | Quantity | Source | Cost | Link |
 | --- | ---  | ---     | :---:    | ---    | :---:  | ---  |
 | Microcontroller | ATMEGA328P-ANRCTND | TOFP-32 | 1  |  Digikey | $2.52 | [link](https://www.digikey.ca/en/products/detail/ATMEGA328P-ANR/ATMEGA328P-ANRCT-ND/2774230?itemSeq=367414607) |
@@ -201,7 +201,7 @@ The electronics is made of two systems, a) the power systems which includes the 
 
 The cover consists of the epoxy cover that was made using rotary casting methods described in the [12 - Moulding and Casting](../assignments/12-molding-and-casting) assignment. There is also an element that is 3D printed which contains the heatsink enclosure.
 
-{{<table table_class="table table-bordered border-dark table-striped table-hover" thead_class="table-dark">}}
+{{<table "table table-striped table-bordered table-dark">}}
 | Part | Amount | Source | Cost | Link |
 | ---  | ---    | ---    | ---  | ---  |
 |   2 -part epoxy resin 500 mL bottles (1L)  | 300 mL      |  Fibertek    |  $36.60/L   |  [link](https://fibertek.ca/shop/products/smooth-on/smooth-cast-320-series/)  |

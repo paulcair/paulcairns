@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/paulcairns/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=paulcairns/livereload" data-no-instant defer></script>
+  <title>Paul Cairns - GUI Programming with Processing</title>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Creative Portfolio Template">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="author" content="Themefisher">
+<meta name="generator" content="Themefisher Kross Template v1.0">
+
+  <link rel="stylesheet" href="/paulcairns/assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/paulcairns/assets/css/main.css?v=1708523177">
+
+
+
+
+
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/css/css.css">
+
+  
+  <link href="/paulcairns/assets/css/style.css" rel="stylesheet">
+  <script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+  <script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="/paulcairns/assets/plugins/shuffle/shuffle.min.js"></script> 
+  <script src="/paulcairns/assets/js/typewrite.js"></script> 
+  
+
+</head>
+<body>
+
+  
+<header class="navigation">
+    <nav class="navbar navbar-dark">
+      <a class="navbar-brand" href="http://localhost:1313/paulcairns//index.html"><img src="http://localhost:1313/paulcairns//paul-logo.png" alt="FabAcadeLogo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//about/paul-cairns">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//skillsportfolio">Skills Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//videos">Videos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero-area bg-dark" id="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-11 bg-green p-3 rounded-lg mx-auto">
+          
+          <h1 class="text-white text-center text-decoration-none font-tertiary">
+            <a href="" class="typewrite" data-period="2000" data-type='["Interface and Application Programming using Processing", "See the work I did for the Interface Programming weeks&#39; assignment for Fab Academy", "Please browse at your convenience."," Enjoy!" ]'>
+              <span class="wrap"></span>
+            </a>
+          </h1>
+          
+          
+          <h5 class="text-white bg-green text-decoration-none text-center py-2">
+            Objective: to write an application that interfaces a user with an input and/or output device that we made.
+          </h5>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h1 class="text-center text-decoration-none pt-5">GUI Programming with Processing</h1>
+  </div>
+
+
+<main class="py-5">
+  <div class="row justify-content-center px-4">
+    <img class="img-fluid position: center mb-4" src="/paulcairns/skillsportfolio/programming/graphic-user-interface/processing/thumbnail.jpg" alt="thumbnail.jpg">
+  </div>  
+  <div class = "container mt-5">
+    <hr>
+<p><strong>Group Assignment:</strong></p>
+<ul>
+<li>Compare as many tool options as possible.</li>
+</ul>
+<p><strong>Individual Assignment:</strong></p>
+<ul>
+<li>Write an application that interfaces a user with an input and/or output device that you made</li>
+</ul>
+<p><strong>Learning Outcomes:</strong></p>
+<ul>
+<li>Interpret and implement design and programming protocols to create a Graphic User Interface (GUI).</li>
+<li>Document your process</li>
+<li>Explain the UI that you made and how you did it</li>
+<li>Outline problems and how you fixed them</li>
+<li>Include original code (or a screenshot of the app code if that&rsquo;s not possible)</li>
+<li>Included a ‘hero shot/video’ of your application running with your board</li>
+</ul>
+<h1 id="group-assignment">Group Assignment</h1>
+<p>For the group assingment we looked at various interfaces such as:</p>
+<ul>
+<li>Processing</li>
+<li>Java</li>
+<li>Labview</li>
+</ul>
+<p>After looking at various videos of them it was decided that the best interface to use for my project is Processing</p>
+<h1 id="individual-assignment">Individual Assignment</h1>
+<p>The individual assignment for this week was to write an application that interfaces a user with an input or output device that you made. The device I chose to create an interface for was the voltage reading device that I have used in the pervious weeks.</p>
+<p>As an added bonus, I decided to output the value that was passed to a secondary boarded that is networked to a master using I2C.</p>
+<p>As usual I will present the assignment in terms of the workflow used to design the interface.</p>
+<h2 id="workflow">Workflow</h2>
+<p>The steps used to create the user interface are as as follows:</p>
+<ol>
+<li>Select the UI you intend to use and learn about it</li>
+<li>Program a simple UI that is not connected to input data</li>
+<li>Connect input data to the UI using the serial monitor</li>
+<li>Test the connected UI</li>
+<li>Debug as necessary</li>
+</ol>
+<p>The assignment will be presented using the workflow listed.</p>
+<h3 id="1-select-the-ui-you-intend-to-use-and-learn-about-it">1. Select the UI you intend to use and learn about it</h3>
+<p>The UI that I selected for my assignment and my final project is called Processing. Processing is an application written in C that interfaces very well with Arduino IDE. This is the reason why it was selected. To begin, I had to learn how to use the interface and program it. Below are some important links and tutorials.</p>
+<p><strong>Processing website</strong></p>
+<p>The first and most important thing to discuss is the <a href="https://processing.org/">Processing Website</a>. The website is a great resource for downloading and installing the program as well as tutorials.</p>
+<p>The following tutorials are a very great introduction and reference.</p>
+<ul>
+<li><a href="https://hello.processing.org/editor/"><strong>processing intro tutorial</strong></a></li>
+<li><a href="https://processing.org/tutorials/"><strong>Processing, more tutorials</strong></a></li>
+</ul>
+<img class="img-fluid pt-4 pb-5"
+     src="tutorials.jpg"
+     alt="tutorials.jpg">
+<p><strong>Get Processing IDE to communicate with Arduino IDE</strong></p>
+<p>Once a general understanding of how to use and create an interface using Processing the next step is to understand how to get it to communicate with Arduino IDE. The following link provides a great tutorial:</p>
+<ul>
+<li><a href="https://maker.pro/arduino/tutorial/how-to-make-arduino-and-processing-ide-communicate#:~:text=The%20Processing%20IDE%20has%20a,movement%20of%20the%20potentiometer%20knob."><strong>Tutorial pull data from Arduino IDE and show it on Processing</strong></a></li>
+</ul>
+<p>The way to do this is through the serial monitor. Details on how to do this will be discussed in step 3.</p>
+<p><strong>Get Serial data on Processing IDE via bluetooth</strong></p>
+<p>The last tutorial was for pulling data from a microchip connected to a cell phone via bluetooth. This is a functionality I plan to include in my final project. The tutorial can be found at the link below.</p>
+<ul>
+<li><a href="https://forum.processing.org/two/discussion/22396/reading-data-from-a-bluetooth-port"><strong>Illustrate data on UI using data sent over bluetooth</strong></a></li>
+</ul>
+<p>Now that the tutorials have been followed and found, we can move to programming a simple UI.</p>
+<h3 id="2--program-a-simple-ui-that-is-not-connected-to-input-data">2.  Program a simple UI that is not connected to input data</h3>
+<p>In this step I learned how to use Processing to program a simple UI that is not connected to any input data, but shows the capabilities of the UI.</p>
+<p>The first program that I wrote simply creates a background and a red rectangle with a width &ldquo;x&rdquo; that is increased by 1 with every iteration of the loop. Therefore, X will increase up to 450 pixels wide.</p>
+<p>Note that I also print the value of x beside the text &ldquo;voltage is: &ldquo;. The idea is to use this program to start with making the UI and then replace the value of &ldquo;x&rdquo; with a voltage that is passed from the AT-Tiny-1614 through its Serial.</p>
+<p>The code for this program is shown below:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span> int x<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>void setup(){
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  size(<span style="color:#ae81ff">500</span>,<span style="color:#ae81ff">400</span>);
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>}  
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>void draw() {
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  background(<span style="color:#ae81ff">216</span>,<span style="color:#ae81ff">255</span>,<span style="color:#ae81ff">149</span>);
+</span></span><span style="display:flex;"><span>   
+</span></span><span style="display:flex;"><span>  text(<span style="color:#e6db74">&#34;Voltage is:&#34;</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">195</span>);
+</span></span><span style="display:flex;"><span>  text(x,<span style="color:#ae81ff">65</span>,<span style="color:#ae81ff">195</span>);
+</span></span><span style="display:flex;"><span>   
+</span></span><span style="display:flex;"><span>   
+</span></span><span style="display:flex;"><span>  stroke(<span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>  fill(<span style="color:#ae81ff">255</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span>(x<span style="color:#f92672">&lt;</span><span style="color:#ae81ff">450</span>){
+</span></span><span style="display:flex;"><span>    rect(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">200</span>, x, <span style="color:#ae81ff">200</span>);
+</span></span><span style="display:flex;"><span>      x <span style="color:#f92672">=</span> x<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>;
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>      
+</span></span><span style="display:flex;"><span>     <span style="color:#66d9ef">else</span> {
+</span></span><span style="display:flex;"><span>     x<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>;
+</span></span><span style="display:flex;"><span>     }
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  }
+</span></span></code></pre></div><p>Below is a video demonstrating the result from compiling and running this code.</p>
+<div class = "row row-cols-1 row-cols-md-1 pb-4">
+    <div class = "col md-12 pt-4 pb-5">
+        <div class = "card">
+            <video controls autoplay loop muted class ="embed-responsive-item"> 
+             <source
+                src="voltage-is.mp4" 
+                type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<h3 id="3-connect-input-data-to-the-ui-using-the-serial-monitor">3. Connect input data to the UI using the serial monitor</h3>
+<p>The next step is to send data from the AT-tiny chip to the Processing UI program that was written in the previous step. This is done via the Serial using the following commands:</p>
+<pre tabindex="0"><code>import processing.serial.*
+</code></pre><p>this imports a serial into the processing program</p>
+<pre tabindex="0"><code>Serial myPort;
+</code></pre><p>declares a serial variable called myPort</p>
+<p>In the Setup you will want to intialize the Port to read the serial value from and define how much it will read using the following code</p>
+<pre tabindex="0"><code>myPort = new Serial (this, &#34;/dev/ttyUSB0&#34;,9600)
+</code></pre><p>This defines the USB port that the micro controller is plugged into (typically COM X on a Windos system)</p>
+<pre tabindex="0"><code>void serialEvent(Serial myPort){
+    Voltage = float(myPort.readStringUntil(&#39;\n&#39;));
+}
+</code></pre><p>creates a serialEvent funciton called myport where you read the serial at the given port and read the string until the end of the line. You then convert the string into a floating point variable.</p>
+<p>In the void draw function we take this voltage value and map it as a number of pixels in the rectangle function.</p>
+<p>The entire code of the program is shown below.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span>import processing<span style="color:#f92672">.</span>serial<span style="color:#f92672">.</span>*; <span style="color:#e6db74">//im</span>ports  the serial library
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">Serial</span> myPort;             <span style="color:#e6db74">//</span> <span style="color:#66d9ef">initialize</span> a variable named <span style="color:#e6db74">&#34;myPort&#34;</span>
+</span></span><span style="display:flex;"><span>float <span style="color:#66d9ef">Voltage</span>;              <span style="color:#e6db74">//</span> declare variable to receive the <span style="color:#66d9ef">Voltage</span> value
+</span></span><span style="display:flex;"><span>float x;                    <span style="color:#e6db74">//</span> variable that maps the <span style="color:#66d9ef">Voltage</span> to bits
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>void setup(){
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>  size(<span style="color:#ae81ff">500</span>,<span style="color:#ae81ff">400</span>);
+</span></span><span style="display:flex;"><span>  myPort <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">Serial</span> (this, <span style="color:#e6db74">&#34;/dev/ttyUSB0&#34;</span>, <span style="color:#ae81ff">9600</span>);
+</span></span><span style="display:flex;"><span>  myPort<span style="color:#f92672">.</span>bufferUntil( <span style="color:#e6db74">&#39;\n&#39;</span> );
+</span></span><span style="display:flex;"><span>}  
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>void serialEvent (<span style="color:#66d9ef">Serial</span> myPort){
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  <span style="color:#66d9ef">Voltage</span> <span style="color:#f92672">=</span> float(myPort<span style="color:#f92672">.</span>readStringUntil( <span style="color:#e6db74">&#39;\n&#39;</span>));
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  x <span style="color:#f92672">=</span> map(<span style="color:#66d9ef">Voltage</span>, <span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">20</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">500</span>);
+</span></span><span style="display:flex;"><span>}
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span>void draw() {
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  
+</span></span><span style="display:flex;"><span>  background(<span style="color:#ae81ff">216</span>,<span style="color:#ae81ff">255</span>,<span style="color:#ae81ff">149</span>);
+</span></span><span style="display:flex;"><span>   
+</span></span><span style="display:flex;"><span>  text(<span style="color:#e6db74">&#34;Voltage is:&#34;</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">195</span>);
+</span></span><span style="display:flex;"><span>  text(<span style="color:#66d9ef">Voltage</span>,<span style="color:#ae81ff">65</span>,<span style="color:#ae81ff">195</span>);
+</span></span><span style="display:flex;"><span>   
+</span></span><span style="display:flex;"><span>   
+</span></span><span style="display:flex;"><span>  stroke(<span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>  fill(<span style="color:#ae81ff">255</span>,<span style="color:#ae81ff">0</span>,<span style="color:#ae81ff">0</span>);
+</span></span><span style="display:flex;"><span>  rect(<span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">200</span>, x, <span style="color:#ae81ff">200</span>);
+</span></span><span style="display:flex;"><span>  }
+</span></span></code></pre></div><p>The video below shows the result in which I change the voltage and it changes the value of voltage shown on the screen (in volts) as well as the length of the red rectangle.</p>
+<div class = "row row-cols-1 row-cols-md-1 pb-4">
+    <div class = "col md-12 pt-4 pb-5">
+        <div class = "card">
+            <video controls autoplay loop muted class ="embed-responsive-item"> 
+             <source
+                src="voltage-read.mp4" 
+                type="video/mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<h1 id="files">Files</h1>
+<ol>
+<li><a href="processing_voltage_is.pde">Voltage bargraph</a></li>
+<li><a href="processing_voltage_read.pde">Voltage read</a></li>
+</ol>
+  
+  </div> 
+   
+    
+  </div>
+</main>
+
+<footer class="py-3 bg-primary text-white">
+  <div class="container bg-primary py-3">
+    &copy; <a href="https://rijnieks.com" class="text-white">Author: Paul Cairns, Layout based on Aalto Fab Lab website as designed by Kris Rijnieks</a> (Paul Cairns) 2024
+  </div>
+</footer>
+
+<script type="text/javascript" src="/paulcairns/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+<script src="/paulcairns/assets/js/typewrite.js"></script>
+
+
+<script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/slick/slick.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/shuffle/shuffle.min.js"></script>
+
+
+<script src="/paulcairns/assets/js/script.js"></script>
+<script src="/paulcairns/assets/js/typewrite.js"></script>
+
+</body>
+</html>
