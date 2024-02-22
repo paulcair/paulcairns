@@ -43,7 +43,7 @@
     {{ with .Params.section}}
       {{ with $.Site.GetPage .path }}
         <section id="{{ .Title | urlize }}" class="container">
-          <h2>{{ .Params.section.subTitle }}</h2>
+          <h1>{{ .Params.section.subTitle }}</h1>
           <a id="{{ .Params.section.path | urlize }}"></a>
           <div class="row">
             {{ range .Pages }}

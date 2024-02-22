@@ -40,7 +40,7 @@
 <!-- About section of page-->
 {{ with .Site.GetPage "/about" }}
 <section id="{{ .Title | urlize }}" class="container my-5">
-  <h2>About</h2>
+  <h1>About</h1>
   <div class="row">
     {{ range .Pages }}
       <div class="col-sm-12 col-lg-12">
@@ -54,7 +54,7 @@
 <!-- Projects Section of page-->
 {{ with .Site.GetPage "/projects" }}
 <section id="{{ .Title | urlize }}" class="container">
-  <h2>{{ .Title }}</h2>
+  <h1>{{ .Title }}</h1>
   <a id="projects"></a>
   <div class="row">
     {{ range .Pages }}
@@ -69,7 +69,7 @@
 <!-- Skills Section of page-->
 {{ with .Site.GetPage "/skillsportfolio" }}
 <section id="{{ .Title | urlize }}" class="container mb-5">
-  <h2>{{ .Title }}</h2>
+  <h1>{{ .Title }}</h1>
   <a id="skillsportfolio"></a>
   <div class="row">
     {{ range .Sections }}
@@ -84,7 +84,7 @@
 <!-- Publications Section of page-->
 {{ with .Site.GetPage "/publications" }}
 <section id="{{ .Title | urlize }}" class="container mb-5">
-  <h2>{{ .Title }}</h2>
+  <h1>{{ .Title }}</h1>
   <a id="publications"></a>
   <div class="row">
     {{ range .Sections }}
@@ -99,7 +99,7 @@
 <!-- Videos Section of page-->
 {{ with .Site.GetPage "/videos" }}
 <section id="{{ .Title | urlize }}" class="container mb-5">
-  <h2>{{ .Title }}</h2>
+  <h1>{{ .Title }}</h1>
   <a id="videos"></a>
   <div class="row">
     {{ range .Pages }}
