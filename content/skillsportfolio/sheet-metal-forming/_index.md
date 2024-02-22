@@ -32,7 +32,7 @@ punch and die should be equal to the thickness of the drawn material.
 
 Based on a measurement using a vernier caliper of the sheet metal the gauge of the metal is 26 gauge.
 
-
+{{<table "table table-striped table-bordered table-dark">}}
 | **Gauge No**	| **Inch**	| **Metric** |
 | ---           |   ---     |   ---      |
 | 20            |	0.036"  |	0.9mm    |
@@ -44,7 +44,7 @@ Based on a measurement using a vernier caliper of the sheet metal the gauge of t
 | 27            |	0.0164" |	0.42mm   |
 | 28            |	0.0148" |	0.37mm   |    
 | ---           | ---       | ---        |
-
+{{</table>}}
          
 ## Piece to be formed
 
