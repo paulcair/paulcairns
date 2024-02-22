@@ -64,14 +64,14 @@ strong {
 
 h1,
 .h1 {
-  font-size: 40px;
+  font-size: 60px;
 }
 
 @media (max-width: 991px) {
 
   h1,
   .h1 {
-    font-size: 35px;
+    font-size: 50px;
   }
 }
 
