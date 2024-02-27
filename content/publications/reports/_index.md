@@ -1,6 +1,6 @@
 +++
 title = "Reports"
-image = "report.png"
+image = "tees.png"
 weight = 30
 
 [section]
