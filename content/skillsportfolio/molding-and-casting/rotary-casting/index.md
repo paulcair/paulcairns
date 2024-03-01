@@ -94,6 +94,8 @@ The next step in the workflow is to convert your 3D model STL file into a solid 
 
 {{<youtube-responsive fL6t_lOnyQ0>}}
 
+<!-- fL6t_lOnyQ0?si=gXs5CvsMggXc5xF0 -->
+
 once complete we will want to take that solid and subtract it from a block in order to create your mold negative (or positive).
 
 ### 1c) Put the solid into a block and subtract it to create the model negative
