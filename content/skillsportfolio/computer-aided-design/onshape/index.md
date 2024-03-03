@@ -87,11 +87,19 @@ Next, create a centerpoint arc that goes around the outside of the gear and conn
 
 ## 7. Perform a revolve cut to finish the piece
 
+Use the revolve feature once again and select the "Remove" option to cut away the transformation.
 
+{{<image revolve-cut.png>}}
+
+You should end up with something that looks like the following below.
+
+{{<image final.png>}}
 
 ## 8. Export STL to import into your favorite slicer for 3D printing
 
+Export the STL file for your slicer and enjoy.
 
+{{<image-matrix-2 export1.png export2.png>}}
 
 
 
