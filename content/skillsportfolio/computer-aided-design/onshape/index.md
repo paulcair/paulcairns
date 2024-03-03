@@ -1,6 +1,6 @@
 +++
 title = "OnShape"
-image = "thumbnail.jpg"
+image = "final.jpg"
 weight = 30
 
 [typeScript] 
@@ -100,6 +100,8 @@ You should end up with something that looks like the following below.
 Export the STL file for your slicer and enjoy.
 
 {{<image-matrix-2 export1.png export2.png>}}
+
+
 
 
 
