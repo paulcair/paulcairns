@@ -16,5 +16,3 @@ headline = "Objective: to showcase my SLA and FDM 3D printing techniques"
 +++
 
 Checkout my SLA and FDM 3D printing work shocasing my abilities to use both techniques.
-
-
