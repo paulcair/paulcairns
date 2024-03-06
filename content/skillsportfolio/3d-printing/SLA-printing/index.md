@@ -84,6 +84,6 @@ In this section, I will walk through the workflow for printing a part after you 
 
 ### 1. Remove the resin bath and level the bed
 
-It is good practice to perform the bd levelling step eny tim you remove the resin bath or the build plate.
+It is good practice to perform the bed levelling step any time you remove the resin bath or the build plate.
 
 VERY IMPORTANT: THE RESIN CURES DUE TO UV LIGHT. IF YOU PLAN TO REMOVE THE RESIN BATH, BE SURE TO COVER IT FROM SUNLIGHT SO THAT IT DOES NOT CURE AND YOU DO NOT WASTE RESIN.
