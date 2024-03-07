@@ -86,4 +86,6 @@ In this section, I will walk through the workflow for printing a part after you 
 
 It is good practice to perform the bed levelling step any time you remove the resin bath or the build plate.
 
+To level the bed, first loosen the allen screws on the side of the build plate. Once loosened, in the printer settings go to "move" and click the "home" icon. Place the bed levelling paper on the screen to set the height.
+
 VERY IMPORTANT: THE RESIN CURES DUE TO UV LIGHT. IF YOU PLAN TO REMOVE THE RESIN BATH, BE SURE TO COVER IT FROM SUNLIGHT SO THAT IT DOES NOT CURE AND YOU DO NOT WASTE RESIN.
