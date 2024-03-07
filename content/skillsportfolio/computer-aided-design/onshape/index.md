@@ -1,6 +1,6 @@
 +++
 title = "OnShape"
-image = "final.jpg"
+image = "final.png"
 weight = 30
 
 [typeScript] 
