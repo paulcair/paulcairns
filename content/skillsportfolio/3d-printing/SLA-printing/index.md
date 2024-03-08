@@ -82,10 +82,14 @@ Next step we will turn over to the printer and walk through the process of level
 
 In this section, I will walk through the workflow for printing a part after you have generated the slice file. This includes levelling and zeroing the bed, which I recommend should be done any time the resin bath or build plate has been removed, which will likely be after every print. I recommend this to avoid having failed prints and wasted resin. The workflow is presented below.
 
+**VERY IMPORTANT: THE RESIN CURES DUE TO UV LIGHT. IF YOU PLAN TO REMOVE THE RESIN BATH, BE SURE TO COVER IT FROM SUNLIGHT SO THAT IT DOES NOT CURE AND YOU DO NOT WASTE RESIN.**
+
 ### 1. Remove the resin bath and level the bed
 
 It is good practice to perform the bed levelling step any time you remove the resin bath or the build plate.
 
-To level the bed, first loosen the allen screws on the side of the build plate. Once loosened, in the printer settings go to "move" and click the "home" icon. Place the bed levelling paper on the screen to set the height.
+To level the bed, first loosen the allen screws on the side of the build plate. Once loosened, in the printer settings go to "move" and click the "home" icon. Place the bed levelling paper on the screen to set the height. Next, tighten the allen screws to set the build plate orientation.
 
-VERY IMPORTANT: THE RESIN CURES DUE TO UV LIGHT. IF YOU PLAN TO REMOVE THE RESIN BATH, BE SURE TO COVER IT FROM SUNLIGHT SO THAT IT DOES NOT CURE AND YOU DO NOT WASTE RESIN.
+
+### 2. Raise the build plate and install the resin bath
+
