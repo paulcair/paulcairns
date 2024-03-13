@@ -66,11 +66,11 @@ I also did a solidworks assembly and simulation. You can see two videos of the r
 
 ## Modelling Video
 
-{{ <video beltyV2modelling.mp4> }}
+{{<video beltyV2modelling.mp4>}}
 
 ## Motion Simulation Video
 
-{{ <video beltyV2animation.mp4> }}
+{{<video beltyV2animation.mp4>}}
 
 
 
