@@ -93,3 +93,52 @@ To level the bed, first loosen the allen screws on the side of the build plate. 
 
 ### 2. Raise the build plate and install the resin bath
 
+{{<image 000.jpg>}}
+
+{{<image 001.jpg>}}
+
+{{<image 002.jpg>}}
+
+{{<image 003.jpg>}}
+
+{{<image 004.jpg>}}
+
+{{<image 005.jpg>}}
+
+{{<image 006.jpg>}}
+
+{{<image 007.jpg>}}
+
+{{<image 008.jpg>}}
+
+{{<image 009.jpg>}}
+
+{{<image 010.jpg>}}
+
+{{<image 011.jpg>}}
+
+{{<image 100.jpg>}}
+{{<image 101.jpg>}}
+{{<image 102.jpg>}}
+{{<image 103.jpg>}}
+{{<image 104.jpg>}}
+{{<image 105.jpg>}}
+{{<image 106.jpg>}}
+{{<image 107.jpg>}}
+{{<image 108.jpg>}}
+{{<image 109.jpg>}}
+{{<image 110.jpg>}}
+{{<image 111.jpg>}}
+
+{{<image 200.jpg>}}
+{{<image 201.jpg>}}
+{{<image 202.jpg>}}
+{{<image 203.jpg>}}
+{{<image 204.jpg>}}
+{{<image 205.jpg>}}
+{{<image 206.jpg>}}
+
+
+
+
+
