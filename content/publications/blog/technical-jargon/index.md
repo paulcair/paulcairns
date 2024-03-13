@@ -1,6 +1,6 @@
 +++
 title = "Why Technical Jargon is Hurting Recruiting Processes"
-image = "tees.png"
+image = "jargon.jpeg"
 weight = 30
 
 [typeScript] 
