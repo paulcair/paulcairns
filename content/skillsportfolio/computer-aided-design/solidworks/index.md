@@ -28,6 +28,8 @@ Below is a presentation of various modeling skills and workflows of interested.
 
 ## Extrusion Workflow
 
+{{<image base-feet-sketch.png>}}
+
 {{<image base-feet-extrude.png>}}
 
 ## Loft
@@ -36,7 +38,27 @@ Below is a presentation of various modeling skills and workflows of interested.
 
 {{<image base-feet-loft.png>}}
 
+{{<image base-feet-top-loft.png>}}
 
+{{<image base-feet-top-loft-result.png>}}
+
+{{<image dimension.png>}}
+
+{{<image extrude.png>}}
+
+{{<image face-arm-extrude.png>}}
+
+{{<image face-extrude.png>}}
+
+{{<image face-fillet.png>}}
+
+{{<image face-pin-extrude.png>}}
+
+{{<image fillet.png>}}
+
+{{<image holder-extrude.png>}}
+
+{{<image sketch.png>}}
 
 # Assembly and Simulation Workflow
 
