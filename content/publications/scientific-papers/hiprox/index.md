@@ -11,7 +11,10 @@ typeScript2 = "Published in 2015 Volume 29, 7 P.4522-4533"
 headline = "High-Pressure Oxy-Firing (HiPrOx) of Fuels with Water for the Purpose of Direct Contact Steam Generation"
 +++
 
-Citation: Cairns, Paul & Clements, Bruce & Anthony, Edward & Macchi, A.. (2011). Combustion of solid fuels in high pressure oxygen environments under different firing scenarios. 28th Annual International Pittsburgh Coal Conference 2011, PCC 2011. 2. 963-977. 
+Citation: High-Pressure Oxy-Firing (HiPrOx) of Fuels with Water for the Purpose of Direct Contact Steam Generation
+Paul E. C. Cairns, Bruce R. Clements, Robin Hughes, Ted Herage, Ligang Zheng, Arturo Macchi, and Edward J. Anthony
+Energy & Fuels 2015 29 (7), 4522-4533
+DOI: 10.1021/ef502754h
 
 # Abstract
 
