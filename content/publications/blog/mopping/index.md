@@ -14,7 +14,9 @@ headline = "A lesson learned after a 10 day Vipassana meditation retreat in the 
 # The Art of Mopping
 
 "You missed a spot!"...   
+
 "You're doing it too quickly, be smoother, like a dance... focus Paul... focus!"...  
+
 "You're moving too jerky, smoother", he interrupted my thoughts.
 
 The words hit me like a ton of bricks, having not heard anyone speak directly to me in so long.
