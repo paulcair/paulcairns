@@ -13,15 +13,20 @@ headline = "A lesson learned after a 10 day Vipassanna meditation retreat in the
 
 # The Art of Mopping
 
-"You missed a spot!"... 
-"You're doing it too quickly, be smoother, like a dance... focus Paul... focus!"...
+"You missed a spot!"...   
+"You're doing it too quickly, be smoother, like a dance... focus Paul... focus!"...  
 "You're moving too jerky, smoother", he interrupted my thoughts.
 
 The words hit me like a ton of bricks, having not heard anyone speak directly to me in so long.
 
  ..."I'm going quickly because i just want to finish this job and get the hell out of here", I thought, but didn't verbalize. After 10 days without speaking I still wasn't ready to talk much. 
 
-The room went silent again... Swish. Swish. Plunge. Plunge. Swish. He peered over from across the room, and sensing my lack of commitment to the excercise he walked over and stopped me.
+The room went silent again...   
+
+Swish. Swish. Plunge. Plunge.     
+Swish. Swish. Plunge. Plunge.     
+
+He peered over from across the room, and sensing my lack of commitment to the excercise he walked over and stopped me.
 
 "Look", he said. **"The art of mopping is to be perfectly present with every stroke."** 
 
