@@ -1,4 +1,4 @@
-<!-- +++
++++
 title = "Why Technical Jargon is Hurting Recruiting Processes"
 image = "jargon.jpeg"
 weight = 30
@@ -9,7 +9,7 @@ typeScript2 = "Why I feel that technical jargon is hurting corporate recruting p
 
 [headline]
 headline = "A discussion on my experience applying for corporate engineering jobs and how the recruiting process rewards technical jargon over intuition"
-+++ -->
++++
 
 ## The Problem 
 
