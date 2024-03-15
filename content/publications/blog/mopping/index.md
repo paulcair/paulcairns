@@ -12,7 +12,8 @@ headline = "A lesson learned after a 10 day Vipassana meditation retreat in the 
 +++
 
 # The Art of Mopping
-
+  
+  
 "You missed a spot!"...  
 
 "You're doing it too quickly, be smoother, like a dance... focus Paul... focus!"...  
