@@ -22,24 +22,27 @@ headline = "A lesson learned after a 10 day Vipassana meditation retreat in the 
   
 The words hit me like a ton of bricks, having not heard anyone speak directly to me in so long.
 
- ..."I'm going quickly because i just want to finish this job and get the hell out of here", I thought, but didn't verbalize. After 10 days without speaking I still wasn't ready to talk much. 
+..."I'm going quickly because i just want to finish this job and get the hell out of here", I thought, but didn't verbalize.  
+   
+After 10 days without speaking I still wasn't ready to talk much. 
 
 The room went silent again...  
 
 Swish. Swish. Plunge. Plunge.  
 Swish. Swish. Plunge. Plunge.  
 
-He peered over from across the room, and sensing my lack of commitment to the excercise he walked over and stopped me.
+He peered over from across the room, and sensing my lack of commitment to the excercise, walked over and stopped me.
 
 "Look", he said. **"The art of mopping is to be perfectly present with every stroke."** 
 
 He begins demonstrating: 
 
 >"Pay attention to every detail on the floor.  
->Give it the attention it deserves and realize that you are giving it new life.  
->Notice every footprint that you wash away and realize the impermanence of it.  
+>Give it the attention it deserves.  
+>Realize that you are giving it new life.  
+>Notice every footprint that you wash away and appreciate the impermanence of it.  
 >That someone stood here, or sat there, and had thoughts and contributed to the karma of this room.  
->As you mop: **be grateful for what was; be fully present to what is; and realize that your small actions are giving new life** to this floor for a new set of students next week."
+>As you mop: **be grateful for what was; be fully present to what is; and realize that your small actions are giving new life** to this floor for a NEW set of students, that will have thoughts and contribute to its karma next week."
 
 "I know its been a long 10 days and you're, keen to get out of here"... he continued as if reading my thoughts... **"but where will you really be going if you aren't truly present."** 
 
