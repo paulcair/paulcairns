@@ -11,7 +11,7 @@ typeScript2 = "A short story about being present in what you do"
 headline = "A lesson learned after a 10 day Vipassanna meditation retreat in the forests of Quebec."
 +++
 
-## The Art of Mopping
+# The Art of Mopping
 
 "You missed a spot!"... 
 "You're doing it too quickly, be smoother, like a dance... focus Paul... focus!"...
