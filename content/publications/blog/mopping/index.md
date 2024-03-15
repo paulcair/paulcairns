@@ -29,7 +29,7 @@ The room went silent again... Swish. Swish. Plunge. Plunge. Swish. He peered ove
 
 "I know its been a long 10 days and you're, keen to get out of here"... he continued as if reading my thoughts... "but where will you really be going if you aren't truly present." 
 
-It was the final day of a 10 day Vippassinna meditation retreat, in which you stay at a centre in the woods for 10 days, no cell phone, no reading, no writing, and no talking (called noble silence). Our noble silence had naught ended 3 hours ago, and we were doing final clean up - yes, here you had to clean up after yourself - before we could go home. I had been assigned the duty of mopping the meditation room.
+It was the final day of a 10 day Vipassina meditation retreat, in which you stay at a centre in the woods for 10 days, no cell phone, no reading, no writing, and no talking (called noble silence). Our noble silence had naught ended 3 hours ago, and we were doing final clean up - yes, here you had to clean up after yourself - before we could go home. I had been assigned the duty of mopping the meditation room.
 
 "So now", he hands me back the mop, "continue as i have shown you and enjoy the art of mopping".
 
