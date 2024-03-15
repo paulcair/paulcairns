@@ -42,7 +42,7 @@ He begins demonstrating:
 >Realize that you are giving it new life.  
 >Notice every footprint that you wash away and appreciate the impermanence of it.  
 >That someone stood here, or sat there, and had thoughts and contributed to the karma of this room.  
->As you mop: **be grateful for what was; be fully present to what is; and realize that your small actions are giving new life** to this floor for a NEW set of students, that will have thoughts and contribute to its karma next week."
+>As you mop: **be grateful for what was; be fully present to what is; and realize that your small actions are giving new life** to this floor for a NEW set of students, that will have thoughts and contribute to the karma next week."
 
 "I know its been a long 10 days and you're, keen to get out of here"... he continued as if reading my thoughts... **"but where will you really be going if you aren't truly present."** 
 
