@@ -24,8 +24,9 @@ The words hit me like a ton of bricks, having not heard anyone speak directly to
 The room went silent again... Swish. Swish. Plunge. Plunge. Swish. He peered over from across the room, and sensing my lack of commitment to the excercise he walked over and stopped me.
 
 "Look", he said. "The art of mopping is to be perfectly present with every stroke." He begins demonstrating. 
+
 ```
-   "Pay attention to every detail on the floor.       Give it the attention it deserves and realize that you are giving it new life. Notice every footprint that you wash away and realize the impermanence of it. That someone stood here, or sat there, and had thoughts and contributed to the karma of this room. As you mop: be grateful for what was; be fully present to what is; and realize that your small actions are giving new life to this floor for a new set of students next week."
+"Pay attention to every detail on the floor.       Give it the attention it deserves and realize that you are giving it new life. Notice every footprint that you wash away and realize the impermanence of it. That someone stood here, or sat there, and had thoughts and contributed to the karma of this room. As you mop: be grateful for what was; be fully present to what is; and realize that your small actions are giving new life to this floor for a new set of students next week."
 ```
 
 "I know its been a long 10 days and you're, keen to get out of here"... he continued as if reading my thoughts... "but where will you really be going if you aren't truly present." 
