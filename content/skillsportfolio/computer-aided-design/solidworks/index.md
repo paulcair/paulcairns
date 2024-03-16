@@ -60,6 +60,10 @@ Below is a presentation of various modeling skills and workflows of interested.
 
 {{<image sketch.png>}}
 
+{{<image face-follower-assembly.PNG>}}
+
+{{<video face-follower-assembly.mp4>}}
+
 # Assembly and Simulation Workflow
 
 I also did a solidworks assembly and simulation. You can see two videos of the results below.
