@@ -270,7 +270,9 @@ I have included some of the Solidworks images and videos below:
 
 I 3D printed the parts using a Prusa 3D printer with PLA. I chose draft print settings. Unfortunately I didn't take any photos of the printing process. But I do have a photo of the end result.
 
+{{<image-matrix-2 000.jpg 001.jpg>}}
 
+{{<image-matrix-2 002.jpg 003.jpg>}}
 
 ## Ardiuino Program
 
