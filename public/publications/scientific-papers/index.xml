@@ -9,11 +9,25 @@
     <copyright>Paul Cairns</copyright>
     <atom:link href="http://localhost:1313/paulcairns/publications/scientific-papers/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Energy &amp; Fuels - High Pressure DCSG</title>
+      <link>http://localhost:1313/paulcairns/publications/scientific-papers/hiprox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/publications/scientific-papers/hiprox/</guid>
+      <description>Citation: High-Pressure Oxy-Firing (HiPrOx) of Fuels with Water for the Purpose of Direct Contact Steam Generation Paul E. C. Cairns, Bruce R. Clements, Robin Hughes, Ted Herage, Ligang Zheng, Arturo Macchi, and Edward J. Anthony Energy &amp;amp; Fuels 2015 29 (7), 4522-4533 DOI: 10.1021/ef502754h&#xA;Abstract High-pressure oxy-fired direct contact steam generation (HiPrOx/DCSG) can be achieved by the oxy-combustion of fuels in the presence of water. This process is capable of producing flue gas streams containing approximately 90% steam with a balance of primarily CO2.</description>
+    </item>
+    <item>
       <title>IPCC - Char Reactivity in Different Environments</title>
       <link>http://localhost:1313/paulcairns/publications/scientific-papers/ipcc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/publications/scientific-papers/ipcc/</guid>
       <description>Citation: Cairns, Paul &amp;amp; Clements, Bruce &amp;amp; Anthony, Edward &amp;amp; Macchi, A.. (2011). Combustion of solid fuels in high pressure oxygen environments under different firing scenarios. 28th Annual International Pittsburgh Coal Conference 2011, PCC 2011. 2. 963-977.&#xA;Abstract Oxy-fired combustion has been identified as one of the promising technologies for CO2 capture because it is capable of producing a concentrated CO2 stream suitable for sequestration. The use of pressurized oxy-fired combustion leads to certain advantages including thermal efficiency gains and physical size reduction of the combustor and flue gas treatment equipment.</description>
+    </item>
+    <item>
+      <title>J. Composite Science - Composite Pavement Blocks from Waste LDBE</title>
+      <link>http://localhost:1313/paulcairns/publications/scientific-papers/pavers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/publications/scientific-papers/pavers/</guid>
+      <description>Citation: Tsala-Mbala, C.; Hayibo, K.S.; Meyer, T.K.; Couao-Zotti, N.; Cairns, P.; Pearce, J.M. Technical and Economic Viability of Distributed Recycling of Low-Density Polyethylene Water Sachets into Waste Composite Pavement Blocks. J. Compos. Sci. 2022, 6, 289. https://doi.org/10.3390/jcs6100289&#xA;Abstract In many developing countries, plastic waste management is left to citizens. This usually results in landfilling or hazardous open-air burning, leading to emissions that are harmful to human health and the environment. An easy, profitable, and clean method of processing and transforming the waste into value is required.</description>
     </item>
     <item>
       <title>Master&#39;s Thesis - Chemical Engineering</title>

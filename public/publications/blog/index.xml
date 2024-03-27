@@ -8,5 +8,26 @@
     <language>en-us</language>
     <copyright>Paul Cairns</copyright>
     <atom:link href="http://localhost:1313/paulcairns/publications/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Art of Mopping</title>
+      <link>http://localhost:1313/paulcairns/publications/blog/mopping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/publications/blog/mopping/</guid>
+      <description>The Art of Mopping &amp;ldquo;You missed a spot!&amp;rdquo;&amp;hellip;&#xA;&amp;ldquo;You&amp;rsquo;re doing it too quickly, be smoother, like a dance&amp;hellip; focus Paul&amp;hellip; focus!&amp;rdquo;&amp;hellip;&#xA;&amp;ldquo;You&amp;rsquo;re moving too jerky, smoother&amp;rdquo;, he interrupted my thoughts.&#xA;The words hit me like a ton of bricks, having not heard anyone speak directly to me in so long.&#xA;&amp;hellip;&amp;ldquo;I&amp;rsquo;m going quickly because i just want to finish this job and get the hell out of here&amp;rdquo;, I thought, but didn&amp;rsquo;t verbalize.</description>
+    </item>
+    <item>
+      <title>The Digital Fabrication Masterplan</title>
+      <link>http://localhost:1313/paulcairns/publications/blog/digital-fabrication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/publications/blog/digital-fabrication/</guid>
+      <description>The Power of Digital Fabrication - unleashing a new approach to how we create products It’s 7:43 AM, your alarm went off for the fourth time and you’re late! You jump out of bed, get dressed and run out the door. On the way there, you notice your pants are falling. You forgot your belt! So you make a mad dash back to grab it.&#xA;Let’s stop for a second, and think of the journey that belt took to get to your closet.</description>
+    </item>
+    <item>
+      <title>Why Technical Jargon is Hurting Recruiting Processes</title>
+      <link>http://localhost:1313/paulcairns/publications/blog/technical-jargon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/publications/blog/technical-jargon/</guid>
+      <description>The Problem I&amp;rsquo;m an engineer, not a linguist. I don&amp;rsquo;t think in words, I think in terms of images, bodies, motion, potential difference, electrons, and molecules.&#xA;Ask me to describe any physical phenomena and I can do it in a way that a four year old can understand. Ask me what the engineering term is for a certain phenomenon and I will give you a blank stare. This has been a challenge to me during corporate interview processes.</description>
+    </item>
   </channel>
 </rss>

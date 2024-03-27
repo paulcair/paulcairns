@@ -30,6 +30,12 @@
   </url><url>
     <loc>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/</loc>
   </url><url>
+    <loc>http://localhost:1313/paulcairns/publications/scientific-papers/hiprox/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/projects/face-follower/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/fdm-printing/</loc>
+  </url><url>
     <loc>http://localhost:1313/paulcairns/skillsportfolio/fea/</loc>
   </url><url>
     <loc>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/freecad/</loc>
@@ -41,6 +47,8 @@
     <loc>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/input-devices/</loc>
   </url><url>
     <loc>http://localhost:1313/paulcairns/publications/scientific-papers/ipcc/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/publications/scientific-papers/pavers/</loc>
   </url><url>
     <loc>http://localhost:1313/paulcairns/skillsportfolio/laser-cutting/</loc>
   </url><url>
@@ -56,6 +64,8 @@
   </url><url>
     <loc>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/networking/</loc>
   </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/onshape/</loc>
+  </url><url>
     <loc>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/output-devices/</loc>
   </url><url>
     <loc>http://localhost:1313/paulcairns/videos/conscious-builder/</loc>
@@ -70,7 +80,15 @@
   </url><url>
     <loc>http://localhost:1313/paulcairns/skillsportfolio/sheet-metal-forming/</loc>
   </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/sla-printing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/solidworks/</loc>
+  </url><url>
     <loc>http://localhost:1313/paulcairns/publications/reports/tees-framework/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/publications/blog/mopping/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/publications/blog/digital-fabrication/</loc>
   </url><url>
     <loc>http://localhost:1313/paulcairns/projects/electric-stove/</loc>
   </url><url>
@@ -85,6 +103,8 @@
     <loc>http://localhost:1313/paulcairns/skillsportfolio/web-development/project-documentation/</loc>
   </url><url>
     <loc>http://localhost:1313/paulcairns/publications/white-papers/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/publications/blog/technical-jargon/</loc>
   </url><url>
     <loc>http://localhost:1313/paulcairns/about/</loc>
   </url><url>

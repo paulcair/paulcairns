@@ -16,6 +16,13 @@
       <description>Equipment Details Belty V2.0 is a belt driven 3D printer designed and built in EnergyLab-Lome. This is the result of our second spiral, which built on our first spiral named Belty. You can find details on how Belty was made here. In the first version we were focused on the belt system and optimising it using the available materials we could lay our hands on. With this Version 2, we focused more on making an actual 3D belt printer where we added an extruder and a new RAMPS control board using the Merlin firmware.</description>
     </item>
     <item>
+      <title>Face Follower - An AI and hardware fusion</title>
+      <link>http://localhost:1313/paulcairns/projects/face-follower/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/projects/face-follower/</guid>
+      <description>Background and Inspiration I came across this video on social media and got inspired to see if I could replicate it by dusting off an old face detection app I made that uses OpenCV.&#xA;The video of the project that inspired this is below:&#xA;As part of the challenge, I wanted to avoid looking at any documentation that the project included and just try to design the project from scratch using only the video as guidance and to see how I might be able to improve upon the hardware.</description>
+    </item>
+    <item>
       <title>Rotary Casting Machine</title>
       <link>http://localhost:1313/paulcairns/projects/rotary-casting-machine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -9,13 +9,6 @@
     <copyright>Paul Cairns</copyright>
     <atom:link href="http://localhost:1313/paulcairns/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>3D Printing and Scanning</title>
-      <link>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/</guid>
-      <description>Assignment Overview The assignment for this week was to learn how to characterise and use 3D printers, learn how to 3D scan an object, and to design a part that can not be easily made subtractively and print it using a 3d printer. As with most weeks, there were group assignments and individual assignments. The details of which are listed below.&#xA;Group assignment:&#xA;Test the design rules for your printer(s) Document your work and explain what are the limits of your printer(s) (in a group or individually) Individual assignment:</description>
-    </item>
-    <item>
       <title>Arduino IDE</title>
       <link>http://localhost:1313/paulcairns/skillsportfolio/programming/arduino-ide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -72,6 +65,27 @@
       <description>The assignment for this week was to learn the basics of electronics production by milling PCB board with a benchtop CNC machine, and soldering the components to it. This week there were group and individual assignments. The assignments were:&#xA;Group assignment&#xA;Characterize the design rules for your PCB production process: document feeds, speeds, plunge rate, depth of cut (traces and outline) and tooling. document your work (in a group or individually) Individual assignment</description>
     </item>
     <item>
+      <title>Energy &amp; Fuels - High Pressure DCSG</title>
+      <link>http://localhost:1313/paulcairns/publications/scientific-papers/hiprox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/publications/scientific-papers/hiprox/</guid>
+      <description>Citation: High-Pressure Oxy-Firing (HiPrOx) of Fuels with Water for the Purpose of Direct Contact Steam Generation Paul E. C. Cairns, Bruce R. Clements, Robin Hughes, Ted Herage, Ligang Zheng, Arturo Macchi, and Edward J. Anthony Energy &amp;amp; Fuels 2015 29 (7), 4522-4533 DOI: 10.1021/ef502754h&#xA;Abstract High-pressure oxy-fired direct contact steam generation (HiPrOx/DCSG) can be achieved by the oxy-combustion of fuels in the presence of water. This process is capable of producing flue gas streams containing approximately 90% steam with a balance of primarily CO2.</description>
+    </item>
+    <item>
+      <title>Face Follower - An AI and hardware fusion</title>
+      <link>http://localhost:1313/paulcairns/projects/face-follower/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/projects/face-follower/</guid>
+      <description>Background and Inspiration I came across this video on social media and got inspired to see if I could replicate it by dusting off an old face detection app I made that uses OpenCV.&#xA;The video of the project that inspired this is below:&#xA;As part of the challenge, I wanted to avoid looking at any documentation that the project included and just try to design the project from scratch using only the video as guidance and to see how I might be able to improve upon the hardware.</description>
+    </item>
+    <item>
+      <title>FDM - 3D Printing and Scanning</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/fdm-printing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/fdm-printing/</guid>
+      <description>Assignment Overview The assignment for this week was to learn how to characterise and use 3D printers, learn how to 3D scan an object, and to design a part that can not be easily made subtractively and print it using a 3d printer. As with most weeks, there were group assignments and individual assignments. The details of which are listed below.&#xA;Group assignment:&#xA;Test the design rules for your printer(s) Document your work and explain what are the limits of your printer(s) (in a group or individually) Individual assignment:</description>
+    </item>
+    <item>
       <title>FreeCAD</title>
       <link>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/freecad/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -98,6 +112,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/publications/scientific-papers/ipcc/</guid>
       <description>Citation: Cairns, Paul &amp;amp; Clements, Bruce &amp;amp; Anthony, Edward &amp;amp; Macchi, A.. (2011). Combustion of solid fuels in high pressure oxygen environments under different firing scenarios. 28th Annual International Pittsburgh Coal Conference 2011, PCC 2011. 2. 963-977.&#xA;Abstract Oxy-fired combustion has been identified as one of the promising technologies for CO2 capture because it is capable of producing a concentrated CO2 stream suitable for sequestration. The use of pressurized oxy-fired combustion leads to certain advantages including thermal efficiency gains and physical size reduction of the combustor and flue gas treatment equipment.</description>
+    </item>
+    <item>
+      <title>J. Composite Science - Composite Pavement Blocks from Waste LDBE</title>
+      <link>http://localhost:1313/paulcairns/publications/scientific-papers/pavers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/publications/scientific-papers/pavers/</guid>
+      <description>Citation: Tsala-Mbala, C.; Hayibo, K.S.; Meyer, T.K.; Couao-Zotti, N.; Cairns, P.; Pearce, J.M. Technical and Economic Viability of Distributed Recycling of Low-Density Polyethylene Water Sachets into Waste Composite Pavement Blocks. J. Compos. Sci. 2022, 6, 289. https://doi.org/10.3390/jcs6100289&#xA;Abstract In many developing countries, plastic waste management is left to citizens. This usually results in landfilling or hazardous open-air burning, leading to emissions that are harmful to human health and the environment. An easy, profitable, and clean method of processing and transforming the waste into value is required.</description>
     </item>
     <item>
       <title>Laser Cutting</title>
@@ -135,6 +156,13 @@
       <description>The assignment for this week was to build a second board and communicate between two boards using some sort of networking protocol. For this assignment I chose to use the I2C networking protocol. Details regarding the requierements for this weeks assignment are below.&#xA;Group assignment:&#xA;Send a message between two projects Individual assignment:&#xA;Design, build, and connect wired or wireless node(s) with network or bus addresses Learning outcomes:&#xA;Demonstrate workflows used in network design Implement and interpret networking protocols and/or communication protocols Document your project Document what you have learned from implementing networking and/or communication protocols.</description>
     </item>
     <item>
+      <title>OnShape</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/onshape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/onshape/</guid>
+      <description>The project I will work on using OnShape is a omnidirectional gear that I plan to 3D print using my SLA printer.&#xA;About OnShape OnShape is an online 3D modelling software that is ideal for collaborating on a project. It is not the most rigorous CAD tool, but there is a free version and it is quite user intuitive.&#xA;Furthermore, it has several usefull libraries such as the Beam add-on for quickly creating 8020 extrusions.</description>
+    </item>
+    <item>
       <title>Output Devices</title>
       <link>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/output-devices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -156,11 +184,39 @@
       <description>The assignment to be completed over two weeks was to build a machine that had a mechanical and electronic component that could be actuated and automated to perform a certain task. This week I worked with my lab instructor Jason to build a rotary casting and photogrammetry machine. The assignment details and learning outcomes are given below.&#xA;Mechanical Design (part 1 of 2)&#xA;Group assignment:&#xA;Design a machine that includes mechanism + actuation + automation Build the mechanical parts and operate it manually.</description>
     </item>
     <item>
+      <title>SLA - 3D Printing</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/sla-printing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/sla-printing/</guid>
+      <description>The project I will work on using OnShape is a omnidirectional gear that I plan to 3D print using my SLA printer. Below is a presentation of the workflow to use the Anycubic Photon Mono 2 SLA printer.&#xA;Setting up the printer SLA printers require minimal setup, simply take it out of the box, place the screen protector on and install the build plate and resin bath. You can learn about the setup process by quickly scrolling through the User Manual below.</description>
+    </item>
+    <item>
+      <title>Solidworks</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/solidworks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/solidworks/</guid>
+      <description>The project I will work on using Solidworks is a face-follower hardware that will be 3D printed. It will be connected to an Arduino and face detection python algorithm that will follow the face of a person on camera.&#xA;About Solidworks Solidworks is a 3D modelling software that is ideal for working on high level high quality engineering projects where advanced assemblies and simulations will be required. It is a hihgly rigorous CAD tool with lots of options for engineering, but it is not free and has a bit of a steeper user learning curve.</description>
+    </item>
+    <item>
       <title>TEES Framework of Capacity Building - Report to EU</title>
       <link>http://localhost:1313/paulcairns/publications/reports/tees-framework/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/publications/reports/tees-framework/</guid>
       <description>Background The ENERGICA project is a multifaceted consortium funded by the Horizon 2020 initiative of the European Commission. The project brings several consortium members together to support three Energy Access demonstration projects across Sub Saharan Africa (SSA). The overall concept of the project is “to develop and demonstrate in real environments that existing technologies can be tailored through efficient and sustainable community-based approaches in any type of societal contexts”. [1] As such, three different contexts for energy access were selected across SSA as demonstrators.</description>
+    </item>
+    <item>
+      <title>The Art of Mopping</title>
+      <link>http://localhost:1313/paulcairns/publications/blog/mopping/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/publications/blog/mopping/</guid>
+      <description>The Art of Mopping &amp;ldquo;You missed a spot!&amp;rdquo;&amp;hellip;&#xA;&amp;ldquo;You&amp;rsquo;re doing it too quickly, be smoother, like a dance&amp;hellip; focus Paul&amp;hellip; focus!&amp;rdquo;&amp;hellip;&#xA;&amp;ldquo;You&amp;rsquo;re moving too jerky, smoother&amp;rdquo;, he interrupted my thoughts.&#xA;The words hit me like a ton of bricks, having not heard anyone speak directly to me in so long.&#xA;&amp;hellip;&amp;ldquo;I&amp;rsquo;m going quickly because i just want to finish this job and get the hell out of here&amp;rdquo;, I thought, but didn&amp;rsquo;t verbalize.</description>
+    </item>
+    <item>
+      <title>The Digital Fabrication Masterplan</title>
+      <link>http://localhost:1313/paulcairns/publications/blog/digital-fabrication/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/publications/blog/digital-fabrication/</guid>
+      <description>The Power of Digital Fabrication - unleashing a new approach to how we create products It’s 7:43 AM, your alarm went off for the fourth time and you’re late! You jump out of bed, get dressed and run out the door. On the way there, you notice your pants are falling. You forgot your belt! So you make a mad dash back to grab it.&#xA;Let’s stop for a second, and think of the journey that belt took to get to your closet.</description>
     </item>
     <item>
       <title>The EnergyStove</title>
@@ -196,6 +252,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/skillsportfolio/web-development/project-documentation/</guid>
       <description>This page is based on the first weeks&amp;rsquo; of the FabAcademy. You can visit my Fab Academy page [here] (https://fabacademy.org/2021/labs/vancouver/students/paul-cairns/assignments/2-project-management/). The tasks for this assignment included:&#xA;Build a personal site describing you and your final project. Upload it to the class archive. Work through a git tutorial. We will be evaluated on whether we:&#xA;Made a website and described how we did it Introduced ourself Documented the steps for uploading files to archive Pushed to the class archive The project management aspect of the assignment revolved around 3 key aspects and skills:</description>
+    </item>
+    <item>
+      <title>Why Technical Jargon is Hurting Recruiting Processes</title>
+      <link>http://localhost:1313/paulcairns/publications/blog/technical-jargon/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/publications/blog/technical-jargon/</guid>
+      <description>The Problem I&amp;rsquo;m an engineer, not a linguist. I don&amp;rsquo;t think in words, I think in terms of images, bodies, motion, potential difference, electrons, and molecules.&#xA;Ask me to describe any physical phenomena and I can do it in a way that a four year old can understand. Ask me what the engineering term is for a certain phenomenon and I will give you a blank stare. This has been a challenge to me during corporate interview processes.</description>
     </item>
     <item>
       <title>Paul Cairns</title>

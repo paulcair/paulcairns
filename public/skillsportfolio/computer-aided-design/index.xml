@@ -15,5 +15,19 @@
       <guid>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/freecad/</guid>
       <description>This week I worked on defining my final project idea and started to get used to the documentation process. The learning objectives for the assignment this week are:&#xA;a. Evaluate and select 2D and 3D software&#xA;b. Demonstrate and describe processes used in modelling with 2D and 3D software&#xA;c. Model experimental objects/part of a possible project in 2D and 3D software&#xA;d. Show how I did it with words/images/screenshots</description>
     </item>
+    <item>
+      <title>OnShape</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/onshape/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/onshape/</guid>
+      <description>The project I will work on using OnShape is a omnidirectional gear that I plan to 3D print using my SLA printer.&#xA;About OnShape OnShape is an online 3D modelling software that is ideal for collaborating on a project. It is not the most rigorous CAD tool, but there is a free version and it is quite user intuitive.&#xA;Furthermore, it has several usefull libraries such as the Beam add-on for quickly creating 8020 extrusions.</description>
+    </item>
+    <item>
+      <title>Solidworks</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/solidworks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/solidworks/</guid>
+      <description>The project I will work on using Solidworks is a face-follower hardware that will be 3D printed. It will be connected to an Arduino and face detection python algorithm that will follow the face of a person on camera.&#xA;About Solidworks Solidworks is a 3D modelling software that is ideal for working on high level high quality engineering projects where advanced assemblies and simulations will be required. It is a hihgly rigorous CAD tool with lots of options for engineering, but it is not free and has a bit of a steeper user learning curve.</description>
+    </item>
   </channel>
 </rss>

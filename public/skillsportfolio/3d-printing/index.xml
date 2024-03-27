@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>3D printing on Paul Cairns</title>
+    <link>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/</link>
+    <description>Recent content in 3D printing on Paul Cairns</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Paul Cairns</copyright>
+    <atom:link href="http://localhost:1313/paulcairns/skillsportfolio/3d-printing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>FDM - 3D Printing and Scanning</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/fdm-printing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/fdm-printing/</guid>
+      <description>Assignment Overview The assignment for this week was to learn how to characterise and use 3D printers, learn how to 3D scan an object, and to design a part that can not be easily made subtractively and print it using a 3d printer. As with most weeks, there were group assignments and individual assignments. The details of which are listed below.&#xA;Group assignment:&#xA;Test the design rules for your printer(s) Document your work and explain what are the limits of your printer(s) (in a group or individually) Individual assignment:</description>
+    </item>
+    <item>
+      <title>SLA - 3D Printing</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/sla-printing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/sla-printing/</guid>
+      <description>The project I will work on using OnShape is a omnidirectional gear that I plan to 3D print using my SLA printer. Below is a presentation of the workflow to use the Anycubic Photon Mono 2 SLA printer.&#xA;Setting up the printer SLA printers require minimal setup, simply take it out of the box, place the screen protector on and install the build plate and resin bath. You can learn about the setup process by quickly scrolling through the User Manual below.</description>
+    </item>
+  </channel>
+</rss>
