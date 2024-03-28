@@ -90,11 +90,11 @@ Lastly, I commisioned and mad sure it was working well by testing with a pencil.
 
 ## End Use
 
-Once commissioned we were able to use the machine to do milling of wax for molding and casting. See the photos and videos below for results.
+Once commissioned we were able to use the machine to do milling of wax for molding and casting. See the photos and videos of students in the lab using the machine for their wax machining projects below..
 
 {{<video geppeto.mp4 >}}
 
-{{<image pacome.jpeg>}}
+{{<image pacome.jpg>}}
 
 
 
