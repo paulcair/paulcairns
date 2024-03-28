@@ -18,7 +18,7 @@ headline = "Objective: to design and build a machine that has a mechanical and e
 
 Geppeto was the first in-house machine that I built at EnergyLab Lome. It is a 3-axis CNC machine with a frame made of 3D printed parts, combined with off the shelf rods and lead screws. The motors are 1.5 A nema 17, and it is all controlled using an arduino with CNC shield and grbl controller.
 
-It was a great project, that took a while to master and many contributors. I would like to personally thank Hadnane OURO-AGBE, Matt STEDMA, and Edward YAKUBU, for their contributions to the project over time and for helping bring it to life.
+It was a great project, that took a while to master and many contributors. I would like to personally thank Hadnane OURO-AGBE, Matt STEDMAN, and Edward YAKUBU, for their contributions to the project over time and for helping bring it to life.
 
 IMPORTANT NOTE: this is one of the first projects that set me off on my machine building and electro-mechanical design journey, as such, I had not mastered the concept of properly documenting my work. Therefore the images and videos are sparse and limited.
 
