@@ -48,3 +48,5 @@ The other important information to know about D-H coordinate frames are the four
 Below is an example for how to draw the D-H frames for a 3 linkage mechanism with revolute joints.
 
 {{<image dhcoords.jpg>}}
+
+Next step is to draw and define the D-H frames for LeArm so that we can begin to program and manipulate it.
