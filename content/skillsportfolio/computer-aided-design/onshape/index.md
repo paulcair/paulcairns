@@ -29,7 +29,9 @@ It has the ability to model indivdual parts and/or create assemblies. It also ha
 
 I definitely recommend OnShape for a beginner modeller who is looking for a simple user interface and wants to collaborate on a team project. Or as a nice PLM or ECO management for your CAD files for advanced designers who want to collaborate on a team across CAD softwares.
 
-# Modeling Workflow
+# Project 1 - Spherical gear
+
+## Modeling Workflow
 
 For this project I am going to create an omnidirectional actuveball mecahnism joint (more commonly known as a "Spherical gear") to print on my SLA printer. I want to make this to test the abilities of this type of joint for motion control. The GIF below demonstrates the functionality of what I will be modelling.
 
@@ -100,6 +102,79 @@ You should end up with something that looks like the following below.
 Export the STL file for your slicer and enjoy.
 
 {{<image-matrix-2 export1.png export2.png>}}
+
+
+# Project 2 - Spiral Tree
+
+I saw this interesting project on Twitter/X and wanted to challenge myself if I could recreate it just by looking at the final project. Below is a video of what I wanted to model.
+
+<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">3D printed spiral trees <br><br>📹 printmaines<br> <a href="https://t.co/tjEv3qQg9g">pic.twitter.com/tjEv3qQg9g</a></p>&mdash; Science girl (@gunsnrosesgirl3) <a href="https://twitter.com/gunsnrosesgirl3/status/1774651289617453482?ref_src=twsrc%5Etfw">April 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+## Modelling workflow
+
+Below are the steps I took to make the two parts. 
+
+## 1. Create new project folder and new files for each part
+
+I started by creating a new project folder and then created new project files, on for each part. This will help with version control later. Note that my typical approach to PDM is to have each system as its own project file with its sub-assemblies as seperate tabs and one tab for full assembly. With this project each part is its own system, which is why they each received their own project file
+
+{{<image project.jpg>}}
+
+
+I started first with modelling the female part
+
+## 2. Revolve feature for both parts
+
+I started by making the general cone from which I am going to do a sweeping cut of the star that I will draw on the base of the cone. I started first by drawing the cross-section of the cone. Followed by revolving about the z-axis
+
+{{<image-matrix-2 revolveSketch.jpg revolve.jpg>}}
+
+This was repeated for the male part as well. Next was the helix
+
+## 3. Helix feature for both parts
+
+I used the helix feature with the base as the reference geometry. Since it will be a six pointed start, there will be 6 thread tracks per revolution. As a result I used a half of a revolution over the length to give the effect of three full turns.
+
+{{<image helix.jpg>}}
+
+Once the helix was defined the next step was to create the star sketch on the base.
+
+## 4. Creating the profile for the Sweep cut
+
+The next step was to create the profile for the sweep cut. To do this, I needed to draw a six pointed star. I defined the star by creating two construction circles with all points of the star coincident on each and all sides of the star equal. For the male star, I made it 0.2 mm smaller on both dimensions so it would fit inside the female star. 
+
+{{<image-matrix-2 starSketch.jpg starSketchDef.jpg>}}
+
+For the male sketch there was a circle on the outside as we would be removing material.
+
+## 5. Sweep cut for both parts
+
+The next step was the sweep cut. With Onshape, you use the "Sweep" feature and select the "remove" tab in the feature details section. Then you select the sketch and profile. I used the star sketch and the helix as the profile. Below are the results for the male and female parts. Seperately.
+
+{{<image female.jpg>}}
+
+{{<image male.jpg>}}
+
+Lastly was the fillet of the male part.
+
+## 6. Fillet of male part
+
+The last step was to do a fillet on the male part. To do this I selected the fillet feature and the top face. I used a fillet radius of 3 mm.
+
+{{<image fillet.jpg>}}
+
+## 7. Version control
+
+I also decided to do some version control using OnShapes PDM features. With it you are able to create different versions and branches of a part. You can also merge features. Lastly, you can select whether it is a version, for release, or release. Some very interesting features are included with this software.
+
+{{<image versionControl.jpg>}}
+
+## 8. Result
+
+After I finished the parts I exported them and printed them on my SLA printer. Below is a video of the result.
+
+
 
 
 
