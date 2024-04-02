@@ -108,7 +108,9 @@ Export the STL file for your slicer and enjoy.
 
 I saw this interesting project on Twitter/X and wanted to challenge myself if I could recreate it just by looking at the final project. Below is a video of what I wanted to model.
 
-<blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">3D printed spiral trees <br><br>📹 printmaines<br> <a href="https://t.co/tjEv3qQg9g">pic.twitter.com/tjEv3qQg9g</a></p>&mdash; Science girl (@gunsnrosesgirl3) <a href="https://twitter.com/gunsnrosesgirl3/status/1774651289617453482?ref_src=twsrc%5Etfw">April 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{<video tree.mp4>}}
+
+[The originaL post is available here](https://x.com/Xudong1966/status/1774647326168007103?s=20)
 
 
 ## Modelling workflow
