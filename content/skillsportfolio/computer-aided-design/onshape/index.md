@@ -174,7 +174,7 @@ I also decided to do some version control using OnShapes PDM features. With it y
 
 After I finished the parts I exported them and printed them on my SLA printer. Below is an image of the slice in the AnyCubic Photon software and a video of the result.
 
-{{<image anycubpic.png>}}
+{{<image anycubic.png>}}
 
 
 
