@@ -1,4 +1,4 @@
-+++
+<!-- +++
 title = "Why Technical Jargon is Hurting Recruiting Processes"
 image = "jargon.jpeg"
 weight = 30
@@ -39,4 +39,4 @@ Elon Musk said: "There is a creeping tendency to use made up acronyms at SpaceX.
 This is why I think recruiters and engineers should frame their questions to get someone to explain in the simplest terms possible their approach to a problem, and should have a non-engineer on the call and the non-engineer should be the jury on how well the candidate was able to explain the problem. If the non-engineer was able to understand the problem and also the solution, that is the marker of fundemental understanding.
 
 
-
+ -->
