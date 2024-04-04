@@ -60,6 +60,8 @@ My next work revolved around net-zero homes, in which I bought a bungalow and co
 
 Through my work with Energy Generation, I have helped build our FabLab, help build our CNC machine, Weld and construct our tables, run our Arduino Club, and built various prototypes for local companies
 
+{{<image energylab.jpeg>}}
+
 {{<three-images InstallLaserCutter2.jpg LaserCutter.jpg Welding.jpg>}}
 
 {{<three-images Soldering.jpg ToolBoard.jpg CNC.jpg>}}
@@ -69,5 +71,5 @@ Through my work with Energy Generation, I have helped build our FabLab, help bui
 Here is a video of one of the prototypes we built for a local company. It is a mechanical seeder.
 
 {{<youtube-time -VMzWnFxxnk>}}
-s
+
 
