@@ -1,6 +1,6 @@
 +++
 title = "6 Degree of Freedom Robot Arm"
-image = "thumbnail.jpg"
+image = "leArm.jpg"
 weight = 30
 
 [section]
@@ -15,6 +15,20 @@ typeScript2 = "See the work I did to characterize the motion and control of a 6 
 headline = "Objective: to characterize the motion of and program a 6 DOF robot arm to be used as a pick and place (PnP) machine using computer vision."
 +++
 
+
+# PAGE UNDER CONSTRUCTION
+  
+    
+      
+        
+          
+            
+              
+                
+                  
+                    
+                      
+                      
 ## Specifications of LeArm
 
 For this project I used LeArm 6 DOF robot kit as an off the shelf robot arm. It is programmable and controllable. I would like to tie it with a computer vision AI program to recognize little cubes, calculate their coordinates, move to that position to grab the cube, and then place the cube in a little basket.

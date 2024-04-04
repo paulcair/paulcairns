@@ -1,6 +1,6 @@
 +++
 title = "Electro-mechanical Design"
-image = "shopbot.jpg"
+image = "linearGuide.jpg"
 weight = 30
 
 [section]
@@ -15,6 +15,8 @@ typeScript2 = "See the work I've on various electro-mechanical systems"
 headline = "Objective: to showcase my elecro-mechanical design skills. To demonstrate and describe processes used in design and programming of motion systems"
 +++
 
-Checkout my electro-mechanical skills including various robotics, mechanism, and motion projects below.
+# THIS SECTION IS STILL UNDER CONSTRUCTION
+
+<!-- Checkout my electro-mechanical skills including various robotics, mechanism, and motion projects below. -->
 
 
