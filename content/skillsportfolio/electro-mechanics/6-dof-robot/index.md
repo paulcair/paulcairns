@@ -18,8 +18,11 @@ headline = "Objective: to characterize the motion of and program a 6 DOF robot a
 
 # PAGE UNDER CONSTRUCTION
   
-    
-      
+   -  
+   -  
+   -  
+   -  
+        
         
           
             
