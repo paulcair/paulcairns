@@ -68,4 +68,7 @@ Below is an example for how to draw the D-H frames for a 3 linkage mechanism wit
 
 Next step is to draw and define the D-H frames for LeArm so that we can begin to program and manipulate it.
 
-[ulitmate guide to 6DOf robot](https://automaticaddison.com/the-ultimate-guide-to-inverse-kinematics-for-6dof-robot-arms/)
+<!-- Link to guide for how to program the coordinates -->
+
+I followed this guide at the following link: [ulitmate guide to 6DOf robot](https://automaticaddison.com/the-ultimate-guide-to-inverse-kinematics-for-6dof-robot-arms/)
+
