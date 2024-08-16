@@ -1,5 +1,5 @@
 +++
-title = "01: TEDx - Digital Fabrication"
+title = "A TEDx Talk - Digital Fabrication"
 video = "https://www.youtube.com/watch?v=eX6ntRrDnd4"
 embed = "eX6ntRrDnd4"
 weight = 30
