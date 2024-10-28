@@ -1,6 +1,6 @@
 +++
 title = "6 Degree of Freedom Robot Arm"
-image = "leArm.jpg"
+image = "leArm.png"
 weight = 30
 
 [section]
@@ -21,15 +21,7 @@ headline = "Objective: to characterize the motion of and program a 6 DOF robot a
    -  
    -  
    -  
-   -  
-        
-        
-          
-            
-              
-                
-                  
-                    
+   -               
                       
                       
 ## Specifications of LeArm
