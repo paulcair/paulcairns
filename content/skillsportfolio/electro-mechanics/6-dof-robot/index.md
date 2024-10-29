@@ -14,16 +14,12 @@ typeScript2 = "See the work I did to characterize the motion and control of a 6 
 [headline]
 headline = "Objective: to characterize the motion of and program a 6 DOF robot arm to be used as a pick and place (PnP) machine using computer vision."
 +++
+             
+# Background information                      
+The objective of this project was to learn how to program a 6 DOF robot arm to be used as a pick and place (PnP) machine using computer vision. To do this, I used an off the shelf 6DOF robotic arm that I bought on Amazon called, "LeArm". I started by assembling and learning the hardware/mechanics. Next, I had to learn some background information about how to kinematicly define and program the robot arm.
 
+The following sections will go over the specifications of LeArm, and provide background about Denavit-Hartenberg frames and coordinate systems.
 
-# PAGE UNDER CONSTRUCTION
-  
-   -  
-   -  
-   -  
-   -               
-                      
-                      
 ## Specifications of LeArm
 
 For this project I used LeArm 6 DOF robot kit as an off the shelf robot arm. It is programmable and controllable. I would like to tie it with a computer vision AI program to recognize little cubes, calculate their coordinates, move to that position to grab the cube, and then place the cube in a little basket.
@@ -64,6 +60,25 @@ Next step is to draw and define the D-H frames for LeArm so that we can begin to
 
 I followed this guide at the following link: [ulitmate guide to 6DOf robot](https://automaticaddison.com/the-ultimate-guide-to-inverse-kinematics-for-6dof-robot-arms/)
 
-## Coordinate Frames
+# Programming Workflow
+
+In this section I will go over the workflow that I used to program the robot arm. I will go over the steps I took to define the coordinate frames, and then how to program the robot arm to move to a desired position. After that I will go into the details of the computer vision program that I used to recognize the cubes and calculate their coordinates. Lastly, I will demonstrate how these two programs work together to pick up and place the cubes. All of the code for this project can be found on my [Github](https://github.com/paulcair/picknplace).
+
+The workflow for the entire project can be broken down into the following steps:
+
+1. Define the coordinate frames
+2. Program the robot arm to move to a desired position
+3. Program the computer vision to recognize the cubes and calculate their coordinates
+4. Combine the two programs to pick up and place the cubes
+
+## Step 1: Define the Coordinate Frames
+
+Defining the coordinate frames requires a number of steps, and can be done either analytically or numerically. Although the analytical approach is more complex, I opted to use it over the numerical approach so I could learn more about the mechanics of the robot arm and go through the exercise of defining the coordinate frames myself. At the end of this step I will share some numerical approaches that can be used. To define the coordinate frames analytically, I followed the following steps:
+
+1. Draw the kinematic diagram for LeArm
+2. Fill the D-H parameters table
+3. Use the D-H parameters to derive the transformation matrices
+4. Find the forward transformation matrix
+5. Write a python function to calculate the forward transformation matrix
 
 I next drew the kinematic diagram for LeArm.
