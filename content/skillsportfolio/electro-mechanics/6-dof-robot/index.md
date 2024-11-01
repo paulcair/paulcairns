@@ -82,3 +82,8 @@ Defining the coordinate frames requires a number of steps, and can be done eithe
 5. Write a python function to calculate the forward transformation matrix
 
 I next drew the kinematic diagram for LeArm.
+{{<image kinematic.png>}}
+
+{{<image pcb.jpg>}}
+
+{{<image ttl.jpg>}}
