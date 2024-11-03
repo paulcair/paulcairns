@@ -81,8 +81,15 @@ Defining the coordinate frames requires a number of steps, and can be done eithe
 4. Find the forward transformation matrix
 5. Write a python function to calculate the forward transformation matrix
 
-I next drew the kinematic diagram for LeArm.
+### Step 1.1: Draw the kinematic diagram for LeArm
+
+I drew the kinematic diagram for LeArm using the four rules for defining the D-H convention in a mechanical system and kinematic drawing. The resulting kinematic diagram is shown below.
+
 {{<image kinematic.png>}}
+
+### Step 1.2: Fill the D-H parameters table
+
+Next, I filled in the D-H parameters table with the relevant information. For more details on how to fill out the table, see the [automaticaddison.com](https://automaticaddison.com/how-to-assign-denavit-hartenberg-frames-to-robotic-arms/) article.
 
 {{<image pcb.jpg>}}
 
