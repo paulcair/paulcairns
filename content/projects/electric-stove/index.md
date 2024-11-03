@@ -127,7 +127,7 @@ Excluding taxes and any shipping costs that may apply. Note that all prices in t
 
 The combustion chamber is made of two concentric CNC milled sheets (more details below). The manufacturing processes and documentation regarding fabrications are shown in [Wild Card Week](../assignments/16-wild-card-week)
 
-{{<table table_class="table table-bordered border-dark table-striped table-hover" thead_class="table-dark" >}}
+{{<table "table table-striped table-bordered table-dark" >}}
 | Part | Quantity | Source | Cost | Link |
 | ---  | ---    | ---    | ---  | ---  |
 |   16"x36" Joist Panning lining  | 3      |  Home Depot     |  $9.88   | [link](https://www.homedepot.ca/search?q=16x36%20joist%20panning%20lining#!q=16x36%20joist%20panning%20lining)   |
