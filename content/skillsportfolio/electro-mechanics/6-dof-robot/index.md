@@ -89,7 +89,32 @@ I drew the kinematic diagram for LeArm using the four rules for defining the D-H
 
 ### Step 1.2: Fill the D-H parameters table
 
-Next, I filled in the D-H parameters table with the relevant information. For more details on how to fill out the table, see the [automaticaddison.com](https://automaticaddison.com/how-to-assign-denavit-hartenberg-frames-to-robotic-arms/) article.
+Next, I filled in the D-H parameters table with the relevant information. For more details on how to fill out the table, see this link: [How to find D-H parameter tables](https://automaticaddison.com/how-to-find-denavit-hartenberg-parameter-tables/) article. The base D-H parameter table is shown below.
+
+{{<image dh-table-ex.png>}}
+
+Following this example, I filled out the D-H parameters table for LeArm. The resulting table is shown below.
+
+{{<table table_class="table table-bordered border-dark table-striped table-hover" thead_class="table-dark" >}}
+| Joint i | θ_i (deg)| α_i (deg) | r_i (mm)| d_i (mm) | 
+|---------|----------|-----------|---------|----------|
+| 1       | θ_1      | 270       | 0       | a_1      |
+| 2       | θ_2      | 180       | a_2     | 0        |
+| 3       | θ_3      | 0         | a_3     | 0        |
+| 4       | θ_4 + 90 | 90        | 0       | 0        |
+| 5       | θ_5      | 270       | 0       | a_4 + a_5|
+{{</table>}}
+
+Where: 
+- θ_i is the angle from x_n-1 to x_n around z_n-1
+- α_i is the angle from z_n-1 to z_n around x_n
+- r_i is the distance between the origin of the n-1 frame and the origin of the n frame along the x_n direction
+- d_i is the distance from x_n-1 to x_n along the z_n-1 direction
+
+### Step 1.3: Use the D-H parameters to derive the transformation matrices
+
+
+
 
 {{<image pcb.jpg>}}
 
