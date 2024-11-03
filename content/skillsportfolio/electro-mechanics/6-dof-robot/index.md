@@ -95,7 +95,7 @@ Next, I filled in the D-H parameters table with the relevant information. For mo
 
 Following this example, I filled out the D-H parameters table for LeArm. The resulting table is shown below.
 
-{{<table table_class="table table-bordered border-dark table-striped table-hover" thead_class="table-dark" >}}
+{{<table "table table-striped table-bordered table-dark" >}}
 | Joint i | θ_i (deg)| α_i (deg) | r_i (mm)| d_i (mm) | 
 |---------|----------|-----------|---------|----------|
 | 1       | θ_1      | 270       | 0       | a_1      |
