@@ -113,7 +113,15 @@ Where:
 
 ### Step 1.3: Use the D-H parameters to derive the transformation matrices
 
+Once the D-H parameters table is filled out, we can fill the homogeneous transformation matrices for each joint n (from frame n-1 to frame n). The following is the matrix equation for the homogeneous transformation matrix:
 
+{{<image transformation-matrix.png>}}
+
+where:
+- R is the 3x3 submatrix in the uper left that represents the rotation from frame n-1 to frame n.
+- T is the 3x1 submatrix in the upper right that represents the translation from frame n-1 to frame n.
+
+### Step 1.4: Find the homogeneous transformation matrix from base frame to frame 3
 
 
 {{<image pcb.jpg>}}
