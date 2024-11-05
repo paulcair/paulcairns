@@ -121,6 +121,8 @@ where:
 - R is the 3x3 submatrix in the uper left that represents the rotation from frame n-1 to frame n.
 - T is the 3x1 submatrix in the upper right that represents the translation from frame n-1 to frame n.
 
+Below are the homogeneous transformation matrices for all 5 coordinat frames.
+
 ### Step 1.4: Find the homogeneous transformation matrix from base frame to frame 3
 
 
