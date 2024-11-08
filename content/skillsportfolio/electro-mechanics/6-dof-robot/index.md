@@ -121,7 +121,16 @@ where:
 - R is the 3x3 submatrix in the uper left that represents the rotation from frame n-1 to frame n.
 - T is the 3x1 submatrix in the upper right that represents the translation from frame n-1 to frame n.
 
-Below are the homogeneous transformation matrices for all 5 coordinat frames.
+Taking measurements from the robot yields the following:
+- a1 = 95 mm
+- a2 = 105 mm
+- a3 = 98 mm
+- a4 = 70 mm
+- a5 = 80 mm
+
+Taking these values and plugging them into the homogeneous transformation matrices for each coordinate frames yields the following matrices.
+
+
 
 ### Step 1.4: Find the homogeneous transformation matrix from base frame to frame 3
 
