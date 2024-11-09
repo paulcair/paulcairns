@@ -108,6 +108,27 @@ h6,
   font-size: 14px;
 }
 
+/* Matrix style*/
+.matrix {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.matrix td {
+  color: black; /* Set the font color to black */
+  padding: 8px; /* Add padding for better readability */
+  border-left: 1px solid black; /* Add left border */
+  border-right: 1px solid black; /* Add right border */
+}
+
+.matrix tr:first-child td {
+  border-top: none; /* Remove top border for the first row */
+}
+
+.matrix tr:last-child td {
+  border-bottom: none; /* Remove bottom border for the last row */
+}
+
 /* Button style */
 .btn {
   font-size: 22px;
