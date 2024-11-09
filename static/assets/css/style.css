@@ -121,12 +121,16 @@ h6,
   border-right: 1px solid black; /* Add right border */
 }
 
-.matrix tr:first-child td {
-  border-top: none; /* Remove top border for the first row */
+.matrix td {
+  color: black; /* Set the font color to black */
+  padding: 8px; /* Add padding for better readability */
+  text-align: center; /* Center the text in each cell */
+  border: none; /* Remove all borders */
 }
 
-.matrix tr:last-child td {
-  border-bottom: none; /* Remove bottom border for the last row */
+.matrix tr {
+  border-left: 1px solid black; /* Add left border to each row */
+  border-right: 1px solid black; /* Add right border to each row */
 }
 
 /* Button style */
