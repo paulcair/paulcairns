@@ -95,7 +95,7 @@ Next, I filled in the D-H parameters table with the relevant information. For mo
 
 Following this example, I filled out the D-H parameters table for LeArm. The resulting table is shown below.
 
-{{<table "table table-striped table-bordered table-dark" >}}
+{{<table table table-striped table-bordered table-dark >}}
 | Joint i | θ_i (deg)| α_i (deg) | r_i (mm)| d_i (mm) | 
 |---------|----------|-----------|---------|----------|
 | 1       | θ_1      | 270       | 0       | a_1      |
@@ -130,7 +130,14 @@ Taking measurements from the robot yields the following:
 
 Taking these values and plugging them into the homogeneous transformation matrices for each coordinate frames yields the following matrices.
 
+homgen_0_1 = 
 
+{{<table table table-bordered>}}
+| cosθ_1 | -sinθ_1cosα_1 |  sinθ_1sinα_1 | 0cosθ_1 |
+| sinθ_1 |  cosθ_1cosα_1 | -cosθ_1sinα_1 | 0sinθ_1 |
+|   0    |     sinα_1    |     cosα_1    |    95   |
+|   0    |       0       |       0       |    1    |
+{{</table>}}
 
 ### Step 1.4: Find the homogeneous transformation matrix from base frame to frame 3
 
