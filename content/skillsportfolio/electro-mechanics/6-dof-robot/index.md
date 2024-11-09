@@ -131,7 +131,6 @@ Taking measurements from the robot yields the following:
 Taking these values and plugging them into the homogeneous transformation matrices for each coordinate frames yields the following matrices.
 
 homgen_0_1 = 
-
 {{<table table table-bordered>}}
 | cosθ_1 | -sinθ_1cosα_1 |  sinθ_1sinα_1 | 0cosθ_1 |
 | sinθ_1 |  cosθ_1cosα_1 | -cosθ_1sinα_1 | 0sinθ_1 |
