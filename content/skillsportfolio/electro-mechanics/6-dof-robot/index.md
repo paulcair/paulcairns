@@ -95,7 +95,7 @@ Next, I filled in the D-H parameters table with the relevant information. For mo
 
 Following this example, I filled out the D-H parameters table for LeArm. The resulting table is shown below.
 
-{{<table table table-striped table-bordered table-dark >}}
+{{<table "table table-striped table-bordered table-dark" >}}
 | Joint i | θ_i (deg)| α_i (deg) | r_i (mm)| d_i (mm) | 
 |---------|----------|-----------|---------|----------|
 | 1       | θ_1      | 270       | 0       | a_1      |
@@ -131,7 +131,7 @@ Taking measurements from the robot yields the following:
 Taking these values and plugging them into the homogeneous transformation matrices for each coordinate frame yields the following matrices.
 
 homgen_0_1 = 
-{{<table table table-bordered>}}
+{{<table "table table-bordered">}}
 | cosθ_1 | -sinθ_1cos270 |  sinθ_1sin270 | 0cosθ_1 |
 | sinθ_1 |  cosθ_1cos270 | -cosθ_1sin270 | 0sinθ_1 |
 |   0    |     sin270    |     cos270    |    95   |
@@ -139,7 +139,7 @@ homgen_0_1 =
 {{</table>}}
 
 homgen_1_2 = 
-{{<table table table-bordered>}}
+{{<table "table table-bordered">}}
 | cosθ_2 | -sinθ_2cos180 |  sinθ_2sin180 | 105cosθ_2 |
 | sinθ_2 |  cosθ_2cos180 | -cosθ_2sin180 | 105sinθ_2 |
 |   0    |     sin180    |     cos180    |     0     |
@@ -147,7 +147,7 @@ homgen_1_2 =
 {{</table>}}
 
 homgen_2_3 = 
-{{<table table table-bordered>}}
+{{<table "table table-bordered">}}
 | cosθ_3 | -sinθ_3cos0  |  sinθ_3sin0  |  98cosθ_3 |
 | sinθ_3 |  cosθ_3cos0  | -cosθ_3sin0  |  98sinθ_3 |
 |   0    |     sin0     |     cos0     |     0     |
@@ -155,7 +155,7 @@ homgen_2_3 =
 {{</table>}}
 
 homgen_3_4 = 
-{{<table table table-bordered>}}
+{{<table "table table-bordered">}}
 | cos(θ_4+90)| -sin(θ_4+90)cos90 |  sin(θ_4+90)sin90 |  0cos(θ_4+90) |
 | sin(θ_4+90)|  cos(θ_4+90)cos90 | -cos(θ_4+90)sin90 |  0sin(θ_4+90) |
 |     0      |       sin90       |        cos90      |       0       |
@@ -163,7 +163,7 @@ homgen_3_4 =
 {{</table>}}
 
 homgen_4_5 = 
-{{<table table table-bordered>}}
+{{<table "table table-bordered">}}
 | cosθ_5 | -sinθ_5cos270 |  sinθ_5sin270 |  0cosθ_5  |
 | sinθ_5 |  cosθ_5cos270 | -cosθ_5sin270 |  0sinθ_5  |
 |   0    |     sin270    |     cos270    |  (70+80)  |
