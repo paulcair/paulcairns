@@ -4,7 +4,7 @@
     <title>Electronics on Paul Cairns</title>
     <link>http://localhost:1313/paulcairns/skillsportfolio/electronics/</link>
     <description>Recent content in Electronics on Paul Cairns</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Paul Cairns</copyright>
     <atom:link href="http://localhost:1313/paulcairns/skillsportfolio/electronics/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://localhost:1313/paulcairns/skillsportfolio/electronics/electronics-design/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/skillsportfolio/electronics/electronics-design/</guid>
-      <description>For this weeks assignment, we were tasked with designing, milling, soldering, and testing our own circuit board. The purpose of the assignment is to familiarize ourselves with the desgin tools and software (such as KiCad) and also how to test and debug a board. The details of the assignment are below.&#xA;Group assignment:&#xA;Use the test equipment in your lab to observe the operation of a microcontroller circuit board (in minimum, check operating voltage on the board with multimeter or voltmeter and use oscilloscope to check noise of operating voltage and interpret a data signal) Document your work (in a group or individually) Individual assignment:</description>
+      <description>&lt;p&gt;For this weeks assignment, we were tasked with designing, milling, soldering, and testing our own circuit board. The purpose of the assignment is to familiarize ourselves with the desgin tools and software (such as KiCad) and also how to test and debug a board. The details of the assignment are below.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Group assignment:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Use the test equipment in your lab to observe the operation of a microcontroller circuit board (in minimum, check operating voltage on the board with multimeter or voltmeter and use oscilloscope to check noise of operating voltage and interpret a data signal)&lt;/li&gt;&#xA;&lt;li&gt;Document your work (in a group or individually)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Individual assignment:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Electronics production</title>
       <link>http://localhost:1313/paulcairns/skillsportfolio/electronics/electronics-production/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/skillsportfolio/electronics/electronics-production/</guid>
-      <description>The assignment for this week was to learn the basics of electronics production by milling PCB board with a benchtop CNC machine, and soldering the components to it. This week there were group and individual assignments. The assignments were:&#xA;Group assignment&#xA;Characterize the design rules for your PCB production process: document feeds, speeds, plunge rate, depth of cut (traces and outline) and tooling. document your work (in a group or individually) Individual assignment</description>
+      <description>&lt;p&gt;The assignment for this week was to learn the basics of electronics production by milling PCB board with a benchtop CNC machine, and soldering the components to it. This week there were group and individual assignments. The assignments were:&lt;/p&gt;&#xA;&lt;p&gt;Group assignment&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Characterize the design rules for your PCB production process: document feeds,  speeds, plunge rate, depth of cut (traces and outline) and tooling.&lt;/li&gt;&#xA;&lt;li&gt;document your work (in a group or individually)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Individual assignment&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

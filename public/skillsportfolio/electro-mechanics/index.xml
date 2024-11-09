@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Electro-mechanical Design on Paul Cairns</title>
+    <link>http://localhost:1313/paulcairns/skillsportfolio/electro-mechanics/</link>
+    <description>Recent content in Electro-mechanical Design on Paul Cairns</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Paul Cairns</copyright>
+    <atom:link href="http://localhost:1313/paulcairns/skillsportfolio/electro-mechanics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6 Degree of Freedom Robot Arm</title>
+      <link>http://localhost:1313/paulcairns/skillsportfolio/electro-mechanics/6-dof-robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/skillsportfolio/electro-mechanics/6-dof-robot/</guid>
+      <description>&lt;h1 id=&#34;background-information&#34;&gt;Background information&lt;/h1&gt;&#xA;&lt;p&gt;The objective of this project was to learn how to program a 6 DOF robot arm to be used as a pick and place (PnP) machine using computer vision. To do this, I used an off the shelf 6DOF robotic arm that I bought on Amazon called, &amp;ldquo;LeArm&amp;rdquo;. I started by assembling and learning the hardware/mechanics. Next, I had to learn some background information about how to kinematicly define and program the robot arm.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

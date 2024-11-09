@@ -4,6 +4,10 @@
   <url>
     <loc>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/</loc>
   </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/electro-mechanics/6-dof-robot/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/videos/01-tedx/</loc>
+  </url><url>
     <loc>http://localhost:1313/paulcairns/skillsportfolio/programming/arduino-ide/</loc>
   </url><url>
     <loc>http://localhost:1313/paulcairns/projects/belty-v2/</loc>
@@ -21,6 +25,8 @@
     <loc>http://localhost:1313/paulcairns/videos/ohede/</loc>
   </url><url>
     <loc>http://localhost:1313/paulcairns/videos/150-ways/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/skillsportfolio/electro-mechanics/</loc>
   </url><url>
     <loc>http://localhost:1313/paulcairns/skillsportfolio/electronics/</loc>
   </url><url>
@@ -40,9 +46,13 @@
   </url><url>
     <loc>http://localhost:1313/paulcairns/skillsportfolio/computer-aided-design/freecad/</loc>
   </url><url>
+    <loc>http://localhost:1313/paulcairns/projects/geppeto/</loc>
+  </url><url>
     <loc>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/</loc>
   </url><url>
     <loc>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/processing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/paulcairns/projects/dcsg/</loc>
   </url><url>
     <loc>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/input-devices/</loc>
   </url><url>

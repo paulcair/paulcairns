@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head><script src="/paulcairns/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=paulcairns/livereload" data-no-instant defer></script>
+  <title>Paul Cairns - 6 Degree of Freedom Robot Arm</title>
+  <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Creative Portfolio Template">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="author" content="Themefisher">
+<meta name="generator" content="Themefisher Kross Template v1.0">
+
+  <link rel="stylesheet" href="/paulcairns/assets/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="/paulcairns/assets/css/main.css?v=1731191142">
+
+
+
+
+
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/slick/slick.css">
+  
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="/paulcairns/assets/plugins/css/css.css">
+
+  
+  <link href="/paulcairns/assets/css/style.css" rel="stylesheet">
+  <script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+  <script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <script src="/paulcairns/assets/plugins/shuffle/shuffle.min.js"></script> 
+  <script src="/paulcairns/assets/js/typewrite.js"></script> 
+  
+
+</head>
+<body>
+
+  
+<header class="navigation">
+    <nav class="navbar navbar-dark">
+      <a class="navbar-brand" href="http://localhost:1313/paulcairns//index.html"><img src="http://localhost:1313/paulcairns//paul-logo.png" alt="FabAcadeLogo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+        aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse text-center" id="navigation">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//about/paul-cairns">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//skillsportfolio">Skills Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//publications">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://localhost:1313/paulcairns//videos">Videos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero-area bg-dark" id="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-11 bg-green p-3 rounded-lg mx-auto">
+          
+          <p class="text-white text-center text-decoration-none font-tertiary" style="font-size: 80px; line-height:1;">
+            <a href="" class="typewrite" data-period="2000" data-type='["Electro-mechanical design: Showcasing my 6 DOF robot arm design skills", "See the work I did to characterize the motion and control of a 6 DOF robot arm.", "Please browse at your convenience."," Enjoy!" ]'>
+              <span class="wrap"></span>
+            </a>
+          </p>
+          
+          
+          <h5 class="text-white bg-green text-decoration-none text-center py-2">
+            Objective: to characterize the motion of and program a 6 DOF robot arm to be used as a pick and place (PnP) machine using computer vision.
+          </h5>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <h1 class="text-center text-decoration-none pt-5">6 Degree of Freedom Robot Arm</h1>
+  </div>
+
+
+<main class="py-5">
+  <div class="row justify-content-center px-4">
+    <img class="img-fluid position: center mb-4" src="/paulcairns/skillsportfolio/electro-mechanics/6-dof-robot/leArm.png" alt="leArm.png">
+  </div>  
+  <div class = "container mt-5">
+    <h1 id="background-information">Background information</h1>
+<p>The objective of this project was to learn how to program a 6 DOF robot arm to be used as a pick and place (PnP) machine using computer vision. To do this, I used an off the shelf 6DOF robotic arm that I bought on Amazon called, &ldquo;LeArm&rdquo;. I started by assembling and learning the hardware/mechanics. Next, I had to learn some background information about how to kinematicly define and program the robot arm.</p>
+<p>The following sections will go over the specifications of LeArm, and provide background about Denavit-Hartenberg frames and coordinate systems.</p>
+<h2 id="specifications-of-learm">Specifications of LeArm</h2>
+<p>For this project I used LeArm 6 DOF robot kit as an off the shelf robot arm. It is programmable and controllable. I would like to tie it with a computer vision AI program to recognize little cubes, calculate their coordinates, move to that position to grab the cube, and then place the cube in a little basket.</p>
+<p>Below are the details and specifications for LeArm.</p>
+<p>ADD DETAILS HERE</p>
+<h2 id="denavit-hartenberg-frames-and-coordinate-systems">Denavit-Hartenberg Frames and Coordinate Systems</h2>
+<p>To begin, the first thing is to understand and learn D-H frames and coordinate systems for mechanisms.</p>
+<p>Below is text taken from automaticaddison describing D-H coordinate systems and their rules. You can find the full article <a href="https://automaticaddison.com/how-to-assign-denavit-hartenberg-frames-to-robotic-arms/">here</a>. I suggest you read take a look as it is very detailed, and valuable information to know.</p>
+<blockquote>
+<p>Denavit-Hartenberg (D-H) frames help us to derive the equations that enable us to control a robotic arm.</p>
+<p>The D-H frames of a particular robotic arm can be classified as follows:</p>
+<ul>
+<li>Global coordinate frame: This coordinate frame can have many names…world frame, base frame, etc. [&hellip;]</li>
+<li>Joint frames: We need a coordinate frame for each joint.</li>
+<li>End-effector frame: We need a coordinate frame for the end effector of the robot (i.e. the gripper, hand, etc….that piece of the robot that has a direct effect on the world).</li>
+</ul>
+</blockquote>
+<p>The other important information to know about D-H coordinate frames are the four rules for defining the D-H convention in a mechanical system and kinematic drawing. These rules are important to ensure that a 6 DOF robot is properly defined and easily programmable. Again the following text is taken directly from the <a href="https://automaticaddison.com/how-to-assign-denavit-hartenberg-frames-to-robotic-arms/">automaticaddison.com</a> article.</p>
+<blockquote>
+<p>Here are the four rules that guide the drawing of the D-H coordinate frames:</p>
+<ol>
+<li>The z-axis is the axis of rotation for a revolute joint.</li>
+<li>The x-axis must be perpendicular to both the current z-axis and the previous z-axis.</li>
+<li>The y-axis is determined from the x-axis and z-axis by using the right-hand coordinate system.</li>
+<li>The x-axis must intersect the previous z-axis (rule does not apply to frame 0).</li>
+</ol>
+</blockquote>
+<p>Below is an example for how to draw the D-H frames for a 3 linkage mechanism with revolute joints.</p>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="dhcoords.jpg"
+     alt="dhcoords.jpg">
+</div>
+<p>Next step is to draw and define the D-H frames for LeArm so that we can begin to program and manipulate it.</p>
+<!-- raw HTML omitted -->
+<p>I followed this guide at the following link: <a href="https://automaticaddison.com/the-ultimate-guide-to-inverse-kinematics-for-6dof-robot-arms/">ulitmate guide to 6DOf robot</a></p>
+<h1 id="programming-workflow">Programming Workflow</h1>
+<p>In this section I will go over the workflow that I used to program the robot arm. I will go over the steps I took to define the coordinate frames, and then how to program the robot arm to move to a desired position. After that I will go into the details of the computer vision program that I used to recognize the cubes and calculate their coordinates. Lastly, I will demonstrate how these two programs work together to pick up and place the cubes. All of the code for this project can be found on my <a href="https://github.com/paulcair/picknplace">Github</a>.</p>
+<p>The workflow for the entire project can be broken down into the following steps:</p>
+<ol>
+<li>Define the coordinate frames</li>
+<li>Program the robot arm to move to a desired position</li>
+<li>Program the computer vision to recognize the cubes and calculate their coordinates</li>
+<li>Combine the two programs to pick up and place the cubes</li>
+</ol>
+<h2 id="step-1-define-the-coordinate-frames">Step 1: Define the Coordinate Frames</h2>
+<p>Defining the coordinate frames requires a number of steps, and can be done either analytically or numerically. Although the analytical approach is more complex, I opted to use it over the numerical approach so I could learn more about the mechanics of the robot arm and go through the exercise of defining the coordinate frames myself. At the end of this step I will share some numerical approaches that can be used. To define the coordinate frames analytically, I followed the following steps:</p>
+<ol>
+<li>Draw the kinematic diagram for LeArm</li>
+<li>Fill the D-H parameters table</li>
+<li>Use the D-H parameters to derive the transformation matrices</li>
+<li>Find the forward transformation matrix</li>
+<li>Write a python function to calculate the forward transformation matrix</li>
+</ol>
+<h3 id="step-11-draw-the-kinematic-diagram-for-learm">Step 1.1: Draw the kinematic diagram for LeArm</h3>
+<p>I drew the kinematic diagram for LeArm using the four rules for defining the D-H convention in a mechanical system and kinematic drawing. The resulting kinematic diagram is shown below.</p>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="kinematic.png"
+     alt="kinematic.png">
+</div>
+<h3 id="step-12-fill-the-d-h-parameters-table">Step 1.2: Fill the D-H parameters table</h3>
+<p>Next, I filled in the D-H parameters table with the relevant information. For more details on how to fill out the table, see this link: <a href="https://automaticaddison.com/how-to-find-denavit-hartenberg-parameter-tables/">How to find D-H parameter tables</a> article. The base D-H parameter table is shown below.</p>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="dh-table-ex.png"
+     alt="dh-table-ex.png">
+</div>
+<p>Following this example, I filled out the D-H parameters table for LeArm. The resulting table is shown below.</p>
+<div class = "card py-4">
+
+
+
+
+
+<table class="table table-striped table-bordered table-dark">
+  <thead>
+      <tr>
+          <th>Joint i</th>
+          <th>θ_i (deg)</th>
+          <th>α_i (deg)</th>
+          <th>r_i (mm)</th>
+          <th>d_i (mm)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1</td>
+          <td>θ_1</td>
+          <td>270</td>
+          <td>0</td>
+          <td>a_1</td>
+      </tr>
+      <tr>
+          <td>2</td>
+          <td>θ_2</td>
+          <td>180</td>
+          <td>a_2</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>3</td>
+          <td>θ_3</td>
+          <td>0</td>
+          <td>a_3</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>4</td>
+          <td>θ_4 + 90</td>
+          <td>90</td>
+          <td>0</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>5</td>
+          <td>θ_5</td>
+          <td>270</td>
+          <td>0</td>
+          <td>a_4 + a_5</td>
+      </tr>
+  </tbody>
+</table>
+
+</div>
+<p>Where:</p>
+<ul>
+<li>θ_i is the angle from x_n-1 to x_n around z_n-1</li>
+<li>α_i is the angle from z_n-1 to z_n around x_n</li>
+<li>r_i is the distance between the origin of the n-1 frame and the origin of the n frame along the x_n direction</li>
+<li>d_i is the distance from x_n-1 to x_n along the z_n-1 direction</li>
+</ul>
+<h3 id="step-13-use-the-d-h-parameters-to-derive-the-transformation-matrices">Step 1.3: Use the D-H parameters to derive the transformation matrices</h3>
+<p>Once the D-H parameters table is filled out, we can fill the homogeneous transformation matrices for each joint n (from frame n-1 to frame n). The following is the matrix equation for the homogeneous transformation matrix:</p>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="transformation-matrix.png"
+     alt="transformation-matrix.png">
+</div>
+<p>where:</p>
+<ul>
+<li>R is the 3x3 submatrix in the uper left that represents the rotation from frame n-1 to frame n.</li>
+<li>T is the 3x1 submatrix in the upper right that represents the translation from frame n-1 to frame n.</li>
+</ul>
+<p>Taking measurements from the robot yields the following:</p>
+<ul>
+<li>a1 = 95 mm</li>
+<li>a2 = 105 mm</li>
+<li>a3 = 98 mm</li>
+<li>a4 = 70 mm</li>
+<li>a5 = 80 mm</li>
+</ul>
+<p>Taking these values and plugging them into the homogeneous transformation matrices for each coordinate frame yields the following matrices.</p>
+<p>homgen_0_1 =
+<div class = "card py-4">
+
+
+
+
+
+<table class="matrix">
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>cosθ_1</td>
+          <td>-sinθ_1cos270</td>
+          <td>sinθ_1sin270</td>
+          <td>0cosθ_1</td>
+      </tr>
+      <tr>
+          <td>sinθ_1</td>
+          <td>cosθ_1cos270</td>
+          <td>-cosθ_1sin270</td>
+          <td>0sinθ_1</td>
+      </tr>
+      <tr>
+          <td>0</td>
+          <td>sin270</td>
+          <td>cos270</td>
+          <td>95</td>
+      </tr>
+      <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+      </tr>
+  </tbody>
+</table>
+
+</div></p>
+<p>homgen_1_2 =
+<div class = "card py-4">
+
+
+
+
+
+<table class="matrix">
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>cosθ_2</td>
+          <td>-sinθ_2cos180</td>
+          <td>sinθ_2sin180</td>
+          <td>105cosθ_2</td>
+      </tr>
+      <tr>
+          <td>sinθ_2</td>
+          <td>cosθ_2cos180</td>
+          <td>-cosθ_2sin180</td>
+          <td>105sinθ_2</td>
+      </tr>
+      <tr>
+          <td>0</td>
+          <td>sin180</td>
+          <td>cos180</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+      </tr>
+  </tbody>
+</table>
+
+</div></p>
+<p>homgen_2_3 =
+<div class = "card py-4">
+
+
+
+
+
+<table class="matrix">
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>cosθ_3</td>
+          <td>-sinθ_3cos0</td>
+          <td>sinθ_3sin0</td>
+          <td>98cosθ_3</td>
+      </tr>
+      <tr>
+          <td>sinθ_3</td>
+          <td>cosθ_3cos0</td>
+          <td>-cosθ_3sin0</td>
+          <td>98sinθ_3</td>
+      </tr>
+      <tr>
+          <td>0</td>
+          <td>sin0</td>
+          <td>cos0</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+      </tr>
+  </tbody>
+</table>
+
+</div></p>
+<p>homgen_3_4 =
+<div class = "card py-4">
+
+
+
+
+
+<table class="matrix">
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>cos(θ_4+90)</td>
+          <td>-sin(θ_4+90)cos90</td>
+          <td>sin(θ_4+90)sin90</td>
+          <td>0cos(θ_4+90)</td>
+      </tr>
+      <tr>
+          <td>sin(θ_4+90)</td>
+          <td>cos(θ_4+90)cos90</td>
+          <td>-cos(θ_4+90)sin90</td>
+          <td>0sin(θ_4+90)</td>
+      </tr>
+      <tr>
+          <td>0</td>
+          <td>sin90</td>
+          <td>cos90</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+      </tr>
+  </tbody>
+</table>
+
+</div></p>
+<p>homgen_4_5 =
+{<div class = "card py-4">
+
+
+
+
+
+<table class="matrix">
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>cosθ_5</td>
+          <td>-sinθ_5cos270</td>
+          <td>sinθ_5sin270</td>
+          <td>0cosθ_5</td>
+      </tr>
+      <tr>
+          <td>sinθ_5</td>
+          <td>cosθ_5cos270</td>
+          <td>-cosθ_5sin270</td>
+          <td>0sinθ_5</td>
+      </tr>
+      <tr>
+          <td>0</td>
+          <td>sin270</td>
+          <td>cos270</td>
+          <td>(70+80)</td>
+      </tr>
+      <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+      </tr>
+  </tbody>
+</table>
+
+</div></p>
+<h3 id="step-14-find-the-homogeneous-transformation-matrix-from-base-frame-to-frame-3">Step 1.4: Find the homogeneous transformation matrix from base frame to frame 3</h3>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="pcb.jpg"
+     alt="pcb.jpg">
+</div>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="ttl.jpg"
+     alt="ttl.jpg">
+</div>
+  
+  </div> 
+   
+    
+  </div>
+</main>
+
+<footer class="py-3 bg-primary text-white">
+  <div class="container bg-primary py-3">
+    &copy; <a href="https://rijnieks.com" class="text-white">Author: Paul Cairns, Layout based on Aalto Fab Lab website as designed by Kris Rijnieks</a> (Paul Cairns) 2024
+  </div>
+</footer>
+
+<script type="text/javascript" src="/paulcairns/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+<script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+<script src="/paulcairns/assets/js/typewrite.js"></script>
+
+
+<script src="/paulcairns/assets/plugins/jQuery/jquery.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/slick/slick.min.js"></script>
+
+<script src="/paulcairns/assets/plugins/shuffle/shuffle.min.js"></script>
+
+
+<script src="/paulcairns/assets/js/script.js"></script>
+<script src="/paulcairns/assets/js/typewrite.js"></script>
+
+</body>
+</html>

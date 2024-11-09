@@ -4,7 +4,7 @@
     <title>3D printing on Paul Cairns</title>
     <link>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/</link>
     <description>Recent content in 3D printing on Paul Cairns</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Paul Cairns</copyright>
     <atom:link href="http://localhost:1313/paulcairns/skillsportfolio/3d-printing/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/fdm-printing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/fdm-printing/</guid>
-      <description>Assignment Overview The assignment for this week was to learn how to characterise and use 3D printers, learn how to 3D scan an object, and to design a part that can not be easily made subtractively and print it using a 3d printer. As with most weeks, there were group assignments and individual assignments. The details of which are listed below.&#xA;Group assignment:&#xA;Test the design rules for your printer(s) Document your work and explain what are the limits of your printer(s) (in a group or individually) Individual assignment:</description>
+      <description>&lt;img class=&#34;img-fluid pt-4 pb-5&#34;&#xA;     src=&#34;thumbnail.jpg&#34;&#xA;     alt=&#34;thumbnail.jpg&#34;&gt;&#xA;&lt;h1 id=&#34;assignment-overview&#34;&gt;Assignment Overview&lt;/h1&gt;&#xA;&lt;p&gt;The assignment for this week was to learn how to characterise and use 3D printers, learn how to 3D scan an object, and  to design a part that can not be easily made subtractively and print it using a 3d printer. As with most weeks, there were group assignments and individual assignments. The details of which are listed below.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Group assignment:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Test the design rules for your printer(s)&lt;/li&gt;&#xA;&lt;li&gt;Document your work and explain what are the limits of   your printer(s) (in a group or individually)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Individual assignment:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>SLA - 3D Printing</title>
       <link>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/sla-printing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/skillsportfolio/3d-printing/sla-printing/</guid>
-      <description>The project I will work on using OnShape is a omnidirectional gear that I plan to 3D print using my SLA printer. Below is a presentation of the workflow to use the Anycubic Photon Mono 2 SLA printer.&#xA;Setting up the printer SLA printers require minimal setup, simply take it out of the box, place the screen protector on and install the build plate and resin bath. You can learn about the setup process by quickly scrolling through the User Manual below.</description>
+      <description>&lt;p&gt;The project I will work on using OnShape is a omnidirectional gear that I plan to 3D print using my SLA printer. Below is a presentation of the workflow to use the Anycubic Photon Mono 2 SLA printer.&lt;/p&gt;&#xA;&lt;h1 id=&#34;setting-up-the-printer&#34;&gt;Setting up the printer&lt;/h1&gt;&#xA;&lt;p&gt;SLA printers require minimal setup, simply take it out of the box, place the screen protector on and install the build plate and resin bath. You can learn about the setup process by quickly scrolling through the &lt;a href=&#34;../anycubic-printer.pdf&#34;&gt;User Manual&lt;/a&gt; below.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

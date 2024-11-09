@@ -4,7 +4,7 @@
     <title>Graphic User Interface (GUI) on Paul Cairns</title>
     <link>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/</link>
     <description>Recent content in Graphic User Interface (GUI) on Paul Cairns</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Paul Cairns</copyright>
     <atom:link href="http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/processing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/processing/</guid>
-      <description>Group Assignment:&#xA;Compare as many tool options as possible. Individual Assignment:&#xA;Write an application that interfaces a user with an input and/or output device that you made Learning Outcomes:&#xA;Interpret and implement design and programming protocols to create a Graphic User Interface (GUI). Document your process Explain the UI that you made and how you did it Outline problems and how you fixed them Include original code (or a screenshot of the app code if that&amp;rsquo;s not possible) Included a ‘hero shot/video’ of your application running with your board Group Assignment For the group assingment we looked at various interfaces such as:</description>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;&lt;strong&gt;Group Assignment:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Compare as many tool options as possible.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Individual Assignment:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Write an application that interfaces a user with an input and/or output device that you made&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Learning Outcomes:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Interpret and implement design and programming protocols to create a Graphic User Interface (GUI).&lt;/li&gt;&#xA;&lt;li&gt;Document your process&lt;/li&gt;&#xA;&lt;li&gt;Explain the UI that you made and how you did it&lt;/li&gt;&#xA;&lt;li&gt;Outline problems and how you fixed them&lt;/li&gt;&#xA;&lt;li&gt;Include original code (or a screenshot of the app code if that&amp;rsquo;s not possible)&lt;/li&gt;&#xA;&lt;li&gt;Included a ‘hero shot/video’ of your application running with your board&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;group-assignment&#34;&gt;Group Assignment&lt;/h1&gt;&#xA;&lt;p&gt;For the group assingment we looked at various interfaces such as:&lt;/p&gt;</description>
     </item>
     <item>
       <title>MIT AppInventor</title>
       <link>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/mit-app-inventor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/skillsportfolio/programming/graphic-user-interface/mit-app-inventor/</guid>
-      <description>Overview The objective of this exercise was to control a drone that we programmed on an ESP32 using a cell phone app connected over bluetooth. You can see a demonstration in the video below:&#xA;How it worked As you can see in the video, we were controlling the four motors of a drone. We wrote an auto levelling program that would read the roll, pitch, and yaw from a gyroscope and determine the drone&amp;rsquo;s orientation.</description>
+      <description>&lt;h1 id=&#34;overview&#34;&gt;Overview&lt;/h1&gt;&#xA;&lt;p&gt;The objective of this exercise was to control a drone that we programmed on an ESP32 using a cell phone app connected over bluetooth. You can see a demonstration in the video below:&lt;/p&gt;&#xA;&lt;div class = &#34;card py-4&#34;&gt;&#xA;    &lt;video controls autoplay loop muted class =&#34;embed-responsive-item&#34;&gt; &#xA;     &lt;source&#xA;        src=&#34;appDemo.mp4&#34; &#xA;        type=&#34;video/mp4&#34;&gt;&#xA;    &lt;/video&gt;&#xA;&lt;/div&gt;&#xA;&lt;h1 id=&#34;how-it-worked&#34;&gt;How it worked&lt;/h1&gt;&#xA;&lt;p&gt;As you can see in the video, we were controlling the four motors of a drone. We wrote an auto levelling program that would read the roll, pitch, and yaw from a gyroscope and determine the drone&amp;rsquo;s orientation. Depending on its orientation different motors would be sent power. There are more details specific to the auto-levelling program on the drone project page (LINK COMING).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

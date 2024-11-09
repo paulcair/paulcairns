@@ -4,7 +4,7 @@
     <title>Embedded Programming on Paul Cairns</title>
     <link>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/</link>
     <description>Recent content in Embedded Programming on Paul Cairns</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Paul Cairns</copyright>
     <atom:link href="http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/index.xml" rel="self" type="application/rss+xml" />
@@ -13,21 +13,21 @@
       <link>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/input-devices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/input-devices/</guid>
-      <description>The objective for this week was to learn about input devices. For my final project, I will need to measure and output the current, voltage, and temperature. Therefore, I elected to learn to use and program these input devices for this week. The assignment overview and learning outcomes are shared below.&#xA;Group assignment:&#xA;Probe an input device(s)&amp;rsquo;s analog and digital signals Document your work (in a group or individually) Individual assignment:</description>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;The objective for this week was to learn about input devices. For my final project, I will need to measure and output the current, voltage, and temperature. Therefore, I elected to learn to use and program these input devices for this week. The assignment overview and learning outcomes are shared below.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Group assignment:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Probe an input device(s)&amp;rsquo;s analog and digital signals&lt;/li&gt;&#xA;&lt;li&gt;Document your work (in a group or individually)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Individual assignment:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Networking</title>
       <link>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/networking/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/networking/</guid>
-      <description>The assignment for this week was to build a second board and communicate between two boards using some sort of networking protocol. For this assignment I chose to use the I2C networking protocol. Details regarding the requierements for this weeks assignment are below.&#xA;Group assignment:&#xA;Send a message between two projects Individual assignment:&#xA;Design, build, and connect wired or wireless node(s) with network or bus addresses Learning outcomes:&#xA;Demonstrate workflows used in network design Implement and interpret networking protocols and/or communication protocols Document your project Document what you have learned from implementing networking and/or communication protocols.</description>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;The assignment for this week was to build a second board and communicate between two boards using some sort of networking protocol. For this assignment I chose to use the I2C networking protocol. Details regarding the requierements for this weeks assignment are below.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Group assignment:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Send a message between two projects&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Individual assignment:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Design, build, and connect wired or wireless node(s) with network or bus addresses&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Learning outcomes:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Demonstrate workflows used in network design&lt;/li&gt;&#xA;&lt;li&gt;Implement and interpret networking protocols and/or communication protocols&lt;/li&gt;&#xA;&lt;li&gt;Document your project&lt;/li&gt;&#xA;&lt;li&gt;Document what you have learned from implementing networking and/or communication protocols.&lt;/li&gt;&#xA;&lt;li&gt;Explain the programming process/es you used.&lt;/li&gt;&#xA;&lt;li&gt;Outline problems and how you fixed them.&lt;/li&gt;&#xA;&lt;li&gt;Include design files (or linked to where they are located if you are using a board you have designed and fabricated earlier) and original code.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h1 id=&#34;group-assignment&#34;&gt;Group Assignment&lt;/h1&gt;&#xA;&lt;p&gt;As I am the only student at my lab for the group assignment I simply sent a message between the two boards that will be used for my project.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Output Devices</title>
       <link>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/output-devices/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/skillsportfolio/electronics/embedded-programming/output-devices/</guid>
-      <description>The assignment for this week was to learn about output devices. For my final project, I will need to measure and output the current, voltage, and temperature onto LED displays and an LED bargraph. Therefore, I elected to learn how to use and program these output devices this week. The assignment overview and learning outcomes are shared below.&#xA;Group assignment:&#xA;The tasks for the group assignment are as follows.</description>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;The assignment for this week was to learn about output devices. For my final project, I will need to measure and output the current, voltage, and temperature onto LED displays and an LED bargraph. Therefore, I elected to learn how to use and program these output devices this week. The assignment overview and learning outcomes are shared below.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Group assignment:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;The tasks for the group assignment are as follows.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Measure the power consumption of an output device&lt;/li&gt;&#xA;&lt;li&gt;Document your work (in a group or individually)&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;Individual assignment:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

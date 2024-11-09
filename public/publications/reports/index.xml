@@ -4,7 +4,7 @@
     <title>Reports on Paul Cairns</title>
     <link>http://localhost:1313/paulcairns/publications/reports/</link>
     <description>Recent content in Reports on Paul Cairns</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Paul Cairns</copyright>
     <atom:link href="http://localhost:1313/paulcairns/publications/reports/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/paulcairns/publications/reports/tees-framework/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/publications/reports/tees-framework/</guid>
-      <description>Background The ENERGICA project is a multifaceted consortium funded by the Horizon 2020 initiative of the European Commission. The project brings several consortium members together to support three Energy Access demonstration projects across Sub Saharan Africa (SSA). The overall concept of the project is “to develop and demonstrate in real environments that existing technologies can be tailored through efficient and sustainable community-based approaches in any type of societal contexts”. [1] As such, three different contexts for energy access were selected across SSA as demonstrators.</description>
+      <description>&lt;h1 id=&#34;background&#34;&gt;Background&lt;/h1&gt;&#xA;&lt;p&gt;The ENERGICA project is a multifaceted consortium funded by the Horizon 2020 initiative of the&#xA;European Commission. The project brings several consortium members together to support three&#xA;Energy Access demonstration projects across Sub Saharan Africa (SSA). The overall concept of the&#xA;project is “to develop and demonstrate in real environments that existing technologies can be tailored&#xA;through efficient and sustainable community-based approaches in any type of societal contexts”. [1]&#xA;As such, three different contexts for energy access were selected across SSA as demonstrators. They&#xA;are:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

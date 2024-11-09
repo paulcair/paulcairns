@@ -4,7 +4,7 @@
     <title>Blog Posts on Paul Cairns</title>
     <link>http://localhost:1313/paulcairns/publications/blog/</link>
     <description>Recent content in Blog Posts on Paul Cairns</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Paul Cairns</copyright>
     <atom:link href="http://localhost:1313/paulcairns/publications/blog/index.xml" rel="self" type="application/rss+xml" />
@@ -13,21 +13,21 @@
       <link>http://localhost:1313/paulcairns/publications/blog/mopping/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/publications/blog/mopping/</guid>
-      <description>The Art of Mopping &amp;ldquo;You missed a spot!&amp;rdquo;&amp;hellip;&#xA;&amp;ldquo;You&amp;rsquo;re doing it too quickly, be smoother, like a dance&amp;hellip; focus Paul&amp;hellip; focus!&amp;rdquo;&amp;hellip;&#xA;&amp;ldquo;You&amp;rsquo;re moving too jerky, smoother&amp;rdquo;, he interrupted my thoughts.&#xA;The words hit me like a ton of bricks, having not heard anyone speak directly to me in so long.&#xA;&amp;hellip;&amp;ldquo;I&amp;rsquo;m going quickly because i just want to finish this job and get the hell out of here&amp;rdquo;, I thought, but didn&amp;rsquo;t verbalize.</description>
+      <description>&lt;h2 id=&#34;the-art-of-mopping&#34;&gt;The Art of Mopping&lt;/h2&gt;&#xA;&lt;p&gt;&amp;ldquo;You missed a spot!&amp;rdquo;&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;You&amp;rsquo;re doing it too quickly, be smoother, like a dance&amp;hellip; focus Paul&amp;hellip; focus!&amp;rdquo;&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&amp;ldquo;You&amp;rsquo;re moving too jerky, smoother&amp;rdquo;, he interrupted my thoughts.&lt;/p&gt;&#xA;&lt;p&gt;The words hit me like a ton of bricks, having not heard anyone speak directly to me in so long.&lt;/p&gt;&#xA;&lt;p&gt;&amp;hellip;&amp;ldquo;I&amp;rsquo;m going quickly because i just want to finish this job and get the hell out of here&amp;rdquo;, I thought, but didn&amp;rsquo;t verbalize.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The Digital Fabrication Masterplan</title>
       <link>http://localhost:1313/paulcairns/publications/blog/digital-fabrication/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/publications/blog/digital-fabrication/</guid>
-      <description>The Power of Digital Fabrication - unleashing a new approach to how we create products It’s 7:43 AM, your alarm went off for the fourth time and you’re late! You jump out of bed, get dressed and run out the door. On the way there, you notice your pants are falling. You forgot your belt! So you make a mad dash back to grab it.&#xA;Let’s stop for a second, and think of the journey that belt took to get to your closet.</description>
+      <description>&lt;h2 id=&#34;the-power-of-digital-fabrication---unleashing-a-new-approach-to-how-we-create-products&#34;&gt;The Power of Digital Fabrication - unleashing a new approach to how we create products&lt;/h2&gt;&#xA;&lt;p&gt;It’s 7:43 AM, your alarm went off for the fourth time and you’re late! You jump out of bed, get dressed and run out the door. On the way there, you notice your pants are falling. You forgot your belt! So you make a mad dash back to grab it.&lt;/p&gt;&#xA;&lt;p&gt;Let’s stop for a second, and think of the journey that belt took to get to your closet. The journey began in Brazil, then to Bangladesh, to Europe, China, and finally from China to the place you bought it. A total of about 42,000 km! We call this number supply chain mileage. The number of miles a product takes from where the raw materials are harvested to the shelf in a store. Some products have a supply chain mileage of up to 80,000 km! That’s twice the circumference of the earth! Very unsustainable.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Why Technical Jargon is Hurting Recruiting Processes</title>
+      <title></title>
       <link>http://localhost:1313/paulcairns/publications/blog/technical-jargon/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/publications/blog/technical-jargon/</guid>
-      <description>The Problem I&amp;rsquo;m an engineer, not a linguist. I don&amp;rsquo;t think in words, I think in terms of images, bodies, motion, potential difference, electrons, and molecules.&#xA;Ask me to describe any physical phenomena and I can do it in a way that a four year old can understand. Ask me what the engineering term is for a certain phenomenon and I will give you a blank stare. This has been a challenge to me during corporate interview processes.</description>
+      <description>&lt;!-- raw HTML omitted --&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
     </item>
   </channel>
 </rss>

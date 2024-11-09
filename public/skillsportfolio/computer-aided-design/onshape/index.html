@@ -10,7 +10,7 @@
 <meta name="generator" content="Themefisher Kross Template v1.0">
 
   <link rel="stylesheet" href="/paulcairns/assets/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="/paulcairns/assets/css/main.css?v=1711496630">
+<link rel="stylesheet" href="/paulcairns/assets/css/main.css?v=1731190667">
 
 
 
@@ -132,7 +132,8 @@
 
 </div>
 <p>I definitely recommend OnShape for a beginner modeller who is looking for a simple user interface and wants to collaborate on a team project. Or as a nice PLM or ECO management for your CAD files for advanced designers who want to collaborate on a team across CAD softwares.</p>
-<h1 id="modeling-workflow">Modeling Workflow</h1>
+<h1 id="project-1---spherical-gear">Project 1 - Spherical gear</h1>
+<h2 id="modeling-workflow">Modeling Workflow</h2>
 <p>For this project I am going to create an omnidirectional actuveball mecahnism joint (more commonly known as a &ldquo;Spherical gear&rdquo;) to print on my SLA printer. I want to make this to test the abilities of this type of joint for motion control. The GIF below demonstrates the functionality of what I will be modelling.</p>
 <div class="row justify-content-center">
 <img class="img-fluid py-4"
@@ -268,6 +269,112 @@
          </div>
      </div>
 
+</div>
+<h1 id="project-2---spiral-tree">Project 2 - Spiral Tree</h1>
+<p>I saw this interesting project on Twitter/X and wanted to challenge myself if I could recreate it just by looking at the final project. Below is a video of what I wanted to model.</p>
+<div class = "card py-4">
+    <video controls autoplay loop muted class ="embed-responsive-item"> 
+     <source
+        src="tree.mp4" 
+        type="video/mp4">
+    </video>
+</div>
+<p><a href="https://x.com/Xudong1966/status/1774647326168007103?s=20">The originaL post is available here</a></p>
+<h2 id="modelling-workflow">Modelling workflow</h2>
+<p>Below are the steps I took to make the two parts.</p>
+<h2 id="1-create-new-project-folder-and-new-files-for-each-part">1. Create new project folder and new files for each part</h2>
+<p>I started by creating a new project folder and then created new project files, on for each part. This will help with version control later. Note that my typical approach to PDM is to have each system as its own project file with its sub-assemblies as seperate tabs and one tab for full assembly. With this project each part is its own system, which is why they each received their own project file</p>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="project.jpg"
+     alt="project.jpg">
+</div>
+<p>I started first with modelling the female part</p>
+<h2 id="2-revolve-feature-for-both-parts">2. Revolve feature for both parts</h2>
+<p>I started by making the general cone from which I am going to do a sweeping cut of the star that I will draw on the base of the cone. I started first by drawing the cross-section of the cone. Followed by revolving about the z-axis</p>
+<div class = "row row-cols-1 row-cols-md-2 pt-4 pb-4">
+
+    <div class = "col">
+       <div class = "card">
+           <img class="card-img-top"
+           src="revolveSketch.jpg" 
+           alt="revolveSketch.jpg">
+        </div>
+    </div>
+
+    <div class = "col">
+        <div class = "card">
+            <img class="card-img-top"
+            src="revolve.jpg" 
+            alt="revolve.jpg">
+         </div>
+     </div>
+
+</div>
+<p>This was repeated for the male part as well. Next was the helix</p>
+<h2 id="3-helix-feature-for-both-parts">3. Helix feature for both parts</h2>
+<p>I used the helix feature with the base as the reference geometry. Since it will be a six pointed start, there will be 6 thread tracks per revolution. As a result I used a half of a revolution over the length to give the effect of three full turns.</p>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="helix.jpg"
+     alt="helix.jpg">
+</div>
+<p>Once the helix was defined the next step was to create the star sketch on the base.</p>
+<h2 id="4-creating-the-profile-for-the-sweep-cut">4. Creating the profile for the Sweep cut</h2>
+<p>The next step was to create the profile for the sweep cut. To do this, I needed to draw a six pointed star. I defined the star by creating two construction circles with all points of the star coincident on each and all sides of the star equal. For the male star, I made it 0.2 mm smaller on both dimensions so it would fit inside the female star.</p>
+<div class = "row row-cols-1 row-cols-md-2 pt-4 pb-4">
+
+    <div class = "col">
+       <div class = "card">
+           <img class="card-img-top"
+           src="starSketch.jpg" 
+           alt="starSketch.jpg">
+        </div>
+    </div>
+
+    <div class = "col">
+        <div class = "card">
+            <img class="card-img-top"
+            src="starSketchDef.jpg" 
+            alt="starSketchDef.jpg">
+         </div>
+     </div>
+
+</div>
+<p>For the male sketch there was a circle on the outside as we would be removing material.</p>
+<h2 id="5-sweep-cut-for-both-parts">5. Sweep cut for both parts</h2>
+<p>The next step was the sweep cut. With Onshape, you use the &ldquo;Sweep&rdquo; feature and select the &ldquo;remove&rdquo; tab in the feature details section. Then you select the sketch and profile. I used the star sketch and the helix as the profile. Below are the results for the male and female parts. Seperately.</p>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="female.jpg"
+     alt="female.jpg">
+</div>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="male.jpg"
+     alt="male.jpg">
+</div>
+<p>Lastly was the fillet of the male part.</p>
+<h2 id="6-fillet-of-male-part">6. Fillet of male part</h2>
+<p>The last step was to do a fillet on the male part. To do this I selected the fillet feature and the top face. I used a fillet radius of 3 mm.</p>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="fillet.jpg"
+     alt="fillet.jpg">
+</div>
+<h2 id="7-version-control">7. Version control</h2>
+<p>I also decided to do some version control using OnShapes PDM features. With it you are able to create different versions and branches of a part. You can also merge features. Lastly, you can select whether it is a version, for release, or release. Some very interesting features are included with this software.</p>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="versionControl.jpg"
+     alt="versionControl.jpg">
+</div>
+<h2 id="8-result">8. Result</h2>
+<p>After I finished the parts I exported them and printed them on my SLA printer. Below is an image of the slice in the AnyCubic Photon software and a video of the result.</p>
+<div class="row justify-content-center">
+<img class="img-fluid py-4"
+     src="anycubic.png"
+     alt="anycubic.png">
 </div>
   
   </div> 

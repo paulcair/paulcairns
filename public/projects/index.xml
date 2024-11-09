@@ -4,7 +4,7 @@
     <title>Projects on Paul Cairns</title>
     <link>http://localhost:1313/paulcairns/projects/</link>
     <description>Recent content in Projects on Paul Cairns</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Paul Cairns</copyright>
     <atom:link href="http://localhost:1313/paulcairns/projects/index.xml" rel="self" type="application/rss+xml" />
@@ -13,28 +13,42 @@
       <link>http://localhost:1313/paulcairns/projects/belty-v2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/projects/belty-v2/</guid>
-      <description>Equipment Details Belty V2.0 is a belt driven 3D printer designed and built in EnergyLab-Lome. This is the result of our second spiral, which built on our first spiral named Belty. You can find details on how Belty was made here. In the first version we were focused on the belt system and optimising it using the available materials we could lay our hands on. With this Version 2, we focused more on making an actual 3D belt printer where we added an extruder and a new RAMPS control board using the Merlin firmware.</description>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;equipment-details&#34;&gt;Equipment Details&lt;/h2&gt;&#xA;&lt;p&gt;Belty V2.0 is a belt driven 3D printer designed and built in EnergyLab-Lome. This is the result of our second spiral, which built on our first spiral named &lt;a href=&#34;http://fabacademy.org/2023/labs/energylab/machines/belty/&#34;&gt;Belty&lt;/a&gt;. You can find details on how Belty was made &lt;a href=&#34;http://fabacademy.org/2023/labs/energylab/group-assignments/machine-design/&#34;&gt;here&lt;/a&gt;. In the first version we were focused on the belt system and optimising it using the available materials we could lay our hands on. With this Version 2, we focused more on making an actual 3D belt printer where we added an extruder and a new RAMPS control board using the Merlin firmware. Belry V2.0&amp;rsquo;s specifications are included below.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Face Follower - An AI and hardware fusion</title>
       <link>http://localhost:1313/paulcairns/projects/face-follower/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/projects/face-follower/</guid>
-      <description>Background and Inspiration I came across this video on social media and got inspired to see if I could replicate it by dusting off an old face detection app I made that uses OpenCV.&#xA;The video of the project that inspired this is below:&#xA;As part of the challenge, I wanted to avoid looking at any documentation that the project included and just try to design the project from scratch using only the video as guidance and to see how I might be able to improve upon the hardware.</description>
+      <description>&lt;div class = &#34;card py-4&#34;&gt;&#xA;    &lt;video controls autoplay loop muted class =&#34;embed-responsive-item&#34;&gt; &#xA;     &lt;source&#xA;        src=&#34;demo.mp4&#34; &#xA;        type=&#34;video/mp4&#34;&gt;&#xA;    &lt;/video&gt;&#xA;&lt;/div&gt;&#xA;&lt;h1 id=&#34;background-and-inspiration&#34;&gt;Background and Inspiration&lt;/h1&gt;&#xA;&lt;p&gt;I came across this video on social media and got inspired to see if I could replicate it by dusting off an old face detection app I made that uses OpenCV.&lt;/p&gt;&#xA;&lt;p&gt;The video of the project that inspired this is below:&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; overflow: hidden;&#34;&gt;&#xA;    &lt;iframe style=&#34;position: absolute; width: 100%; height: 100%;&#34;&#xA;        src=&#34;https://www.youtube.com/embed/f2TUxoaKIsA&#34; &#xA;        allowfullscreen &#xA;        frameborder=&#34;0&#34;&#xA;        class = &#34;pt-3 pb-5&#34;&gt;&#xA;    &lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;As part of the challenge, I wanted to avoid looking at any documentation that the project included and just try to design the project from scratch using only the video as guidance and to see how I might be able to improve upon the hardware.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Geppeto the benchtop CNC</title>
+      <link>http://localhost:1313/paulcairns/projects/geppeto/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/projects/geppeto/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;Geppeto was the first in-house machine that I built at EnergyLab Lome. It is a 3-axis CNC machine with a frame made of 3D printed parts, combined with off the shelf rods and lead screws. The motors are 1.5 A nema 17, and it is all controlled using an arduino with CNC shield and grbl controller.&lt;/p&gt;&#xA;&lt;p&gt;It was a great project, that took a while to master and many contributors. I would like to personally thank Hadnane OURO-AGBE, Matt STEDMAN, and Edward YAKUBU, for their contributions to the project over time and for helping bring it to life.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>High Pressure Oxy-fired Combustion Development</title>
+      <link>http://localhost:1313/paulcairns/projects/dcsg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/paulcairns/projects/dcsg/</guid>
+      <description>&lt;h1 id=&#34;page-still-under-construction&#34;&gt;PAGE STILL UNDER CONSTRUCTION!&lt;/h1&gt;&#xA;&lt;h1 id=&#34;1-background-information&#34;&gt;1. Background Information&lt;/h1&gt;&#xA;&lt;p&gt;A more detailed video about the project is included below.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; overflow: hidden;&#34;&gt;&#xA;    &lt;iframe style=&#34;position: absolute; width: 100%; height: 100%;&#34;&#xA;        src=&#34;https://www.youtube.com/embed/mannAO6f70c&#34; &#xA;        allowfullscreen &#xA;        frameborder=&#34;0&#34;&#xA;        class = &#34;pt-3 pb-5&#34;&gt;&#xA;    &lt;/iframe&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;aspects-of-the-project&#34;&gt;Aspects of the project&lt;/h2&gt;&#xA;&lt;p&gt;This project was very much a 6 year entire research program, as such there were very many aspects of it that I was involved with. Below is list of them. I will cover each in detail in Section 2.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Rotary Casting Machine</title>
       <link>http://localhost:1313/paulcairns/projects/rotary-casting-machine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/projects/rotary-casting-machine/</guid>
-      <description>The assignment to be completed over two weeks was to build a machine that had a mechanical and electronic component that could be actuated and automated to perform a certain task. This week I worked with my lab instructor Jason to build a rotary casting and photogrammetry machine. The assignment details and learning outcomes are given below.&#xA;Mechanical Design (part 1 of 2)&#xA;Group assignment:&#xA;Design a machine that includes mechanism + actuation + automation Build the mechanical parts and operate it manually.</description>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;The assignment to be completed over two weeks was to build a machine that had a mechanical and electronic component that could be actuated and automated to perform a certain task. This week I worked with my lab instructor Jason to build a rotary casting and photogrammetry machine. The assignment details and learning outcomes are given below.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Mechanical Design (part 1 of 2)&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Group assignment:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Design a machine that includes mechanism + actuation + automation&lt;/li&gt;&#xA;&lt;li&gt;Build the mechanical parts and operate it manually.&lt;/li&gt;&#xA;&lt;li&gt;Document the group project&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;Individual assignment:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>The EnergyStove</title>
       <link>http://localhost:1313/paulcairns/projects/electric-stove/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/projects/electric-stove/</guid>
-      <description>Revisions to final video based on comments from final presentation After presenting my final project in the final presentation session, I received the feedback that the final project was good but the video needed the following elements to be demonstrated more clearly:&#xA;Show the functionality of the temperature gauge more clearly Show voltage and current of the pelletier modules to make clear that there is power being generated by them Make it more clear that the fan is working.</description>
+      <description>&lt;div class = &#34;card py-4&#34;&gt;&#xA;    &lt;video controls autoplay loop muted class =&#34;embed-responsive-item&#34;&gt; &#xA;     &lt;source&#xA;        src=&#34;presentation.mp4&#34; &#xA;        type=&#34;video/mp4&#34;&gt;&#xA;    &lt;/video&gt;&#xA;&lt;/div&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;revisions-to-final-video-based-on-comments-from-final-presentation&#34;&gt;Revisions to final video based on comments from final presentation&lt;/h1&gt;&#xA;&lt;p&gt;After presenting my final project in the final presentation session, I received the feedback that the final project was good but the video needed the following elements to be demonstrated more clearly:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Show the functionality of the temperature gauge more clearly&lt;/li&gt;&#xA;&lt;li&gt;Show voltage and current of the pelletier modules to make clear that there is power being generated by them&lt;/li&gt;&#xA;&lt;li&gt;Make it more clear that the fan is working.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Taking these comments into consideration, I performed another more controlled experiment that could better demonstrate the pelletier voltage and current and replaced the section at time 1:05 - 1:12&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

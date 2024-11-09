@@ -4,7 +4,7 @@
     <title>Abouts on Paul Cairns</title>
     <link>http://localhost:1313/paulcairns/about/</link>
     <description>Recent content in Abouts on Paul Cairns</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Paul Cairns</copyright>
     <atom:link href="http://localhost:1313/paulcairns/about/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/paulcairns/about/paul-cairns/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/paulcairns/about/paul-cairns/</guid>
-      <description>Hello, My name is Paul Cairns, I have a Bachelor’s in Mechanical Engineering, and a Master’s in Chemical Engineering. After graduating I spent six years of my professional career as a Research Engineer for the Government of Canada. I also spent two years as Executive Director for a green energy business incubator based out of Ottawa, Canada. Just over a year ago I joined Energy Generation where I manage the EnergyTech Department and EnergyLab, our FabLab based out of Lomé, Togo.</description>
+      <description>&lt;p&gt;Hello, My name is Paul Cairns, I have a Bachelor’s in Mechanical Engineering, and a Master’s in Chemical Engineering. After graduating I spent six years of my professional career as a Research Engineer for the Government of Canada. I also spent two years as Executive Director for a green energy business incubator based out of Ottawa, Canada. Just over a year ago I joined Energy Generation where I manage the EnergyTech Department and EnergyLab, our FabLab based out of Lomé, Togo. More about that below.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
