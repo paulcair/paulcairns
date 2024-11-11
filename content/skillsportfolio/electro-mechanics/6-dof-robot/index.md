@@ -188,15 +188,15 @@ To find the homogeneous transformation matrix from the base frame 0 to frame 3 w
 
 homgen_0_3 = (homgen_0_1)(homgen_1_2)(homgen_2_3)
 
-yields the following matrix:
-homgn_0_3 = 
+Performing these matrix multiplications, yields the following matrix:
+homgen_0_3 = 
 {{<table "matrix">}}
-|                    |       |       |                                           |
-|--------------------|-------|-------|-------------------------------------------|
-| cosθ_1cosθ_2cosθ_3 |   0   |   0   |  105cosθ_1cosθ_2 + 98 cosθ_1cosθ_2cosθ_3  |
-|    sinθ_1cosθ_2    |   0   |   0   |  105sinθ_1cosθ_2 + 98 sinθ_1cosθ_2cosθ_   |
-|         0          |   0   |   1   |                    95                     |
-|         0          |   0   |   0   |                    1                      |
+|                    |       |       |                                          |
+|--------------------|-------|-------|------------------------------------------|
+| cosθ_1cosθ_2cosθ_3 |   0   |   0   |  105cosθ_1cosθ_2 + 98cosθ_1cosθ_2cosθ_3  |
+|    sinθ_1cosθ_2    |   0   |   0   |  105sinθ_1cosθ_2 + 98sinθ_1cosθ_2cosθ_3  |
+|         0          |   0   |   1   |                    95                    |
+|         0          |   0   |   0   |                    1                     |
 {{</table>}}
 
 {{<image pcb.jpg>}}
