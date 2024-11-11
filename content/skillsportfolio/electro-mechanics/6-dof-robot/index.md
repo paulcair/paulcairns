@@ -180,8 +180,24 @@ homgen_4_5 =
 |   0    |       0       |       0       |     1     |
 {{</table>}}
 
+Now that the matrices have been defined it is time to find the transformation matrices from frames 1 to 3.
+
 ### Step 1.4: Find the homogeneous transformation matrix from base frame to frame 3
 
+To find the homogeneous transformation matrix from the base frame 0 to frame 3 we multiply the first three transformation matrices together using the following equation.
+
+homgen_0_3 = (homgen_0_1)(homgen_1_2)(homgen_2_3)
+
+yields the following matrix:
+homgn_0_3 = 
+{{<table "matrix">}}
+|                    |       |       |                                           |
+|--------------------|-------|-------|-------------------------------------------|
+| cosθ_1cosθ_2cosθ_3 |   0   |   0   |  105cosθ_1cosθ_2 + 98 cosθ_1cosθ_2cosθ_3  |
+|    sinθ_1cosθ_2    |   0   |   0   |  105sinθ_1cosθ_2 + 98 sinθ_1cosθ_2cosθ_   |
+|         0          |   0   |   1   |                    95                     |
+|         0          |   0   |   0   |                    1                      |
+{{</table>}}
 
 {{<image pcb.jpg>}}
 

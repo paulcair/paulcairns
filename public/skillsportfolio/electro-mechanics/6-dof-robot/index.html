@@ -10,7 +10,7 @@
 <meta name="generator" content="Themefisher Kross Template v1.0">
 
   <link rel="stylesheet" href="/paulcairns/assets/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="/paulcairns/assets/css/main.css?v=1731191381">
+<link rel="stylesheet" href="/paulcairns/assets/css/main.css?v=1731285957">
 
 
 
@@ -477,7 +477,56 @@
 </table>
 
 </div></p>
+<p>Now that the matrices have been defined it is time to find the transformation matrices from frames 1 to 3.</p>
 <h3 id="step-14-find-the-homogeneous-transformation-matrix-from-base-frame-to-frame-3">Step 1.4: Find the homogeneous transformation matrix from base frame to frame 3</h3>
+<p>To find the homogeneous transformation matrix from the base frame 0 to frame 3 we multiply the first three transformation matrices together using the following equation.</p>
+<p>homgen_0_3 = (homgen_0_1)(homgen_1_2)(homgen_2_3)</p>
+<p>yields the following matrix:
+homgn_0_3 =
+<div class = "card py-4">
+
+
+
+
+
+<table class="matrix">
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>cosθ_1cosθ_2cosθ_3</td>
+          <td>0</td>
+          <td>0</td>
+          <td>105cosθ_1cosθ_2 + 98 cosθ_1cosθ_2cosθ_3</td>
+      </tr>
+      <tr>
+          <td>sinθ_1cosθ_2</td>
+          <td>0</td>
+          <td>0</td>
+          <td>105sinθ_1cosθ_2 + 98 sinθ_1cosθ_2cosθ_</td>
+      </tr>
+      <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+          <td>95</td>
+      </tr>
+      <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+      </tr>
+  </tbody>
+</table>
+
+</div></p>
 <div class="row justify-content-center">
 <img class="img-fluid py-4"
      src="pcb.jpg"
