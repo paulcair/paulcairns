@@ -213,7 +213,13 @@ inverse_homgen_0_3 =
 |         0          |          0         |   0   |                    1                    |
 {{</table>}}
 
-### Step 1.6: Find the homogenous transformation matrix (forward kinematics) from frame 4 to frame 4
+### Step 1.6: Find the homogenous transformation matrix (forward kinematics) from frame 4 to frame 5
+
+To find this matrix we multiply the final two matrices together
+
+homgen_3_5 = (homgen_3_4)(homgen_4_5)
+
+
 
 {{<image pcb.jpg>}}
 
