@@ -199,6 +199,22 @@ homgen_0_3 =
 |         0          |   0   |   0   |                    1                     |
 {{</table>}}
 
+### Step 1.5: Find the inverse of the homegeneous transformation matrix from base frame to frame 3
+
+Below is the inverse matrix
+
+inverse_homgen_0_3 =
+{{<table "matrix">}}
+|                    |                    |       |                                         |
+|--------------------|--------------------|-------|-----------------------------------------|
+| cosθ_1cosθ_2cosθ_3 | sinθ_1cosθ_2cosθ_3 |   0   | -105cosθ_1cosθ_2 - 98cosθ_1cosθ_2cosθ_3 |
+|         0          |          0         |   0   |                    0                    |
+|         0          |          0         |   1   |                   -95                   |
+|         0          |          0         |   0   |                    1                    |
+{{</table>}}
+
+### Step 1.6: Find the homogenous transformation matrix (forward kinematics) from frame 4 to frame 4
+
 {{<image pcb.jpg>}}
 
 {{<image ttl.jpg>}}
