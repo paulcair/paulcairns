@@ -10,7 +10,7 @@
 <meta name="generator" content="Themefisher Kross Template v1.0">
 
   <link rel="stylesheet" href="/paulcairns/assets/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="/paulcairns/assets/css/main.css?v=1731375514">
+<link rel="stylesheet" href="/paulcairns/assets/css/main.css?v=1731457559">
 
 
 
@@ -576,7 +576,51 @@ homgen_0_3 =
 </div></p>
 <h3 id="step-16-find-the-homogenous-transformation-matrix-forward-kinematics-from-frame-4-to-frame-5">Step 1.6: Find the homogenous transformation matrix (forward kinematics) from frame 4 to frame 5</h3>
 <p>To find this matrix we multiply the final two matrices together</p>
-<p>homgen_3_5 = (homgen_3_4)(homgen_4_5)</p>
+<p>homgen_3_5 = (homgen_3_4)(homgen_4_5)
+<div class = "card py-4">
+
+
+
+
+
+<table class="matrix">
+  <thead>
+      <tr>
+          <th></th>
+          <th></th>
+          <th></th>
+          <th></th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>-sinθ_4cosθ_5</td>
+          <td>0</td>
+          <td>cosθ_4sinθ_5</td>
+          <td>150sinθ_4</td>
+      </tr>
+      <tr>
+          <td>-sinθ_4cosθ_5</td>
+          <td>0</td>
+          <td>-cosθ_4sinθ_5</td>
+          <td>-150sinθ_4</td>
+      </tr>
+      <tr>
+          <td>sinθ_5</td>
+          <td>0</td>
+          <td>cosθ_5</td>
+          <td>0</td>
+      </tr>
+      <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>1</td>
+      </tr>
+  </tbody>
+</table>
+
+</div></p>
 <div class="row justify-content-center">
 <img class="img-fluid py-4"
      src="pcb.jpg"

@@ -218,7 +218,14 @@ inverse_homgen_0_3 =
 To find this matrix we multiply the final two matrices together
 
 homgen_3_5 = (homgen_3_4)(homgen_4_5)
-
+{{<table "matrix">}}
+|               |       |                |            |
+|---------------|-------|----------------|------------|
+| -sinθ_4cosθ_5 |   0   |  cosθ_4sinθ_5  |  150sinθ_4 |
+| -sinθ_4cosθ_5 |   0   | -cosθ_4sinθ_5  | -150sinθ_4 |
+|    sinθ_5     |   0   |     cosθ_5     |      0     |
+|         0     |   0   |       0        |      1     |
+{{</table>}}
 
 
 {{<image pcb.jpg>}}
