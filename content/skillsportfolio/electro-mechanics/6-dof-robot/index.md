@@ -227,6 +227,11 @@ homgen_3_5 = (homgen_3_4)(homgen_4_5)
 |         0     |   0   |       0        |      1     |
 {{</table>}}
 
+### Step 1.7: Determine the transformation matrix from frame 0 to frame 5
+
+For this step it is critical to determine what we want the orientation of frame 5 relative to frame 0 to be. 
+
+In my case, I want to ensure that x_0 and x_5 as well as y_0 and y_5 are pointed in the same direction. 
 
 {{<image pcb.jpg>}}
 
