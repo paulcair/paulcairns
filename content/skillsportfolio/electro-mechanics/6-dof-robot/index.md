@@ -231,7 +231,7 @@ homgen_3_5 = (homgen_3_4)(homgen_4_5)
 
 For this step it is critical to determine what we want the orientation of frame 5 relative to frame 0 to be. 
 
-In my case, the x_0 and x_5 will be at 90 degrees from each other as well as y_0 and y_5 will be 90 degrees from eachother, with both z axes pointed in the same direction. 
+In my case, the x_0 and x_5 will be at 90 degrees from each other as well as y_0 and y_5 will be 90 degrees from eachother, with both z axes pointed in the same direction. Translation will be undefined?
 
 {{<image pcb.jpg>}}
 
