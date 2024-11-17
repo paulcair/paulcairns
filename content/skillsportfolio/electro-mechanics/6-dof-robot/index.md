@@ -180,6 +180,58 @@ homgen_4_5 =
 |   0    |       0       |       0       |     1     |
 {{</table>}}
 
+Next lets simplify them.
+**Simplified homgen matrices**
+homgen_0_1 = 
+{{<table "matrix">}}
+|        |       |           |       |
+|--------|-------|-----------|-------|
+| cosθ_1 |   0   |  -sinθ_1  |   0   |
+| sinθ_1 |   0   |   cosθ_1  |   0   |
+|   0    |  -1   |     0     |   95  |
+|   0    |   0   |     0     |   1   |
+{{</table>}}
+
+homgen_1_2 = 
+{{<table "matrix">}}
+|        |       |          |           |
+|--------|-------|----------|-----------|
+| cosθ_2 |   0   |  sinθ_2  | 105cosθ_2 |
+| sinθ_2 |   0   | -cosθ_2  | 105sinθ_2 |
+|   0    |  -1   |    0     |     0     |
+|   0    |   0   |    0     |     1     |
+{{</table>}}
+
+homgen_2_3 = 
+{{<table "matrix">}}
+|        |          |       |           |
+|--------|----------|-------|-----------|
+| cosθ_3 | -sinθ_3  |   0   |  98cosθ_3 |
+| sinθ_3 |  cosθ_3  |   0   |  98sinθ_3 |
+|   0    |    0     |   1   |     0     |
+|   0    |    0     |   0   |     1     |
+{{</table>}}
+
+homgen_3_4 = 
+{{<table "matrix">}}
+|            |       |           |       |
+|------------|-------|------ ----|-------|
+| -sin(θ_4)  |   0   |  cos(θ_4) |   0   |
+|  cos(θ_4)  |   0   | -sin(θ_4) |   0   |
+|     0      |   1   |     0     |   0   |
+|     0      |   0   |     0     |   1   |
+{{</table>}}
+
+homgen_4_5 = 
+{{<table "matrix">}}
+|        |       |           |       |
+|--------|-------|-----------|-------|
+| cosθ_5 |   0   |  -sinθ_5  |   0   |
+| sinθ_5 |   0   |   cosθ_5  |   0   |
+|   0    |  -1   |     0     |  150  |
+|   0    |   0   |     0     |   1   |
+{{</table>}}
+
 Now that the matrices have been defined it is time to find the transformation matrices from frames 1 to 3.
 
 ### Step 1.4: Find the homogeneous transformation matrix from base frame to frame 3
@@ -232,6 +284,10 @@ homgen_3_5 = (homgen_3_4)(homgen_4_5)
 For this step it is critical to determine what we want the orientation of frame 5 relative to frame 0 to be. 
 
 In my case, the x_0 and x_5 will be at 90 degrees from each other as well as y_0 and y_5 will be 90 degrees from eachother, with both z axes pointed in the same direction. Translation will be undefined?
+
+I am starting to see that solving this robot using the analytical method may be too complex. Therefore I am going to explore using the Jacobian method.
+
+
 
 {{<image pcb.jpg>}}
 
