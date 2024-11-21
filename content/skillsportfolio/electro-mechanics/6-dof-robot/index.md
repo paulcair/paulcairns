@@ -58,7 +58,11 @@ Next step is to draw and define the D-H frames for LeArm so that we can begin to
 
 <!-- Link to guide for how to program the coordinates -->
 
-I followed this guide at the following link: [ulitmate guide to 6DOf robot](https://automaticaddison.com/the-ultimate-guide-to-inverse-kinematics-for-6dof-robot-arms/)
+I followed this guide at the following link: [ulitmate guide to 6DOf robot](https://automaticaddison.com/the-ultimate-guide-to-inverse-kinematics-for-6dof-robot-arms/).
+
+I also used this youtube tutorial video as a reference to work through the kinematics and programming.
+
+{{<youtube-responsive FNuiNmoqaZM>}}
 
 # Programming Workflow
 
