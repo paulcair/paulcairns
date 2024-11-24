@@ -291,7 +291,7 @@ In my case, the x_0 and x_5 will be at 90 degrees from each other as well as y_0
 
 I am starting to see that solving this robot using the analytical method may be too complex. Therefore I am going to explore using the Jacobian method.
 
-Let's see... not sure what to do next...i'll watch that youtube tutorial and work my way through it. I may start with the spreadsheet and work my way through
+Let's see... not sure what to do next...i'll watch that youtube tutorial and work my way through it. I may start with the spreadsheet and work my way through...
 
 
 {{<image pcb.jpg>}}
