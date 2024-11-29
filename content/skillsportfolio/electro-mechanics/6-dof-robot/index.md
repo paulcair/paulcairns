@@ -241,6 +241,39 @@ Now that the matrices have been defined it is time to find the transformation ma
 ### Step 1.4: Define the tool frame
 In my case the robot also has a tool frame that is a simple mechanism that closes the end effector base on a given rotation input into servo 1. In my case rotation of the tool frame has a zero rotation with relation to frame 5 and will only have a translation in y and a gap size in x based on the servo input value.
 
+For simplicity, we will initially define y to be the calculated center of the object that we intend to pick up, and we will define x as one half of the calcuated width of the object. We will use the calculated width to determine the rotation of the servo required and then back calculate y based on the rational input. We will also define (0,0) as the center of the motor. 
+
+{{<image tool.png>}}
+
+Given the nature of the linkages, calculating X and Y is a simple function of inversely mapping the servo input value between 1500 and 2500 to the min and max width as well as min and max extensions of the claw. 
+
+From measurements: 
+- the max width is 60 mm 
+- the min width is 0 mm
+- the max extension is 85mm
+- the min extension is 55mm
+
+Therefore: 
+- 0 < x < 30 (half the width)
+- 55 < y < 85
+
+Therefore:
+ - x = 30-(Servo input-1500)*(60/(2*1000))
+ - y = (Servo input-1500)*(30/1000)
+
+ Substituting "Servo input" for S_1, simplifying, and adding these into the transformation matrix yields:
+
+homgen_5_6 = 
+{{<table "matrix">}}
+|        |       |       |                      |
+|--------|-------|-------|----------------------|
+|   1    |   0   |   0   | 30 - (S_1-1500)*0.03 |
+|   0    |   1   |   0   |   (S_1-1500)*0.03    |
+|   0    |   0   |   1   |           0          |
+|   0    |   0   |   0   |           1          |
+{{</table>}}
+
+
 ### Step 1.5: Find the homogeneous transformation matrix from base frame to frame 3
 
 To find the homogeneous transformation matrix from the base frame 0 to frame 3 we multiply the first three transformation matrices together using the following equation.
