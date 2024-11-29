@@ -238,7 +238,10 @@ homgen_4_5 =
 
 Now that the matrices have been defined it is time to find the transformation matrices from frames 1 to 3.
 
-### Step 1.4: Find the homogeneous transformation matrix from base frame to frame 3
+### Step 1.4: Define the tool frame
+In my case the robot also has a tool frame that is a simple mechanism that closes the end effector base on a given rotation input into servo 1. In my case rotation of the tool frame has a zero rotation with relation to frame 5 and will only have a translation in y and a gap size in x based on the servo input value.
+
+### Step 1.5: Find the homogeneous transformation matrix from base frame to frame 3
 
 To find the homogeneous transformation matrix from the base frame 0 to frame 3 we multiply the first three transformation matrices together using the following equation.
 
@@ -255,7 +258,7 @@ homgen_0_3 =
 |         0          |   0   |   0   |                    1                     |
 {{</table>}}
 
-### Step 1.5: Find the inverse of the homegeneous transformation matrix from base frame to frame 3
+### Step 1.6: Find the inverse of the homegeneous transformation matrix from base frame to frame 3
 
 Below is the inverse matrix
 
@@ -269,7 +272,7 @@ inverse_homgen_0_3 =
 |         0          |          0         |   0   |                    1                    |
 {{</table>}}
 
-### Step 1.6: Find the homogenous transformation matrix (forward kinematics) from frame 4 to frame 5
+### Step 1.7: Find the homogenous transformation matrix (forward kinematics) from frame 4 to frame 5
 
 To find this matrix we multiply the final two matrices together
 
@@ -283,15 +286,13 @@ homgen_3_5 = (homgen_3_4)(homgen_4_5)
 |         0     |   0   |       0        |      1     |
 {{</table>}}
 
-### Step 1.7: Determine the transformation matrix from frame 0 to frame 5
+### Step 1.8: Determine the transformation matrix from frame 0 to frame 5
 
 For this step it is critical to determine what we want the orientation of frame 5 relative to frame 0 to be. 
 
 In my case, the x_0 and x_5 will be at 90 degrees from each other as well as y_0 and y_5 will be 90 degrees from eachother, with both z axes pointed in the same direction. Translation will be undefined?
 
-I am starting to see that solving this robot using the analytical method may be too complex. Therefore I am going to explore using the Jacobian method.
 
-Let's see... not sure what to do next...i'll watch that youtube tutorial and work my way through it. I may start with the spreadsheet and work my way through..
 
 
 {{<image pcb.jpg>}}
