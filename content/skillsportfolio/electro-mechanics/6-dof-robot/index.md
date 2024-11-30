@@ -265,13 +265,15 @@ Therefore:
 
 homgen_5_6 = 
 {{<table "matrix">}}
-|        |       |       |                      |
-|--------|-------|-------|----------------------|
-|   1    |   0   |   0   | 30 - (S_1-1500)*0.03 |
-|   0    |   1   |   0   |   (S_1-1500)*0.03    |
-|   0    |   0   |   1   |           0          |
-|   0    |   0   |   0   |           1          |
+|        |       |       |                  |
+|--------|-------|-------|------------------|
+|   1    |   0   |   0   |         0        |
+|   0    |   1   |   0   | (S_1-1500)*0.03  |
+|   0    |   0   |   1   |         0        |
+|   0    |   0   |   0   |         1        |
 {{</table>}}
+
+where the claw width will be excluded from the calculations kinematics calculations and determined at the end based on the estimated width of the object from the OpenCV results. 
 
 
 ### Step 1.5: Find the homogeneous transformation matrix from base frame to frame 3
