@@ -259,24 +259,82 @@ Therefore:
 
 Therefore:
  - x = 30-(Servo input-1500)*(60/(2*1000))
- - y = (Servo input-1500)*(30/1000)
+ - y = (Servo input-1500)*(30/1000)+55
 
  Substituting "Servo input" for S_1, simplifying, and adding these into the transformation matrix yields:
 
 homgen_5_6 = 
 {{<table "matrix">}}
-|        |       |       |                  |
-|--------|-------|-------|------------------|
-|   1    |   0   |   0   |         0        |
-|   0    |   1   |   0   | (S_1-1500)*0.03  |
-|   0    |   0   |   1   |         0        |
-|   0    |   0   |   0   |         1        |
+|        |       |       |                    |
+|--------|-------|-------|--------------------|
+|   1    |   0   |   0   |          0         |
+|   0    |   1   |   0   | (S_1-1500)*0.03+55 |
+|   0    |   0   |   1   |          0         |
+|   0    |   0   |   0   |          1         |
 {{</table>}}
 
 where the claw width will be excluded from the calculations kinematics calculations and determined at the end based on the estimated width of the object from the OpenCV results. 
 
+### Step 1.5: Create the D-H transformation matrices so they can be manipulated in python
 
-### Step 1.5: Find the homogeneous transformation matrix from base frame to frame 3
+In this step, I wrote a python script that can be used for forward kinematics to take all of the inputs of theta and create return the transformation matrices for each frame. This way we can use numpy to manipulate them for either forward or inverse kinematics. The scipt can be found below.
+
+---
+import numpy as np
+import math
+
+def dh_transform(theta, d, a, alpha):
+    """
+    Create the D-H transformation matrix.
+    
+    Parameters:
+    - theta: Joint angle (in radians)
+    - d: Link offset
+    - a: Link length
+    - alpha: Link twist (in radians)
+    
+    Returns:
+    - A 4x4 transformation matrix
+    """
+    return np.array([
+        [np.cos(theta), -np.sin(theta) * np.cos(alpha), np.sin(theta) * np.sin(alpha), a * np.cos(theta)],
+        [np.sin(theta), np.cos(theta) * np.cos(alpha), -np.cos(theta) * np.sin(alpha), a * np.sin(theta)],
+        [0, np.sin(alpha), np.cos(alpha), d],
+        [0, 0, 0, 1]
+    ])
+
+def get_dh_matrices(theta_1, theta_2, theta_3, theta_4, theta_5, S_1):
+    """
+    Calculate the D-H transformation matrices for the robot based on the input joint angles.
+    
+    Parameters:
+    - theta_1, theta_2, theta_3, theta_4, theta_5, theta_6: Joint angles in radians
+    
+    Returns:
+    - A list of D-H transformation matrices
+    """
+    # Define the D-H parameters for each joint
+    d = [95, 0, 0, 0, 150, 0]  # Link offsets
+    a = [0, 105, 98, 0, 0, 0]  # Link lengths
+    alpha = [math.radians(270), math.radians(180), 0, math.radians(90), math.radians(270), 0]  # Link twists
+    
+    # Create the transformation matrices
+    T1 = dh_transform(theta_1, d[0], a[0], alpha[0])
+    T2 = dh_transform(theta_2, d[1], a[1], alpha[1])
+    T3 = dh_transform(theta_3, d[2], a[2], alpha[2])
+    T4 = dh_transform(theta_4 + math.radians(90), d[3], a[3], alpha[3])
+    T5 = dh_transform(theta_5, d[4], a[4], alpha[4])
+    T6 = np.array([
+        [1,0,0,0],
+        [0,1,0,(S_1-1500)*0.03],
+        [0,0,1,0],
+        [0,0,0,1]
+    ])
+
+    return [T1, T2, T3, T4, T5, T6]
+    ---
+
+### Step 1.6: Find the homogeneous transformation matrix from base frame to frame 3
 
 To find the homogeneous transformation matrix from the base frame 0 to frame 3 we multiply the first three transformation matrices together using the following equation.
 
@@ -293,7 +351,7 @@ homgen_0_3 =
 |         0          |   0   |   0   |                    1                     |
 {{</table>}}
 
-### Step 1.6: Find the inverse of the homegeneous transformation matrix from base frame to frame 3
+### Step 1.7: Find the inverse of the homegeneous transformation matrix from base frame to frame 3
 
 Below is the inverse matrix
 
@@ -307,7 +365,7 @@ inverse_homgen_0_3 =
 |         0          |          0         |   0   |                    1                    |
 {{</table>}}
 
-### Step 1.7: Find the homogenous transformation matrix (forward kinematics) from frame 4 to frame 5
+### Step 1.8: Find the homogenous transformation matrix (forward kinematics) from frame 4 to frame 5
 
 To find this matrix we multiply the final two matrices together
 
@@ -321,11 +379,12 @@ homgen_3_5 = (homgen_3_4)(homgen_4_5)
 |         0     |   0   |       0        |      1     |
 {{</table>}}
 
-### Step 1.8: Determine the transformation matrix from frame 0 to frame 5
+### Step 1.9: Determine the transformation matrix from frame 0 to frame 5
 
-For this step it is critical to determine what we want the orientation of frame 5 relative to frame 0 to be. 
+To find this matrix we multiply homgen_0_3 and homgen_3_5 together.
 
-In my case, the x_0 and x_5 will be at 90 degrees from each other as well as y_0 and y_5 will be 90 degrees from eachother, with both z axes pointed in the same direction. Translation will be undefined?
+homgen_0_5 = (homgen_0_3)(homgen_3_5)
+
 
 
 
