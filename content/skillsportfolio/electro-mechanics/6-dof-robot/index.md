@@ -392,3 +392,5 @@ homgen_0_5 = (homgen_0_3)(homgen_3_5)
 {{<image pcb.jpg>}}
 
 {{<image ttl.jpg>}}
+
+Forward kinematics is not working... perhaps its an issue with my kinematic diagram.
