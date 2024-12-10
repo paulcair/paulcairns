@@ -393,4 +393,4 @@ homgen_0_5 = (homgen_0_3)(homgen_3_5)
 
 {{<image ttl.jpg>}}
 
-Stuck still.
+I reconfigured the robot to have a more D-H friendly kinematic diagram.
