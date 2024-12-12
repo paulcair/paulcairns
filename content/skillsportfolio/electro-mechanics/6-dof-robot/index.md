@@ -393,4 +393,4 @@ homgen_0_5 = (homgen_0_3)(homgen_3_5)
 
 {{<image ttl.jpg>}}
 
-I reconfigured the robot to have a more D-H friendly kinematic diagram. Hopefully this will work to know that I have solved my robot in a forward kinematics way.
+I reconfigured the robot to have a more D-H friendly kinematic diagram. Hopefully this will work to know that I have solved my robot in a forward kinematics way. Need to update the kinematic diagram and the DH table next.
