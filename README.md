@@ -4,7 +4,7 @@ This is the repository that contains all of the information about Paul Cairns. I
 
 ## Usage
 
-Clone the repository and edit it according to your needs.
+Clone the repository to get access to my project files and edit it according to your needs.
 
 ## Webpage
 
