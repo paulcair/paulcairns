@@ -100,13 +100,13 @@ Next, I filled in the D-H parameters table with the relevant information. For mo
 Following this example, I filled out the D-H parameters table for LeArm. The resulting table is shown below.
 
 {{<table "table table-striped table-bordered table-dark" >}}
-| Joint i | θ_i (deg)| α_i (deg) | r_i (mm)| d_i (mm) | 
-|---------|----------|-----------|---------|----------|
-| 1       |  θ_1+180 |     90    |    0    |   a_1    |
-| 2       |  θ_2+180 |    180    |   a_2   |    0     |
-| 3       |  θ_3+90  |     0     |  -a_3   |    0     |
-| 4       |    θ_4   |     90    |    0    |    0     |
-| 5       |    θ_5   |     90    |    0    | a_4 + a_5|
+| Joint i | θ_i (deg) | α_i (deg) | r_i (mm)| d_i (mm) | 
+|---------|-----------|-----------|---------|----------|
+| 1       |    θ_1    |     90    |    0    |   a_1    |
+| 2       |    θ_2    |    180    |   a_2   |    0     |
+| 3       |    θ_3    |     0     |   a_3   |    0     |
+| 4       |    θ_4    |     90    |    0    |    0     |
+| 5       |    θ_5    |     90    |    0    | a_4 + a_5|
 {{</table>}}
 
 Where: 
