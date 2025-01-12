@@ -100,13 +100,13 @@ Next, I filled in the D-H parameters table with the relevant information. For mo
 Following this example, I filled out the D-H parameters table for LeArm. The resulting table is shown below.
 
 {{<table "table table-striped table-bordered table-dark" >}}
-| Joint i | θ_i (deg) | α_i (deg) | r_i (mm)| d_i (mm) | 
-|---------|-----------|-----------|---------|----------|
-| 1       |    θ_1    |     90    |    0    |   a_1    |
-| 2       |    θ_2    |    180    |   a_2   |    0     |
-| 3       |    θ_3    |     0     |   a_3   |    0     |
-| 4       |    θ_4    |     90    |    0    |    0     |
-| 5       |    θ_5    |     90    |    0    | a_4 + a_5|
+| Joint i | θ_i (deg) | α_i (deg) | r_i (mm)|    d_i (mm)  | 
+|---------|-----------|-----------|---------|--------------|
+| 1       |    θ_1    |     90    |    0    |      a_1     |
+| 2       |    θ_2    |    180    |   a_2   |       0      |
+| 3       |    θ_3    |     0     |   a_3   |       0      |
+| 4       |  θ_4+270  |     90    |    0    |       0      |
+| 5       |    θ_5    |     90    |    0    |   a_4 + a_5  |
 {{</table>}}
 
 Where: 
@@ -393,4 +393,4 @@ homgen_0_5 = (homgen_0_3)(homgen_3_5)
 
 {{<image ttl.jpg>}}
 
-I reconfigured the robot to have a more D-H friendly kinematic diagram. Hopefully this will work to know that I have solved my robot in a forward kinematics way. Next I need to redraw the kinematic diagram and update the DH table. Then try the forward kinematics...
+I reconfigured the robot to have a more D-H friendly kinematic diagram. Hopefully this will work to know that I have solved my robot in a forward kinematics way. Next I need to redraw the kinematic diagram and update the DH table. Then try the forward kinematics. I'm close... I'm still having issues.
