@@ -89,7 +89,7 @@ Defining the coordinate frames requires a number of steps, and can be done eithe
 
 I drew the kinematic diagram for LeArm using the four rules for defining the D-H convention in a mechanical system and kinematic drawing. The resulting kinematic diagram is shown below.
 
-{{<image kinematic.png>}}
+{{<image kinematics.jpg>}}
 
 ### Step 1.2: Fill the D-H parameters table
 
@@ -128,9 +128,9 @@ where:
 Taking measurements from the robot yields the following:
 - a1 = 95 mm
 - a2 = 105 mm
-- a3 = 98 mm
+- a3 = 90 mm
 - a4 = 70 mm
-- a5 = 80 mm
+- a5 = 25 mm
 
 Taking these values and plugging them into the homogeneous transformation matrices for each coordinate frame yields the following matrices.
 
